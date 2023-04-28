@@ -86,7 +86,7 @@ gisaid$GISAID.total.submissions = ave(gisaid$GISAID.weekly.submissions,
                                       gisaid$country,
                                       FUN = cumsum)
 
-write_rds(gisaid, "data/gisaid.RDS")
+write_rds(gisaid, "data/GISAID/gisaid.RDS")
 
 
 #################################################################
