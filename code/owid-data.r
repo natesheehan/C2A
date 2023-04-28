@@ -17,7 +17,7 @@
 ##
 ## ---------------------------
 if(file.exists("data-raw/owid/covid.csv")){
-  owid = read.csv("covid.csv")
+  owid = read.csv("data-raw/covid.csv")
 } else {
   url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
   dir.create("data-raw/owid")
