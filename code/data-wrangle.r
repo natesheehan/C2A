@@ -22,8 +22,8 @@
 ##             Covid-19 Data Platform Monthly Data             ##
 #################################################################
 
-embl = readr::read_tsv("../../dd.tsv")
-embl = embl |>
+CV19DP = readr::read_tsv("data-raw/submissions/cv19dp_variants_statistics.tsv")
+CV19DP = CV19DP |>
   select(collection_date, country) |>
   dplyr::mutate(collection_date = paste0(
     substr(collection_date, 1, 4),
@@ -49,12 +49,12 @@ embl = embl |>
   ) |>
   dplyr::rename(C19DP.weekly.submissions = Count)
 
-embl$CD19DP.total.submissions = ave(embl$C19DP.weekly.submissions,
-                                    embl$country,
+CV19DP$CD19DP.total.submissions = ave(CV19DP$C19DP.weekly.submissions,
+                                      CV19DP$country,
                                     FUN = cumsum)
 
 
-write_rds(embl, "data/embl.RDS")
+write_rds(CV19DP, "data/CV19DP/CV19DP.RDS")
 
 
 
@@ -63,7 +63,7 @@ write_rds(embl, "data/embl.RDS")
 ##  GISAID monthly metadata submissions downloaded from https://www.epicov.org/epi3/frontend#5dc229  ##
 #######################################################################################################
 gisaid = as.data.frame(
-  readr::read_tsv("../../gisaid_variants_statistics.tsv")  |>
+  readr::read_tsv("data-raw/submissions/gisaid_variants_statistics.tsv")  |>
     dplyr::rename(Date = `Week prior to`) |>
     dplyr::rename(country = Country)  |>
     dplyr::mutate(Date = lubridate::ymd(Date)) |>
@@ -93,7 +93,7 @@ write_rds(gisaid, "data/gisaid.RDS")
 ##                          Join data                          ##
 #################################################################
 
-main_df = full_join(gisaid, embl, by = c("country", "wy"))
+main_df = full_join(gisaid, CV19DP, by = c("country", "wy"))
 main_df = main_df |> left_join(owid, by =
                                  c("country", "wy")) |>
   {
@@ -148,7 +148,7 @@ main_df = main_df |>
   dplyr::mutate(continent = ifelse(country == "USA" & continent == 0, "North America", continent)) |>
   dplyr::mutate(continent = ifelse(country == "Wallis and Futuna Islands" & continent == 0, "Oceania", continent))
 
-rm(gisaid,embl,owid)
+rm(gisaid,CV19DP,owid)
 
 unsd = read.csv("../../Downloads/UNSD — Methodology.csv",sep = ";") %>% select(Sub.region.Name,ISO.alpha3.Code) %>%rename(iso_code = ISO.alpha3.Code)
 main_df = right_join(main_df,unsd)

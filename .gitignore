@@ -38,6 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+/data-raw/submissions/cv19dp_variants_statistics.tsv
+/data-raw/submissions/gisaid_variants_statistics.tsv
+
 /VOSviewer
 
 *.html
