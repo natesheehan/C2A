@@ -156,6 +156,6 @@ main_df = main_df %>% dplyr::filter(wy >= "20/01") %>%
   dplyr::right_join(owid_income_groups)
 
 
-rm(owid_income_groups)
+rm(owid_income_groups,cc,dum)
 
 write_rds(main_df,"data/main_df.rds")

@@ -31,8 +31,6 @@ percents_ena = tree_df |> select(CD19DP.total.submissions,country) |>
   mutate(percent = CD19DP.total.submissions/sum(tree_df$CD19DP.total.submissions)*100) |> round_df(3) |>
   dplyr::arrange(desc(percent)) |> head(20)
 
-write.csv(percents_gis,"gis-tree.csv",row.names = FALSE)
-write.csv(percents_ena,"ena-tree.csv",row.names = FALSE)
 
 a =ggplot(
   tree_df |>
@@ -317,7 +315,7 @@ ggarrange(f,c,common.legend = TRUE, legend="bottom")
 
 # Plot and Save -----------------------------------------------------------
 ggsave(
-  paste0("plots/GISAID/",
+  paste0("plots/",
          " Sequence-Landscape.png"),
   dpi = 320,
   width = 22,
@@ -327,4 +325,4 @@ ggsave(
 
 
 rm(plot_df,c19_main_df,gis_main_df,sum_gis_c19,tree_df)
-rm(a,b,c,d,e,f)
+rm(a,b,c,ena,e,f,percents_ena,percents_gis)

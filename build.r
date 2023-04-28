@@ -1,3 +1,4 @@
+textcol = "black"
 reproducible = FALSE
 
 if (reproducible == FALSE) {
