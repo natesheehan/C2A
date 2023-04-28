@@ -1,3 +1,20 @@
+## ---------------------------
+##
+## Script name: regression.r
+##
+## Purpose of script: perform a regression analysis for both databases
+##
+## Author: Nathanael Sheehan
+##
+## Date Created: 2023-04-28
+##
+##
+## ---------------------------
+##
+## Notes:
+##
+##
+## ---------------------------
 # Regression between two databases ----------------------------------------
 gis_main_df_europe = main_df |>
   filter(wy < "22/38") |>

@@ -1,12 +1,12 @@
 ## ---------------------------
 ##
-## Script name: set-up.r
+## Script name: utils.r
 ##
-## Purpose of script: Install packages needed for project and set up helper functions.
+## Purpose of script: load utility functions
 ##
-## Author: Nathaneal Sheehan
+## Author: Nathanael Sheehan
 ##
-## Date Created: 2021-03-20
+## Date Created: 2023-04-28
 ##
 ##
 ## ---------------------------
@@ -15,6 +15,7 @@
 ##
 ##
 ## ---------------------------
+
 ##################################################################
 ##                       Helper Functions                       ## thanx for helpin
 ##################################################################
@@ -1279,49 +1280,6 @@ plot_network = function(network, type, di) {
   q98 = as.numeric(q9[1])
 
   print(paste0(q98, " be the 98%"))
-  #tabl = tableGrob(head(df))
-  # make plots
-  # ll = ggplot() +
-  #   geom_polygon(
-  #     data = map_world,
-  #     aes(x = long, y = lat, group = group),
-  #     fill = "lightgrey",
-  #     color = "white",
-  #     size = 0.2
-  #   ) +
-  #   geom_curve(
-  #     data = df |> filter(weight > q98),
-  #     aes(
-  #       x = longitude.from,
-  #       y = latitude.from,
-  #       xend = longitude.to,
-  #       yend = latitude.to,
-  #       color = weight
-  #     ),
-  #     size = 1.5,
-  #     curvature  = 0.33,
-  #     arrow = arrow(length = unit(0.03, "npc"))
-  #   ) +   guides(color = guide_legend(reverse = TRUE)) +
-  #   # values are in eqarea meters
-  #   coord_sf(crs = "+proj=eqearth +wktext") +
-  #   scale_color_distiller(
-  #     palette = "RdYlBu",
-  #     trans = "log10",
-  #     name = "(Collaborations\nlog10 funding country)",
-  #     label = scales::comma,
-  #     breaks = c(30, 50, 100, 300, 1000),
-  #     limits = c(15, 1500)
-  #   ) +
-  #   scale_size_continuous(
-  #     trans = "log10",
-  #     range = c(0.75, 3),
-  #     breaks = c(30, 50, 100, 300, 1000),
-  #     limits = c(15, 1500),
-  #     guide = FALSE
-  #   ) +
-  #   theme_landscape() +
-  #   theme(axis.text.x = element_blank()) +
-  #   theme(axis.text.y = element_blank())  + theme(legend.position = "bottom", legend.direction = "horizontal")
 
   df = na.omit(df)
   dfc = na.omit(dfc)
@@ -1448,60 +1406,6 @@ plot_network = function(network, type, di) {
 
 
   }
-
-
-
-  # bb =
-  #    # Create heatmap
-  #    ggplot(df |> filter(weight > 2)  , aes(x = to, y = from, fill = weight)) +
-  #    geom_bin_2d(color = "white", width = 1) +
-  #    labs(x = "", y = "") +
-  #    theme(
-  #      axis.text.x = element_text(
-  #        angle = 90,
-  #        vjust = 0.5,
-  #        hjust = 1
-  #      ),
-  #      axis.text.y = element_text(
-  #        angle = 0,
-  #        vjust = 0.5,
-  #        hjust = 0
-  #      ),
-  #      panel.grid.major = element_blank(),
-  #      panel.grid.minor = element_blank()
-  #    ) + theme_landscape() +     scale_color_distiller(
-  #      palette = "Greens",
-  #      trans = "log10",
-  #      name = "(Size & color\nlog10 scale)",
-  #      label = scales::comma,
-  #      breaks = c(30, 50, 100, 300, 1000),
-  #      limits = c(15, 1500)
-  #    ) +
-  #    scale_size_continuous(
-  #      trans = "log10",
-  #      range = c(0.75, 3),
-  #      breaks = c(30, 50, 100, 300, 1000),
-  #      limits = c(15, 1500),
-  #      guide = FALSE
-  #    )
-  #
-  #  deg = degree(funding_country_net, mode = "all")
-  #
-  #  pop = ggplot(data.frame(x = deg), aes(x)) +
-  #    geom_histogram(
-  #      bins = vcount(funding_country_net) - 5,
-  #      color = "black",
-  #      fill = "maroon",
-  #      alpha = 0.7
-  #    ) +
-  #    labs(x = "Node degree", y = "Frequency") + theme_landscape()
-  #
-  #  gg = ggarrange(
-  #    ll,
-  #    ggarrange(bb, pop, ncol = 2, widths = c(1.4, 1)),
-  #    nrow = 2,
-  #    heights = c(1.5, 1.5)
-  #  ) + theme_landscape() + ggtitle(paste0(di, " ", type, " Results"))
 
   return(ll)
 

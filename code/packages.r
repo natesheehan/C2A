@@ -1,14 +1,13 @@
 ## ---------------------------
 ##
-## Script name:
+## Script name: packages.r
 ##
-## Purpose of script:
+## Purpose of script: load packages
 ##
 ## Author: Nathanael Sheehan
 ##
-## Date Created: 2023-02-02
+## Date Created: 2023-04-28
 ##
-## Copyleft (c) Nathanael Sheehan, 2023
 ##
 ## ---------------------------
 ##
@@ -16,7 +15,6 @@
 ##
 ##
 ## ---------------------------
-
 #################################################################
 ##                         Set up vars                         ##
 #################################################################

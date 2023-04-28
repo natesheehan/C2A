@@ -1,14 +1,13 @@
 ## ---------------------------
 ##
-## Script name:
+## Script name: summary-stats.r
 ##
-## Purpose of script:
+## Purpose of script: conduct summary statistics for the results of submissions
 ##
 ## Author: Nathanael Sheehan
 ##
-## Date Created: 2023-01-03
+## Date Created: 2023-04-28
 ##
-## Copyleft (c) Nathanael Sheehan, 2023
 ##
 ## ---------------------------
 ##

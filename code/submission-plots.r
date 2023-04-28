@@ -1,25 +1,22 @@
 ## ---------------------------
 ##
-## Script name:
+## Script name: submission-plots.r
 ##
-## Purpose of script: Visulations for landscape plot
+## Purpose of script: plot submission data for each database
+##
 ## Author: Nathanael Sheehan
 ##
-## Date Created: 2022-12-13
+## Date Created: 2023-04-28
 ##
-## Copyleft (c) Nathanael Sheehan, 2022
 ##
 ## ---------------------------
 ##
 ## Notes:
-## Plot 1: Treemap, Temporal Regional Submissions, Submissions as a percent of Covid cases
-## Methods:
-## Platforms: GISAID, The covid-19 portal
-## Data:
+##
+##
 ## ---------------------------
 
 # Treemap -----------------------------------------------------------------
-
 
 tree_df = main_df |> dplyr::filter(wy == "23/01")
 

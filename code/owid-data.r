@@ -6,9 +6,8 @@
 ##
 ## Author: Nathanael Sheehan
 ##
-## Date Created: 2022-10-23
+## Date Created: 2023-04-28
 ##
-## Copyleft (c) Nathanael Sheehan, 2022
 ##
 ## ---------------------------
 ##
@@ -16,6 +15,7 @@
 ##
 ##
 ## ---------------------------
+
 if(file.exists("data-raw/owid/covid.csv")){
   owid = read.csv("data-raw/owid/covid.csv")
 } else {

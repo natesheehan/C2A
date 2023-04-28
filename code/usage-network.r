@@ -1,8 +1,24 @@
+## ---------------------------
+##
+## Script name: usage-network.r
+##
+## Purpose of script: build network for each group per database
+##
+## Author: Nathanael Sheehan
+##
+## Date Created: 2023-04-28
+##
+##
+## ---------------------------
+##
+## Notes:
 # Data source: Dimensions API
 # Data collection: 15/02/2022
 # Data queries:
 # # (1) gisaid AND "covid" or "covid-19" or "sars-cov-2" "coronavirus"
 # # (2) european nucleotide archive or ena AND "covid" or "covid-19" or "sars-cov-2" "coronavirus"
+## ---------------------------
+
 
 # Build Script ------------------------------------------------------------
 # 1. Convert Dimensions biblometric CSV 2 Dataframe -----------------------
