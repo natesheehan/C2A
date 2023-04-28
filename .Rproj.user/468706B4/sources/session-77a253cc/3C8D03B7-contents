@@ -61,7 +61,7 @@ h = plot_network(network = readRDS("data/publications/CV19DP/city_net.rds"), typ
 ggarrange(a,e,b,f,c,g,d,h,nrow = 4,ncol = 2)
 
 ggsave(
-  paste0("data/publications/network-plot.png"),
+  paste0("plots/network-plot.png"),
   dpi = 320,
   width = 22,
   height = 22,

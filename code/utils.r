@@ -1146,7 +1146,7 @@ plot_ss_network = function(data1, data2, data3) {
     ))
 
   ggsave(
-    paste0("publications/summary-plot.png"),
+    paste0("plots/summary-plot.png"),
     dpi = 320,
     width = 16,
     height = 18,
