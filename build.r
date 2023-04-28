@@ -2,7 +2,7 @@ reproducible = FALSE
 
 if (reproducible == FALSE) {
   source("code/utils.r")
-  source("code/pkgs.r")
+  source("code/packages.r")
   main_df = readRDS("data/main_df.rds")
 } else {
   source("code/utils.r") # utility functions used throughout the analysis, these functions are well documented are server as a good reference for understanding the nitty gritty details

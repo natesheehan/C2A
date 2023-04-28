@@ -12,14 +12,19 @@
 ##
 ## ---------------------------
 ##
-## Notes: data accessed from https://ourworldindata.org/grapher/continents-according-to-our-world-in-data
+## Notes: data accessed from https://ourworldindata.org/covid-cases
 ##
 ##
 ## ---------------------------
-url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
-download.file(url,"covid.csv")
+if(file.exists("data-raw/owid/covid.csv")){
+  owid = read.csv("covid.csv")
+} else {
+  url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+  dir.create("data-raw/owid")
+  download.file(url,"data-raw/owid/covid.csv")
 
-owid = read.csv("covid.csv")
+}
+
 
 owid_temp = owid |>
   # remove counties and agggregated data
