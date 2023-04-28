@@ -44,7 +44,7 @@ cd C2a
 
 All code can be found in the `code/` folder. The folder contains eight `R` files and one `bash` file. The most techincal part of code is in the `code/utils.r` file, which contains documented functions used throughout the analysis. `code/packages.r` loads all the necessary packages for the project. The remaining files are as follows:
 - two files are concerned with fetching/cleaning data (`code/data-wrangle.r`,`code/owid-data.r`) and 
-- the rest (`code/regression.r`,`code/submission-plots.r`,`code/summary-stats.r`,`code/usage-network.r`,`code/architecture.sh`)
+- the rest (`code/regression.r`,`code/submission-plots.r`,`code/summary-stats.r`,`code/usage-network.r`,`code/architecture.sh`) provide analysis and visualizations
 
 ## Reproducing the results
 
