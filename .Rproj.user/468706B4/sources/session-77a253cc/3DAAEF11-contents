@@ -5,10 +5,13 @@ if (reproducible == FALSE) {
   source("code/pkgs.r")
   main_df = readRDS("data/main_df.rds")
 } else {
-  source("code/utils.r")
-  source("code/pkgs.r")
-  source("code/owid-data.r")
-  source("code/data-wrangle.r")
-  source("code/visualise-database-landscape.R")
-  source("code/corpus-analysis.R")
+  source("code/utils.r") # utility functions used throughout the analysis, these functions are well documented are server as a good reference for understanding the nitty gritty details
+  source("code/pkgs.r") # load packages
+  source("code/owid-data.r") # fetch and clean our world in data covid cases
+  source("code/data-wrangle.r") # merge submission data with epidemiological data
+  source("code/submission-plots.r") # plots for submissions
+  source("code/summary-stats.r") # summary statistics for submissions
+  source("code/regression.r") # perform regression test for each database
+  source("code/usage-network.r") # create and visualize adjacency matrices  
 }
+ 
