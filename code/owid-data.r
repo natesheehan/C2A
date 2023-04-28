@@ -16,15 +16,14 @@
 ##
 ## ---------------------------
 
-if(file.exists("data-raw/owid/covid.csv")){
-  owid = read.csv("data-raw/owid/covid.csv")
+if(file.exists("data-raw/owid/covid-cases.csv")){
+  owid = read.csv("data-raw/owid/covid-cases.csv")
 } else {
   url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
   dir.create("data-raw/owid")
-  download.file(url,"data-raw/owid/covid.csv")
+  download.file(url,"data-raw/owid/covid-cases.csv")
 
 }
-
 
 owid_temp = owid |>
   # remove counties and agggregated data
