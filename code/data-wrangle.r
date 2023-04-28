@@ -118,12 +118,10 @@ for (i in 1:nrow(cc)) {
 
 dum = main_df |> dplyr::filter(continent == 0)
 unique(dum$country)
-# [1] "American Samoa"                   "Bonaire"                          "Cabo Verde"                       "Canary Islands"
-# [5] "Crimea"                           "Czech Republic"                   "Democratic Republic of the Congo" "Faroe Islands"
-# [9] "French Guiana"                    "Guadeloupe"                       "Martinique"                       "Mayotte"
-# [13] "Micronesia"                       "Republic of the Congo"            "Reunion"                          "Saint Barthelemy"
-# [17] "Saint Martin"                     "Sint Eustatius"                   "Sint Maarten"                     "The Bahamas"
-# [21] "Timor-Leste"                      "U.S. Virgin Islands"              "USA"                              "Wallis and Futuna Islands"
+# [1] "Bonaire"                   "Cabo Verde"                "Canary Islands"            "Crimea"
+# [5] "Czech Republic"            "Faroe Islands"             "Micronesia"                "Saint Martin"
+# [9] "Sint Eustatius"            "The Bahamas"               "Timor-Leste"               "U.S. Virgin Islands"
+# [13] "Wallis and Futuna Islands                    "U.S. Virgin Islands"              "USA"                              "Wallis and Futuna Islands"
 
 main_df = main_df |>
   dplyr::mutate(continent = ifelse(country == "American Samoa" & continent == 0, "Oceania", continent)) |>
@@ -150,11 +148,16 @@ main_df = main_df |>
 
 rm(gisaid,CV19DP,owid)
 
-unsd = read.csv("../../Downloads/UNSD — Methodology.csv",sep = ";") %>% select(Sub.region.Name,ISO.alpha3.Code) %>%rename(iso_code = ISO.alpha3.Code)
-main_df = right_join(main_df,unsd)
-income_groups = read.csv("raw-data/income-groups.csv") %>% rename(iso_code = Code)
-main_df = right_join(main_df,income_groups)
-rm(income_groups,unsd)
+owid_income_groups = read.csv("data-raw/owid/world-banks-income-groups.csv") %>%
+  dplyr::filter(Year == 2021) %>%
+  dplyr::rename("country" = "Entity") %>%
+  dplyr::rename("iso_code" = "Code")
+
+main_df = main_df %>% dplyr::filter(wy >= "20/01") %>%
+  dplyr::filter(wy <= "23/01") %>%
+  right_join(owid_income_groups)
+
+rm(income_groups)
 
 write_rds(main_df,"data/main_df.rds")
 #character(0)
