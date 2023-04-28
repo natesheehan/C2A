@@ -963,10 +963,10 @@ get_tc = function(data, name) {
 #' @examples
 #' plot_ss_network(data1,data2,data3))
 #'
-plot_ss_network = function(data1, data2, data3) {
-  oa_data = rbind(get_oa(data1, "NBI"),
+plot_ss_network = function(data2, data3) {
+  oa_data = rbind(
                   get_oa(data2, "GISAID"),
-                  get_oa(data3, "ENA")) |> filter(DI != "NBI")
+                  get_oa(data3, "ENA"))
 
   oa_data$`Access Type` = stringr::str_remove_all(oa_data$`Access Type`, "ALL OA;") |> stringr::str_trim()
   oa_plot = ggplot(oa_data,
@@ -994,15 +994,14 @@ plot_ss_network = function(data1, data2, data3) {
     theme(legend.position = "bottom")
 
   # # # 3.4 Plot for publication countries collaboration per data-infrastrcuture
-  pc_data = rbind(get_pc(nbi_res, "NBI"),
+  pc_data = rbind(
                   get_pc(gisaid_res, "GISAID"),
                   get_pc(ena_res, "ENA")) |>
     arrange(desc(Articles)) |>
     pivot_longer(c(SCP, MCP)) |>
     mutate(value = as.numeric(value)) |>
     mutate(Articles = as.numeric(Articles)) |>
-    mutate(collaboration = name) |>
-    dplyr::filter(DI != "NBI")
+    mutate(collaboration = name)
 
   pc_plot = ggplot(pc_data |> {
     \(.) {
@@ -1047,16 +1046,14 @@ plot_ss_network = function(data1, data2, data3) {
 
   # Mean Citations ----------------------------------------------------------
   tc_data = rbind(get_tc(gisaid_res, "GISAID"),
-                  get_tc(ena_res, "ENA"),
-                  get_tc(nbi_res, "NCBI")) |> filter(DI != "NCBI")
+                  get_tc(ena_res, "ENA"))
 
 
   loll = rbind(
-    nbi_clean |> mutate(DI = "NBI"),
     gisaid_clean |> mutate(DI = "GISAID"),
     ena_clean |> mutate(DI = "ENA")
   ) |>
-    select(Publication.Date, TC, DI)  |> filter(DI != "NBI")
+    select(Publication.Date, TC, DI)
 
   lv = loll |> mutate(Publication.Date = (lubridate::as_date(loll$Publication.Date))) |>
     na.omit()
@@ -1094,11 +1091,10 @@ plot_ss_network = function(data1, data2, data3) {
 
   # # # 3.5 Plot for temporal (per week) per data infrastrucure
   ll = rbind(
-    nbi_clean |> mutate(DI = "NBI"),
     gisaid_clean |> mutate(DI = "GISAID"),
     ena_clean |> mutate(DI = "ENA")
   ) |>
-    select(Publication.Date, DI) |> filter(DI != "NBI")
+    select(Publication.Date, DI)
 
   v = ll |> mutate(Publication.Date = (lubridate::as_date(ll$Publication.Date))) |>
     na.omit()
@@ -1256,14 +1252,14 @@ calculate_networks = function(data, path) {
 plot_network = function(network, type, di) {
   # create df
   df = as_data_frame(network) |> dplyr::mutate(from = str_to_lower(from)) |> dplyr::mutate(to = str_to_lower(to))
-  if (file.exists(paste0("publications/", di, "/", type, "_coords.rds"))) {
-    dfc = readRDS(paste0("publications/", di, "/", type, "_coords.rds"))
+  if (file.exists(paste0("data/", di, "/", type, "_coords.rds"))) {
+    dfc = readRDS(paste0("data/", di, "/", type, "_coords.rds"))
   } else {
     countries = as.data.frame(unique(c(df$from, df$to)))
     colnames(countries) = "name"
     dfc = countries  |> tidygeocoder::geocode(name, lat = latitude, long = longitude)
 
-    saveRDS(dfc, paste0("publications/", di, "/", type, "_coords.rds"))
+    saveRDS(dfc, paste0("data/", di, "/", type, "_coords.rds"))
   }
 
   # Merge coordinates with data frame
