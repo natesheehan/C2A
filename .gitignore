@@ -38,8 +38,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-/raw-data
-
 /VOSviewer
 
 *.html
