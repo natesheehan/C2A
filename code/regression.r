@@ -1,24 +1,23 @@
 # Regression between two databases ----------------------------------------
 gis_main_df_europe = main_df |>
   filter(wy < "22/38") |>
-  group_by(wy,Sub.region.Name) |>
+  group_by(wy,continent) |>
   summarise(sum_gisaid = sum(GISAID.weekly.submissions)) |>
   mutate(percentage_gis = sum_gisaid / sum(sum_gisaid))
 
 c19_main_df_europe = main_df |>
   filter(wy < "22/38") |>
-  group_by(wy,Sub.region.Name) |>
+  group_by(wy,continent) |>
   summarise(sum_cd19dp = sum(C19DP.weekly.submissions)) |>
   mutate(percentage_c19 = sum_cd19dp / sum(sum_cd19dp))
 
 sum_gis_c19 = right_join(gis_main_df_europe,c19_main_df_europe)
 sum_gis_c19$t = as.numeric(stringr::str_remove(sum_gis_c19$wy, "/"))
-sum_gis_c19$f = factor(sum_gis_c19$Sub.region.Name,      # Reordering group factor levels
-                       levels = paste(unique(sum_gis_c19$Sub.region.Name)))
+sum_gis_c19$f = factor(sum_gis_c19$continent,      # Reordering group factor levels
+                       levels = paste(unique(sum_gis_c19$continent)))
 
-regions = as.data.frame(unique(sum_gis_c19$Sub.region.Name))
+regions = as.data.frame(unique(sum_gis_c19$continent))
 colnames(regions) = "region"
-
 
 #
 p0 = ggscatter(
@@ -41,7 +40,7 @@ p1 = ggscatter(
     sum_gisaid = log(sum_gisaid),
     sum_c19dp = log(sum_cd19dp)
   ),
-  facet.by = "Sub.region.Name",
+  facet.by = "continent",
   x = "sum_gisaid",
   y = "sum_c19dp",
   add = "reg.line",
