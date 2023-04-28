@@ -1,0 +1,26 @@
+{
+    "id": "D8ED592B",
+    "path": "~/C2A/data-wrangle.r",
+    "project_path": "data-wrangle.r",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1682642689020.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "187,0",
+        "scrollLine": "161"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1682642694,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1682642694493,
+    "read_only": false,
+    "read_only_alternatives": []
+}
