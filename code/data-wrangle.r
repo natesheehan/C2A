@@ -103,11 +103,8 @@ main_df = main_df |> left_join(owid, by =
   }()
 
 main_df$gpnc_gisaid = main_df$GISAID.weekly.submissions / main_df$new_cases * 100
-
 main_df$gpnc_embl= main_df$C19DP.weekly.submissions / main_df$new_cases * 100
 
-# mutate("Genomes per confirmed cases % (GISAID)" = GISAID.weekly.submissions / new_cases * 100) |>
-# mutate("Genomes per confirmed cases % (C19DP)" =  C19DP.weekly.submissions / new_cases * 100) |>
 
 cc = main_df |> dplyr::select(country,continent) |> unique() |> dplyr::filter(continent != 0)
 
@@ -160,31 +157,3 @@ main_df = main_df %>% dplyr::filter(wy >= "20/01") %>%
 rm(income_groups)
 
 write_rds(main_df,"data/main_df.rds")
-#character(0)
-# ##################################################################
-# ##                           ncbi                              ##
-# ##################################################################
-#
-#
-# ncbi = read.csv("../../Downloads/sequences(6).csv")
-#
-# genebank = read.csv("../../Downloads/sequences.csv") |>
-#   select(Country, Release_Date) |>
-#   mutate(Date = as.Date(Release_Date)) |>
-#   mutate(Date = substr(Date, start = 1, stop = 7)) |>
-#   group_by(Date, Country) |>
-#   summarise(genebank.monthly.submissions = n()) |>
-#   mutate(
-#     Country = case_when(
-#       Country == "West Bank" ~ "Palestine",
-#       Country == "Viet Nam" ~ "Vietnam",
-#       TRUE ~ Country
-#     )
-#   )
-# genebank$genebank.total.Submissions = ave(genebank$genebank.monthly.submissions,
-#                                           genebank$Country,
-#                                           FUN = cumsum)
-#
-# write_rds(genebank, "data/genebank.RDS")
-#
-#

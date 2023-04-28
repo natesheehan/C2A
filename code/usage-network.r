@@ -13,17 +13,14 @@ source("build.r")
 # Build Script ------------------------------------------------------------
 # 1. Convert Dimensions biblometric CSV 2 Dataframe -----------------------
 if (file.exists("data/publications/NCBI/nbi.rds")) {
-  nbi = readRDS("data/publications/NCBI/nbi.rds")
   gisaid = readRDS("data/publications/GISAID/gisaid.rds")
   ena = readRDS("data/publications/CV19DP/ena.rds")
 } else {
-  nbi = convert_biblo("data-raw/publications/Dimensions-Publication-2023-02-16_00-37-11.csv")
   gisaid = convert_biblo("data-raw/publications/Dimensions-Publication-2023-02-16_00-40-25.csv")
   ena = convert_biblo("data-raw/publications/Dimensions-Publication-2023-02-16_00-40-09.csv")
 }
 
 # 2. Filter Data ----------------------------------------------------------
-nbi_clean = tf_data(nbi)
 gisaid_clean = tf_data(gisaid)
 ena_clean = tf_data(ena)
 
@@ -35,14 +32,12 @@ shared = inner_join(YT,UT)
 # 3. Calculate Biblio Analysis --------------------------------------------
 # # 3.1 Generate list of results
 
-nbi_res = biblio_analysis(nbi_clean)
 gisaid_res = biblio_analysis(gisaid_clean)
 ena_res = biblio_analysis(ena_clean)
 
 plot_ss_network(nbi_clean,gisaid_clean,ena_clean)
 
 # 4. Build Networks
-calculate_networks(nbi_clean, "data/publications/NCBI/")
 calculate_networks(gisaid_clean, "data/publications/GISAID/")
 calculate_networks(ena_clean, "data/publications/CV19DP/")
 

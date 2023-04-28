@@ -19,11 +19,7 @@ sum_gis_c19$f = factor(sum_gis_c19$Sub.region.Name,      # Reordering group fact
 regions = as.data.frame(unique(sum_gis_c19$Sub.region.Name))
 colnames(regions) = "region"
 
-# model_by_income_group <- lm(sum_cd19dp ~ sum_gisaid,  data=sum_gis_c19)
-# anova_results <- anova(model_by_income_group)
-#
-# ll = sum_gis_c19 %>% select(wy,Sub.region.Name,sum_gisaid,sum_cd19dp) %>% group_by(Sub.region.Name,wy)
-# result_by_group_and_week <- summarise(ll %>% na.omit(), cor = cor(sum_gisaid, sum_cd19dp))
+
 #
 p0 = ggscatter(
   sum_gis_c19 %>% mutate(
