@@ -2,13 +2,11 @@
 
 ## Authors: 
 
-[Nathanael Sheehan](link to author 1's website), [Sabina Leonelli](link to author 2's website), [Federico Botta](link to author 2's website)
+[Nathanael Sheehan], [Sabina Leonelli], [Federico Botta]
 
 ## Abstract: 
 
 We analyse ongoing efforts to share genomic data about SARS-COV-2 through a comparison of the characteristics of the Global Initiative on Sharing All Influenza Data and European Nucleotide Archive infrastructures with respect to the representativeness and governance of the research data therein. We focus on data and metadata on genetic sequences posted on the two infrastructures in the period between March 2020 and October 2022, thus capturing a period of acute response to the COVID-19 pandemic. Through a variety of data science methods, we compare the extent to which the two portals succeeded in attracting data submissions from different countries around the globe and look at the ways in which submission rates varied over time. We go on to analyse the structure and underlying architecture of the infrastructures, reviewing how they organise data access and use, the types of metadata and version tracking they provide. Finally, we explore usage patterns of each infrastructure based on publications that mention the data to understand how data reuse can facilitate forms of diversity between institutions, cities, countries, and funding groups. Our findings reveal disparities in representation between the two infrastructures and differing practices in data governance and architecture. We conclude that both infrastructures offer useful lessons, with GISAID demonstrating the importance of expanding data submissions and representation, while the COVID-19 data portal offers insights into how to enhance data usability.
-About
-This repository contains the code and data used to produce the results presented in the paper "Title of Paper" by [Author 1](link to author 1's website) and [Author 2](link to author 2's website), published in [Journal/Conference/Workshop](link to publication) in [Year of Publication].
 
 ## Usage
 
