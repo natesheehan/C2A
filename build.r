@@ -11,7 +11,7 @@
 ##
 ## ---------------------------
 ##
-## Notes:
+## Notes: In order to run reproducible first you must unzip the /data-raw/submissions folder
 ##
 ##
 ## ---------------------------
@@ -25,7 +25,7 @@ if (reproducible == FALSE) {
   source("code/packages.r")
   main_df = readRDS("data/main_df.rds")
 } else {
-  print("okok lets get reproducible this might take a while... and first you must unzip the /data-raw/submissions folder ")
+  print("okok lets get reproducible - this might take a while... ")
   source("code/utils.r") # utility functions used throughout the analysis, these functions are well documented are server as a good reference for understanding the nitty gritty details
   source("code/packages.r") # load packages
   source("code/owid-data.r") # fetch and clean our world in data covid cases
