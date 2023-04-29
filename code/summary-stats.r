@@ -58,14 +58,15 @@ ena = left_join(embl,owid) |>
 ##################################################################
 
 # How many unique countries does GISAID have?
-nrow(as.data.frame(unique(gis$country))) # 193
+nrow(as.data.frame(unique(gis$country))) # 197
 #TODO check for missing countries
 
 # What is the percent of the database reaching over 5% prevalence of new cases?
 table(gis$perc > 5)
 # FALSE  TRUE
-# 14519 12448
-# 46.16% achieved above the 5% guideline
+# 14795 12861
+paste0("True (%): ",round(table(gis$perc > 5)[2]/(table(gis$perc > 5)[1] + table(gis$perc > 5)[2])*100))
+# "True (%): 47"
 
 # Who are the leading countries?
 gis_main = gis %>% filter(country != "Puerto Rico", country != "Guam", country != "Palau", country != "Tanzania",country != "Tanzania", country != "Gambia",
@@ -75,7 +76,8 @@ table(gis_main$country,exclude = FALSE) |> as.data.frame() |>
   arrange(desc(Freq)) |>
   dplyr::mutate(`%` = Freq/157*100)  %>%
   rename(country = Var1) %>%  inner_join(ppp)
-# country Freq           %     continent Income.classifications..World.Bank..2021..
+#                               country Freq      %           continent       Income.classifications..World.Bank..2021..
+
 # 1                              Japan  157 100.0000000          Asia                                High income
 # 2                          Hong Kong  155  98.7261146          Asia                                High income
 # 3                          Australia  154  98.0891720       Oceania                                High income
@@ -93,9 +95,9 @@ table(gis_main$country,exclude = FALSE) |> as.data.frame() |>
 # 15                             Kenya  136  86.6242038        Africa                        Lower-middle income
 # 16                           Ireland  131  83.4394904        Europe                                High income
 # 17                       Netherlands  131  83.4394904        Europe                                High income
-# 18                           Belgium  125  79.6178344        Europe                                High income
-# 19                            Latvia  125  79.6178344        Europe                                High income
-# 20                           Senegal  125  79.6178344        Africa                        Lower-middle income
+# 18                               USA  126  80.2547771 North America                                High income
+# 19                           Belgium  125  79.6178344        Europe                                High income
+# 20                            Latvia  125  79.6178344        Europe                                High income
 
 # What is the regional share of sequences?
 gis_main_date = gis %>% filter(wy == "23/01")
@@ -106,38 +108,38 @@ aggregate(GISAID.total.submissions ~ continent, gis_main_date, sum) |>
   arrange(desc(percent))
 
 # continent GISAID.total.submissions   percent
-# 1        Europe                109051388 70.122401
-# 2          Asia                 25131759 16.160265
-# 3 North America                  9773949  6.284861
-# 4 South America                  5436054  3.495500
-# 5       Oceania                  4473078  2.876286
-# 6        Africa                  1649537  1.060688
+# 1        Europe                109051388 48.9576525
+# 2 North America                 76980674 34.5597902
+# 3          Asia                 25131759 11.2826801
+# 4 South America                  5436054  2.4404682
+# 5       Oceania                  4479038  2.0108243
+# 6        Africa                  1667445  0.7485846
 
 aggregate(GISAID.total.submissions ~ country, gis_main_date, sum) |>
   mutate(percent = GISAID.total.submissions/total*100) |>
   arrange(desc(percent))
 
-# country GISAID.total.submissions        percent
-# 1                     United Kingdom                 41755536 26.84971263203
-# 2                            Germany                 14997570  9.64376183984
-# 3                              Japan                 10974890  7.05709160740
-# 4                            Denmark                 10447252  6.71780896297
-# 5                             France                  9260065  5.95442204847
-# 6                             Canada                  7503502  4.82491405293
-# 7                            Austria                  4169943  2.68136352607
-# 8                          Australia                  3612300  2.32278701777
-# 9                             Sweden                  3232211  2.07838157115
-# 10                             Spain                  3130419  2.01292711385
-# 11                            Brazil                  3083940  1.98304011172
-# 12                             India                  2885504  1.85544147244
-# 13                            Israel                  2705407  1.73963520676
-# 14                           Belgium                  2666439  1.71457794006
-# 15                       Netherlands                  2385245  1.53376411710
-# 16                       South Korea                  2379194  1.52987319324
-# 17                             Italy                  2348147  1.50990930084
-# 18                       Switzerland                  1896612  1.21956253117
-# 19                           Ireland                  1673937  1.07637769071
-# 20                            Poland                  1263573  0.81250476439
+#                               country GISAID.total.submissions        percent
+# 1                                USA                 67172292 30.15640417340
+# 2                     United Kingdom                 41755536 18.74577720368
+# 3                            Germany                 14997570  6.73302591102
+# 4                              Japan                 10974890  4.92707943624
+# 5                            Denmark                 10447252  4.69020104023
+# 6                             France                  9260065  4.15722397580
+# 7                             Canada                  7503502  3.36863061079
+# 8                            Austria                  4169943  1.87205889131
+# 9                          Australia                  3612300  1.62171001692
+# 10                            Sweden                  3232211  1.45107243459
+# 11                             Spain                  3130419  1.40537381985
+# 12                            Brazil                  3083940  1.38450748542
+# 13                             India                  2885504  1.29542140482
+# 14                            Israel                  2705407  1.21456845548
+# 15                           Belgium                  2666439  1.19707411782
+# 16                       Netherlands                  2385245  1.07083456781
+# 17                       South Korea                  2379194  1.06811802508
+# 18                             Italy                  2348147  1.05417975005
+# 19                       Switzerland                  1896612  0.85146712028
+# 20                           Ireland                  1673937  0.75149915582
 
 # What is the share between income groups?
 
@@ -145,12 +147,12 @@ aggregate(GISAID.total.submissions ~ Income.classifications..World.Bank..2021..,
   mutate(percent = GISAID.total.submissions/total*100) |>
   arrange(desc(percent))
 
-# Income.classifications..World.Bank..2021.. GISAID.total.submissions     percent
-# 1                                High income                138055882 88.77291765
-# 2                        Upper-middle income                 11819043  7.59990024
-# 3                        Lower-middle income                  5476999  3.52182880
-# 4                                 Low income                   144143  0.09268707
-# 5                            Not categorized                    19698  0.01266624
+# # Income.classifications..World.Bank..2021.. GISAID.total.submissions     percent
+# 1                                High income                205262607 92.150825200
+# 2                        Upper-middle income                 11819043  5.306054432
+# 3                        Lower-middle income                  5490369  2.464852422
+# 4                                 Low income                   154641  0.069424704
+# 5                            Not categorized                    19698  0.008843242
 
 
 ##################################################################
@@ -158,14 +160,16 @@ aggregate(GISAID.total.submissions ~ Income.classifications..World.Bank..2021..,
 ##################################################################
 
 # How many unique countries does GISAID have?
-nrow(as.data.frame(unique(ena$country))) # 116
+nrow(as.data.frame(unique(ena$country))) # 117
 #TODO check for missing countries
 
 # What is the percent of the database reaching over 5% prevelance of new cases?
 table(ena$perc > 5)
 # FALSE  TRUE
-# 14504  3824
-#  20.86425%
+# 14599  3887
+paste0("True (%): ",round(table(ena$perc > 5)[2]/(table(ena$perc > 5)[1] + table(ena$perc > 5)[2])*100))
+# "True (%): 21"
+
 
 # Who are the leading countries?
 ena_main = ena  %>% filter(country != "Puerto Rico", country != "Guam", country != "Palau", country != "Tanzania",country != "Tanzania", country != "Gambia",
@@ -173,7 +177,7 @@ ena_main = ena  %>% filter(country != "Puerto Rico", country != "Guam", country 
   filter(perc > 5)
 table(ena_main$country) |> as.data.frame() |> arrange(desc(Freq)) |> dplyr::mutate(`%` = Freq/147*100)  %>% head(20) %>% rename(country = Var1) %>%  inner_join(ppp)
 # country Freq        %     continent Income.classifications..World.Bank..2021..
-# 1       Hong Kong  158 107.48299          Asia                                High income
+#         Hong Kong  158 107.48299          Asia                                High income
 # 2          Taiwan  158 107.48299          Asia                                High income
 # 3   Liechtenstein  124  84.35374        Europe                                High income
 # 4  United Kingdom  122  82.99320        Europe                                High income
@@ -184,15 +188,15 @@ table(ena_main$country) |> as.data.frame() |> arrange(desc(Freq)) |> dplyr::muta
 # 9     Switzerland   70  47.61905        Europe                                High income
 # 10       Slovakia   69  46.93878        Europe                                High income
 # 11       Cambodia   65  44.21769          Asia                        Lower-middle income
-# 12          Kenya   51  34.69388        Africa                        Lower-middle income
-# 13          Gabon   46  31.29252        Africa                        Upper-middle income
-# 14        Belarus   45  30.61224        Europe                        Upper-middle income
-# 15       Mongolia   44  29.93197          Asia                        Lower-middle income
-# 16          Syria   43  29.25170          Asia                                 Low income
-# 17       Suriname   42  28.57143 South America                        Upper-middle income
-# 18       Thailand   42  28.57143          Asia                        Upper-middle income
-# 19      Australia   41  27.89116       Oceania                                High income
-# 20         Belize   39  26.53061 North America                        Upper-middle income
+# 12            USA   63  42.85714 North America                                High income
+# 13          Kenya   51  34.69388        Africa                        Lower-middle income
+# 14          Gabon   46  31.29252        Africa                        Upper-middle income
+# 15        Belarus   45  30.61224        Europe                        Upper-middle income
+# 16       Mongolia   44  29.93197          Asia                        Lower-middle income
+# 17          Syria   43  29.25170          Asia                                 Low income
+# 18       Suriname   42  28.57143 South America                        Upper-middle income
+# 19       Thailand   42  28.57143          Asia                        Upper-middle income
+# 20      Australia   41  27.89116       Oceania                                High income
 
 # What is the regional share of sequences?
 ena_main_date = ena %>% filter(wy == "23/01")
@@ -202,38 +206,38 @@ aggregate(CD19DP.total.submissions ~ country, ena_main_date, sum) |>
   mutate(percent = CD19DP.total.submissions/total*100) |>
   arrange(desc(percent))
 #           country       CD19DP.total.submissions      percent
-# 1       United Kingdom                  2222832 63.764836557
-# 2              Germany                   447069 12.824757658
-# 3              Denmark                   403059 11.562273378
-# 4          Switzerland                   152532  4.375579463
-# 5               France                    48011  1.377258186
-# 6             Slovakia                    35825  1.027686874
-# 7              Iceland                    25539  0.732619542
-# 8          New Zealand                    16678  0.478430194
-# 9               Mexico                    16049  0.460386508
-# 10           Australia                    13035  0.373925985
-# 11              Brazil                    12021  0.344838072
-# 12             Bahrain                    10645  0.305365716
-# 13               Japan                     8114  0.232760678
-# 14               Kenya                     7865  0.225617788
-# 15        South Africa                     4880  0.139989168
-# 16            Thailand                     4761  0.136575498
-# 17               India                     4109  0.117872027
-# 18             Nigeria                     3234  0.092771510
-# 19         Puerto Rico                     2604  0.074699138
-# 20             Vietnam                     2503  0.071801821
+# 1                  USA                  3020654 46.424190189
+# 2       United Kingdom                  2222832 34.162527560
+# 3              Germany                   447069  6.870967772
+# 4              Denmark                   403059  6.194581595
+# 5          Switzerland                   152532  2.344252131
+# 6               France                    48011  0.737877226
+# 7             Slovakia                    35825  0.550591565
+# 8              Iceland                    25539  0.392506852
+# 9          New Zealand                    16678  0.256322851
+# 10              Mexico                    16049  0.246655800
+# 11           Australia                    13035  0.200333874
+# 12              Brazil                    12021  0.184749789
+# 13             Bahrain                    10645  0.163602155
+# 14               Japan                     8114  0.124703418
+# 15               Kenya                     7865  0.120876557
+# 16        South Africa                     4880  0.075000330
+# 17            Thailand                     4761  0.073171429
+# 18               India                     4109  0.063150893
+# 19             Nigeria                     3234  0.049703088
+# 20         Puerto Rico                     2604  0.040020668
 
 aggregate(CD19DP.total.submissions ~ continent, ena_main_date, sum) |>
   mutate(percent = CD19DP.total.submissions/total*100) |>
   arrange(desc(percent))
 
 # continent CD19DP.total.submissions    percent
-# 1        Europe                  3348366 96.0522481
-# 2          Asia                    47210  1.3542805
-# 3       Oceania                    30055  0.8621669
-# 4        Africa                    24437  0.7010072
-# 5 North America                    20554  0.5896183
-# 6 South America                    15362  0.4406790
+# 1        Europe                  3348366 51.4607698
+# 2 North America                  3041208 46.7400830
+# 3          Asia                    47210  0.7255667
+# 4       Oceania                    30055  0.4619129
+# 5        Africa                    24437  0.3755703
+# 6 South America                    15362  0.2360974
 
 # What is the share between income groups?
 aggregate(CD19DP.total.submissions ~ Income.classifications..World.Bank..2021.., ena_main_date, sum) |>
@@ -241,8 +245,9 @@ aggregate(CD19DP.total.submissions ~ Income.classifications..World.Bank..2021..,
   arrange(desc(percent))
 
 # Income.classifications..World.Bank..2021.. CD19DP.total.submissions      percent
-# 1                                High income                  3404837 97.672192414
-# 2                        Upper-middle income                    46613  1.337154732
-# 3                        Lower-middle income                    31699  0.909327180
-# 4                                 Low income                     2656  0.076190826
-# 5                            Not categorized                      179  0.005134849
+# Income.classifications..World.Bank..2021.. CD19DP.total.submissions      percent
+# 1                                High income                  6425491 98.752858235
+# 2                        Upper-middle income                    46613  0.716391476
+# 3                        Lower-middle income                    31699  0.487179400
+# 4                                 Low income                     2656  0.040819852
+# 5                            Not categorized                      179  0.002751037

@@ -45,7 +45,7 @@ shared = inner_join(YT,UT)
 gisaid_res = biblio_analysis(gisaid_clean)
 ena_res = biblio_analysis(ena_clean)
 
-plot_ss_network(gisaid_clean,ena_clean)
+p=plot_ss_network(gisaid_clean,ena_clean)
 
 # 4. Build Networks
 calculate_networks(gisaid_clean, "data/publications/GISAID/")
@@ -61,12 +61,12 @@ f = plot_network(network = readRDS("data/CV19DP/country_net.rds"), "country", "C
 g = plot_network(network = readRDS("data/CV19DP/institution_net.rds"), type = "institution", di = "CV19DP") #2
 h = plot_network(network = readRDS("data/CV19DP/city_net.rds"), type = "city", di = "CV19DP") # 12
 
-ggarrange(a,e,b,f,c,g,d,h,nrow = 4,ncol = 2)
+ggarrange(p,ggarrange(a,e,b,f,c,g,d,h,nrow = 4,ncol = 2))
 
 ggsave(
   paste0("plots/network-plot.png"),
   dpi = 320,
-  width = 22,
-  height = 22,
+  width = 32,
+  height = 28,
   limitsize = FALSE
 )
