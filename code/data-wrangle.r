@@ -147,8 +147,7 @@ rm(gisaid,CV19DP,owid)
 
 owid_income_groups = read.csv("data-raw/owid/world-banks-income-groups.csv") %>%
   dplyr::filter(Year == 2021) %>%
-  dplyr::select(-c(Year)) %>%
-  dplyr::rename("country" = "Entity") %>%
+  dplyr::select(-c(Year,Entity)) %>%
   dplyr::rename("iso_code" = "Code")
 
 main_df = main_df %>% dplyr::filter(wy >= "20/01") %>%
