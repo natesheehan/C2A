@@ -30,8 +30,8 @@ if (reproducible == FALSE) {
   source("code/packages.r") # load packages
   source("code/owid-data.r") # fetch and clean our world in data covid cases
   source("code/data-wrangle.r") # merge submission data with epidemiological data
+  source("code/regression.r") # perform regression test for each database
   source("code/submission-plots.r") # plots for submissions
   source("code/summary-stats.r") # summary statistics for submissions
-  source("code/regression.r") # perform regression test for each database
   source("code/usage-network.r") # create and visualize adjacency matrices
 }

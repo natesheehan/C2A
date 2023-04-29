@@ -149,7 +149,7 @@ plot_df$f = factor(plot_df$continent,      # Reordering group factor levels
 c = ggplot(plot_df,
            aes(x = wy, y = iso_code, fill = countfactor)) +
   #add border white colour of line thickness 0.25
-  geom_bin_2d(colour = "white", size = 0.2) +
+  geom_tile(colour = "white", size = 0.2) +
   guides(fill = guide_legend(title = "Percent of sequenced cases \nper epidemiological week")) +
   labs(title = "GISAID",
        x = "Epidemiological Week",
@@ -240,7 +240,7 @@ plot_df$f = factor(plot_df$continent,      # Reordering group factor levels
 
 f = ggplot(plot_df , aes(x = wy, y = iso_code, fill = countfactor)) +
   #add border white colour of line thickness 0.25
-  geom_bin_2d(colour = "white", size = 0.2) +
+  geom_tile(colour = "white", size = 0.2) +
   theme(
     panel.spacing = unit(0, units = "cm"),
     # removes space between panels
@@ -281,17 +281,23 @@ f = ggplot(plot_df , aes(x = wy, y = iso_code, fill = countfactor)) +
   theme(plot.title = element_text(size=22)) +
   labs(x = "")
 
-ggarrange(ggarrange(b,a), ggarrange(p0,p1,widths = c(0.5,1)), f,c,common.legend = TRUE, legend="bottom", heights = c(0.3,0.7))
+
  # Plot and Save -----------------------------------------------------------
+
+# single plot
+# ggarrange(f,c,common.legend = TRUE, legend="bottom")
+
+# combo plot
+ggarrange(ggarrange(b,a), ggarrange(p0,p1,widths = c(0.5,1)), f,c,common.legend = TRUE, legend="bottom", heights = c(0.3,0.7))
+
 ggsave(
   paste0("plots/",
-         " Sequence-Landscape-test.png"),
+         "submissions-combo.png"),
   dpi = 320,
   width = 38,
   height = 38,
   limitsize = FALSE
 )
-
 
 rm(plot_df,c19_main_df,gis_main_df,sum_gis_c19,tree_df)
 rm(a,b,c,ena,e,f,percents_ena,percents_gis)
