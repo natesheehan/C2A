@@ -48,7 +48,7 @@ p0 = ggscatter(
   color = "black",
   cor.method = "kendall",
   xlab = "GISAID total submissions",
-  ylab = "ENA total submissions",
+  ylab = "CV19DP total submissions",
   title = "Global Kendall Correlation"
 )  + theme_pubclean()   + stat_cor(colour = "black",label.x = 1, p.accuracy = 0.001, r.accuracy = 0.01) + theme(title = element_text(size=18))
 

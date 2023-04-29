@@ -96,33 +96,6 @@ ggsave(
   limitsize = FALSE
 )
 
-# Temporal Submissions (Regions) ------------------------------------------
-
-# Sort data into weekly sums
-gis_main_df = main_df |>
-  filter(wy < "23/01") |>
-  group_by(wy,continent) |>
-  summarise(sum_gisaid = sum(GISAID.weekly.submissions)) |>
-  mutate(percentage_gis = sum_gisaid / sum(sum_gisaid))
-
-c19_main_df = main_df |>
-  filter(wy < "23/01") |>
-  group_by(wy,continent) |>
-  summarise(sum_cd19dp = sum(C19DP.weekly.submissions)) |>
-  mutate(percentage_c19 = sum_cd19dp / sum(sum_cd19dp))
-
-sum_gis_c19 = right_join(gis_main_df,c19_main_df)
-sum_gis_c19$t = as.numeric(stringr::str_remove(sum_gis_c19$wy, "/"))
-sum_gis_c19$f = factor(sum_gis_c19$continent,      # Reordering group factor levels
-                       levels = paste(unique(sum_gis_c19$continent)))
-
-# GISAID
-b = ggplot(sum_gis_c19, aes(x=t, y=(log10(sum_gisaid)), fill=f)) +
-  geom_smooth() + theme_pubclean() + coord_trans() + labs(title = "B)")
-
-# The covid-19 data portal
-e = ggplot(sum_gis_c19, aes(x=t, y=(sum_cd19dp), fill=f)) +
-  geom_smooth() + theme_landscape() + coord_trans() + labs(title = "E)")
 
 # Plot landscape ----------------------------------------------------------
 
@@ -308,15 +281,14 @@ f = ggplot(plot_df , aes(x = wy, y = iso_code, fill = countfactor)) +
   theme(plot.title = element_text(size=22)) +
   labs(x = "")
 
-ggarrange(f,c,common.legend = TRUE, legend="bottom")
-
-# Plot and Save -----------------------------------------------------------
+ggarrange(ggarrange(b,a), ggarrange(p0,p1,widths = c(0.5,1)), f,c,common.legend = TRUE, legend="bottom", heights = c(0.3,0.7))
+ # Plot and Save -----------------------------------------------------------
 ggsave(
   paste0("plots/",
-         " Sequence-Landscape.png"),
+         " Sequence-Landscape-test.png"),
   dpi = 320,
-  width = 22,
-  height = 32,
+  width = 38,
+  height = 38,
   limitsize = FALSE
 )
 

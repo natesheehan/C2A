@@ -153,7 +153,7 @@ owid_income_groups = read.csv("data-raw/owid/world-banks-income-groups.csv") %>%
 
 main_df = main_df %>% dplyr::filter(wy >= "20/01") %>%
   dplyr::filter(wy <= "23/01") %>%
-  dplyr::right_join(owid_income_groups)
+  dplyr::right_join(owid_income_groups, by = "iso_code")
 
 
 rm(owid_income_groups,cc,dum)
