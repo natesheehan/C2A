@@ -175,28 +175,28 @@ paste0("True (%): ",round(table(ena$perc > 5)[2]/(table(ena$perc > 5)[1] + table
 ena_main = ena  %>% filter(country != "Puerto Rico", country != "Guam", country != "Palau", country != "Tanzania",country != "Tanzania", country != "Gambia",
                            country != "Bhutan", country != "Comoros", country != "Seychelles", country != "Laos", country != "Lesotho", country != "Sierra Leone", country != "Benin", country != "Somalia") %>%
   filter(perc > 5)
-table(ena_main$country) |> as.data.frame() |> arrange(desc(Freq)) |> dplyr::mutate(`%` = Freq/147*100)  %>% head(20) %>% rename(country = Var1) %>%  inner_join(ppp)
+table(ena_main$country) |> as.data.frame() |> arrange(desc(Freq)) |> dplyr::mutate(`%` = Freq/157*100)  %>% head(20) %>% rename(country = Var1) %>%  inner_join(ppp)
 # country Freq        %     continent Income.classifications..World.Bank..2021..
-#         Hong Kong  158 107.48299          Asia                                High income
-# 2          Taiwan  158 107.48299          Asia                                High income
-# 3   Liechtenstein  124  84.35374        Europe                                High income
-# 4  United Kingdom  122  82.99320        Europe                                High income
-# 5     New Zealand  112  76.19048       Oceania                                High income
-# 6        Djibouti  110  74.82993        Africa                        Lower-middle income
-# 7         Iceland   87  59.18367        Europe                                High income
-# 8         Denmark   70  47.61905        Europe                                High income
-# 9     Switzerland   70  47.61905        Europe                                High income
-# 10       Slovakia   69  46.93878        Europe                                High income
-# 11       Cambodia   65  44.21769          Asia                        Lower-middle income
-# 12            USA   63  42.85714 North America                                High income
-# 13          Kenya   51  34.69388        Africa                        Lower-middle income
-# 14          Gabon   46  31.29252        Africa                        Upper-middle income
-# 15        Belarus   45  30.61224        Europe                        Upper-middle income
-# 16       Mongolia   44  29.93197          Asia                        Lower-middle income
-# 17          Syria   43  29.25170          Asia                                 Low income
-# 18       Suriname   42  28.57143 South America                        Upper-middle income
-# 19       Thailand   42  28.57143          Asia                        Upper-middle income
-# 20      Australia   41  27.89116       Oceania                                High income
+# 1       Hong Kong  158 100.63694          Asia                                High income
+# 2          Taiwan  158 100.63694          Asia                                High income
+# 3   Liechtenstein  124  78.98089        Europe                                High income
+# 4  United Kingdom  122  77.70701        Europe                                High income
+# 5     New Zealand  112  71.33758       Oceania                                High income
+# 6        Djibouti  110  70.06369        Africa                        Lower-middle income
+# 7         Iceland   87  55.41401        Europe                                High income
+# 8         Denmark   70  44.58599        Europe                                High income
+# 9     Switzerland   70  44.58599        Europe                                High income
+# 10       Slovakia   69  43.94904        Europe                                High income
+# 11       Cambodia   65  41.40127          Asia                        Lower-middle income
+# 12            USA   63  40.12739 North America                                High income
+# 13          Kenya   51  32.48408        Africa                        Lower-middle income
+# 14          Gabon   46  29.29936        Africa                        Upper-middle income
+# 15        Belarus   45  28.66242        Europe                        Upper-middle income
+# 16       Mongolia   44  28.02548          Asia                        Lower-middle income
+# 17          Syria   43  27.38854          Asia                                 Low income
+# 18       Suriname   42  26.75159 South America                        Upper-middle income
+# 19       Thailand   42  26.75159          Asia                        Upper-middle income
+# 20      Australia   41  26.11465       Oceania                                High income
 
 # What is the regional share of sequences?
 ena_main_date = ena %>% filter(wy == "23/01")
