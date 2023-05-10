@@ -285,14 +285,14 @@ f = ggplot(plot_df , aes(x = wy, y = iso_code, fill = countfactor)) +
  # Plot and Save -----------------------------------------------------------
 
 # single plot
-# ggarrange(f,c,common.legend = TRUE, legend="bottom")
+ggarrange(f,c,common.legend = TRUE, legend="bottom")
 
 # combo plot
 ggarrange(ggarrange(b,a), ggarrange(p0,p1,widths = c(0.5,1)), f,c,common.legend = TRUE, legend="bottom", heights = c(0.3,0.7))
 
 ggsave(
   paste0("plots/",
-         "submissions-combo.png"),
+         "submissions.png"),
   dpi = 320,
   width = 38,
   height = 38,

@@ -967,7 +967,7 @@ get_tc = function(data, name) {
 plot_ss_network = function(data2, data3) {
   oa_data = rbind(
                   get_oa(data2, "GISAID"),
-                  get_oa(data3, "ENA"))
+                  get_oa(data3, "CV19-DP"))
 
   oa_data$`Access Type` = stringr::str_remove_all(oa_data$`Access Type`, "ALL OA;") |> stringr::str_trim()
   oa_plot = ggplot(oa_data,
@@ -997,7 +997,7 @@ plot_ss_network = function(data2, data3) {
   # # # 3.4 Plot for publication countries collaboration per data-infrastrcuture
   pc_data = rbind(
                   get_pc(gisaid_res, "GISAID"),
-                  get_pc(ena_res, "ENA")) |>
+                  get_pc(ena_res, "CV19-DP")) |>
     arrange(desc(Articles)) |>
     pivot_longer(c(SCP, MCP)) |>
     mutate(value = as.numeric(value)) |>
@@ -1047,12 +1047,12 @@ plot_ss_network = function(data2, data3) {
 
   # Mean Citations ----------------------------------------------------------
   tc_data = rbind(get_tc(gisaid_res, "GISAID"),
-                  get_tc(ena_res, "ENA"))
+                  get_tc(ena_res, "CV19-DP"))
 
 
   loll = rbind(
     gisaid_clean |> mutate(DI = "GISAID"),
-    ena_clean |> mutate(DI = "ENA")
+    ena_clean |> mutate(DI = "CV19-DP")
   ) |>
     select(Publication.Date, TC, DI)
 
@@ -1093,7 +1093,7 @@ plot_ss_network = function(data2, data3) {
   # # # 3.5 Plot for temporal (per week) per data infrastrucure
   ll = rbind(
     gisaid_clean |> mutate(DI = "GISAID"),
-    ena_clean |> mutate(DI = "ENA")
+    ena_clean |> mutate(DI = "CV19-DP")
   ) |>
     select(Publication.Date, DI)
 
@@ -1322,7 +1322,7 @@ plot_network = function(network, type, di) {
       theme_pubclean() +
       theme(
         plot.title = element_text(
-          size = 10,
+          size = 18,
           hjust = 0
         ),
         # ^make title left-justified
@@ -1376,7 +1376,7 @@ plot_network = function(network, type, di) {
                  color = "red")  + theme_pubclean() +
       theme(
         plot.title = element_text(
-          size = 10,
+          size = 18,
           hjust = 0
         ),
         # ^make title left-justified
