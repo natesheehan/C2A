@@ -61,8 +61,9 @@ f = plot_network(network = readRDS("data/CV19DP/country_net.rds"), "country", "C
 g = plot_network(network = readRDS("data/CV19DP/institution_net.rds"), type = "institution", di = "CV19DP") #2
 h = plot_network(network = readRDS("data/CV19DP/city_net.rds"), type = "city", di = "CV19DP") # 12
 
-ggarrange(a,e,b,f,nrow = 4,ncol = 2,common.legend = TRUE, legend="bottom",
-          ggarrange(c,g,d,h,nrow = 4,ncol = 2,common.legend = TRUE, legend="bottom"))
+xo = ggarrange(a,e,b,f,nrow = 2,ncol = 2,common.legend = TRUE, legend="top")
+xi = ggarrange(c,g,d,h,nrow = 2,ncol = 2,common.legend = TRUE, legend="bottom")
+ggarrange(xo,xi,ncol = 1)
 
 ggsave(
   paste0("plots/network-plot.png"),
