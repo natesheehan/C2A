@@ -2,7 +2,7 @@
 
 ## Authors: 
 
-[Nathanael Sheehan](link to author 1's website), [Sabina Leonelli](link to author 2's website), [Federico Botta](link to author 2's website)
+Nathanael Sheehan, Sabina Leonelli and Federico Botta
 
 ## Abstract: 
 
