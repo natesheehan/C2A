@@ -54,7 +54,8 @@ The analysis of this work is full reproducible. However, before reproducing the 
 
 (1) first you must unzip the `/data-raw/submissions` folder
 (2) change `reproducible = FALSE` to `TRUE` in `build.r`
-(3) sit and watch, a full run should take around 10 minutes
+(3) sign up to GISAID and download the Clade/Lineage Variants (tsv) file from EPICov.
+(4) sit and watch, a full run should take around 10 minutes
 
 ## Citation
 
