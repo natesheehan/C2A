@@ -16,22 +16,42 @@
 ##
 ## ---------------------------
 
-textcol = "black"
+# packages
+package_list = c(
+  "ggplot2", # use for paths creation
+  "dplyr",
+  "janitor", # useful functions for cleaning imported data
+  "tidyr", # creating edges
+  "igraph", # for creating networks
+  "ggraph", # plotting networks
+  "stringr",
+  "tm",
+  "lubridate",
+  "countrycode",
+  "stringr",
+  "dplyr",
+  "ggplot2",
+  "hrbrthemes",
+  "purrr",
+  "cowplot",
+  "ggrepel",
+  "ggpubr",
+  "maps"
+
+)
+
+# INSTALL packages
+for (p in package_list) {
+  if (p %in% installed.packages() == FALSE) {
+    install.packages(p, dependencies = TRUE)
+  }
+  library(p, character.only = TRUE)
+}
+
 reproducible = FALSE
 
-if (reproducible == FALSE) {
-  print("okok lets get jazzy")
+if(reproducible == TRUE) {
   source("code/utils.r")
-  source("code/packages.r")
-  main_df = readRDS("data/main_df.rds")
-} else {
-  print("okok lets get reproducible - this might take a while... ")
-  source("code/utils.r") # utility functions used throughout the analysis, these functions are well documented are server as a good reference for understanding the nitty gritty details
-  source("code/packages.r") # load packages
-  source("code/owid-data.r") # fetch and clean our world in data covid cases
-  source("code/data-wrangle.r") # merge submission data with epidemiological data
-  source("code/regression.r") # perform regression test for each database
-  source("code/submission-plots.r") # plots for submissions
-  source("code/summary-stats.r") # summary statistics for submissions
-  source("code/usage-network.r") # create and visualize adjacency matrices
+  source("code/data.r")
+  source("code/workflow.r")
 }
