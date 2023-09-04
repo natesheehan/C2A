@@ -966,8 +966,8 @@ get_tc = function(data, name) {
 #'
 plot_ss_network = function(data2, data3) {
   oa_data = rbind(
-                  get_oa(data2, "GISAID"),
-                  get_oa(data3, "CV19-DP"))
+                  get_oa(gisaid_clean, "GISAID"),
+                  get_oa(ena_clean, "CV19-DP"))
 
   oa_data$`Access Type` = stringr::str_remove_all(oa_data$`Access Type`, "ALL OA;") |> stringr::str_trim()
   oa_plot = ggplot(oa_data,
@@ -1101,7 +1101,7 @@ plot_ss_network = function(data2, data3) {
     na.omit()
 
   w = v |> mutate(week = week(lubridate::as_date(Publication.Date))) |>  # create a new column 'week' based on publication date
-    group_by(week, DI) |>  # group the data by week
+    group_by(week, DI, Publication.Date) |>  # group the data by week
     summarise(total_publications = n())
 
   time_plot = ggplot(w, aes(
