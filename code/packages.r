@@ -19,23 +19,42 @@
 ##                         Set up vars                         ##
 #################################################################
 
-pkgs = c(
-  "tidyverse",
-  "bibliometrix",
-  "tidyr",
+
+# packages
+package_list = c(
+  "ggplot2", # use for paths creation
+  "dplyr",
+  "janitor", # useful functions for cleaning imported data
+  "tidyr", # creating edges
+  "igraph", # for creating networks
+  "ggraph", # plotting networks
   "stringr",
-  "tidytext",
-  "quanteda",
-  "treemapify",
-  "stm",
+  "tm",
   "lubridate",
+  "countrycode",
+  "stringr",
+  "dplyr",
+  "ggplot2",
+  "hrbrthemes",
+  "purrr",
+  "cowplot",
+  "ggrepel",
   "ggpubr",
-  "expm",
-  "igraph",
+  "maps",
+  "data.table",
+  "rnaturalearth",
+  "rnaturalearthdata",
   "sf",
-  "maps"
+  "viridis"
+
 )
 
+# INSTALL packages
+for (p in package_list) {
+  if (p %in% installed.packages() == FALSE) {
+    install.packages(p, dependencies = TRUE)
+  }
+  library(p, character.only = TRUE)
+}
+
 options(scipen = 999) # Turn off scientific notation
-pacman(pkgs)
-rm(pkgs)

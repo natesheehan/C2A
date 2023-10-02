@@ -1,15 +1,40 @@
 # DATA
-ddjb = read.csv("../BIB DATA/DDJB/CSV/Dimensions-Publication-2023-08-23_13-20-29.csv",
+ddbj = read.csv("data-raw/ddjb-BIB/Dimensions-Publication-2023-09-04_13-00-55.csv",
                 skip = 1)#
-gisaid = read.csv("../BIB DATA/GISAID/CSV/Dimensions-Publication-2023-08-23_13-20-00.csv",
+gisaid = read.csv("data-raw/GISAID-BIB/Dimensions-Publication-2023-09-04_12-44-03.csv",
                   skip = 1)
-ncbi = read.csv("../BIB DATA/NCBI/CSV/Dimensions-Publication-2023-08-23_13-20-37.csv",
+ncbi = read.csv("data-raw/NCBI-BIB/Dimensions-Publication-2023-09-04_12-44-47.csv",
                 skip = 1)
-ena = read.csv("../BIB DATA/ENA/CSV/Dimensions-Publication-2023-08-23_13-20-19.csv",
+ena = read.csv("data-raw/ENA-BIB/Dimensions-Publication-2023-09-04_12-50-57.csv",
                skip = 1)
 
+class = read.csv("data-raw/CLASS.csv")
 
-ddjb.refs = read.csv("../BIB DATA/ddjb/bib CSV/Dimensions-Publication-2023-08-24_13-58-27.csv",
-                     skip = 1)
+# Apply function to the Authors column
+gisaid$Authors <- sapply(gisaid$Authors, clean_duplicates)
+ena$Authors <- sapply(ena$Authors, clean_duplicates)
+ddbj$Authors <- sapply(ddbj$Authors, clean_duplicates)
+ncbi$Authors <- sapply(ncbi$Authors, clean_duplicates)
 
-class = read.csv("../CLASS.csv")
+gisaid_clean = remove_duplicate(gisaid)
+ncbi_clean = remove_duplicate(ncbi)
+ddbj_clean = remove_duplicate(ddbj)
+ena_clean = remove_duplicate(ena)
+
+gisaid_clean = remove_empty_strings(gisaid_clean)
+ncbi_clean = remove_empty_strings(ncbi_clean)
+ddbj_clean = remove_empty_strings(ddbj_clean)
+ena_clean = remove_empty_strings(ena_clean)
+
+gisaid = gisaid_clean
+ena = ena_clean
+ncbi = ncbi_clean
+ddbj = ddbj_clean
+
+rm(gisaid_clean,ena_clean,ddbj_clean,ncbi_clean)
+
+
+
+
+
+

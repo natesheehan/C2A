@@ -1,0 +1,7244 @@
+Source,Target,weight
+United Kingdom, India,32
+ India, India,1878
+Indonesia, Indonesia,37
+Sri Lanka, Malaysia,1
+Sri Lanka, Sri Lanka,3
+ Malaysia, Sri Lanka,1
+United Kingdom, Singapore,26
+United Kingdom, Australia,55
+United Kingdom, France,28
+ Singapore, Singapore,899
+ Singapore, Australia,67
+ Singapore, France,18
+ Australia, France,40
+ Australia, Australia,1228
+ Singapore, Australia,45
+ France, France,2927
+ Australia, France,47
+ Singapore, France,34
+Bangladesh, Japan,8
+ Malaysia,Malaysia,44
+ Malaysia, Malaysia,53
+Spain, Spain,804
+ Spain, Spain,3079
+Netherlands, Netherlands,259
+United Kingdom, Uruguay,6
+United Kingdom, Chile,2
+ Uruguay, Chile,8
+ Uruguay, Uruguay,47
+ Uruguay, Chile,3
+ France,France,1120
+Germany, Germany,938
+ India,India,973
+Japan, Japan,770
+ Japan, Japan,1675
+Brazil, Brazil,692
+ Brazil, Brazil,1609
+Nigeria, Egypt,1
+United States, Taiwan,34
+ Taiwan, Taiwan,878
+Norway, Norway,43
+ Norway, Norway,47
+Italy, Lebanon,1
+China, China,3005
+ Spain,Algeria,1
+United States, United States,4372
+Iraq, Italy,1
+Cameroon, Senegal,4
+Cameroon, Cameroon,1
+ Senegal, Cameroon,7
+Bangladesh, Bangladesh,172
+Bangladesh, United Kingdom,20
+ Bangladesh, United Kingdom,31
+ Bangladesh, Bangladesh,152
+ Bangladesh, United Kingdom,24
+Turkey, Turkey,100
+ Brazil,Uruguay,15
+ United Kingdom,Uruguay,4
+ Uruguay,Uruguay,33
+ Chile,Uruguay,2
+ Brazil, United Kingdom,434
+ Uruguay, Brazil,10
+ Chile, Brazil,4
+ Uruguay, United Kingdom,5
+ Chile, United Kingdom,19
+ Malaysia,Ecuador,1
+ Japan,Ireland,10
+Canada, United States,116
+Canada, Canada,642
+ United States, Canada,486
+ United States, United States,12115
+ United States, Canada,453
+ Canada, Canada,1427
+ United States,Armenia,2
+Armenia, Sweden,2
+Armenia, Armenia,2
+ United States, Sweden,80
+ United States, Armenia,2
+ United States, Sweden,116
+ Sweden, Armenia,1
+India, United Kingdom,19
+ India, United Kingdom,114
+ Chile,United States,6
+ Brazil,United States,91
+ Chile, Brazil,1
+United States, South Korea,18
+ United States, South Korea,41
+Thailand, Thailand,119
+ Thailand, Thailand,176
+ United Kingdom,Palestinian Territory,2
+Palestinian Territory, Palestinian Territory,3
+ United Kingdom, Palestinian Territory,1
+Mexico, Mexico,156
+ United Kingdom,Mexico,16
+ Mexico, Mexico,304
+ United Kingdom, Mexico,38
+ United Kingdom, Mexico,40
+Lebanon, Lebanon,13
+ France,Lebanon,5
+ Lebanon, Lebanon,20
+ France, Lebanon,9
+ Germany, Germany,2180
+Russia, Russia,214
+ Canada,Egypt,3
+Egypt, Egypt,96
+ United States,Egypt,31
+ Canada, Egypt,10
+ United States, Egypt,123
+ Canada, Egypt,9
+ Egypt, Egypt,126
+ United States, Egypt,96
+South Korea, South Korea,234
+India, United States,63
+India, Russia,6
+India, United Arab Emirates,3
+India, Japan,13
+ United States, Russia,68
+ United States, United Arab Emirates,13
+ Japan, United States,240
+ Russia, United Arab Emirates,1
+ Japan, Russia,2
+ Japan, United Arab Emirates,4
+ United Kingdom,Egypt,9
+ Lebanon,Egypt,2
+ United Kingdom, United States,1338
+ United States, Lebanon,10
+ United Kingdom, Lebanon,24
+ United States,Colombia,28
+Colombia, Venezuela,6
+ United States, Venezuela,3
+Ireland, Bahrain,2
+Armenia, Germany,1
+Iraq, Iraq,23
+ Iraq, Iraq,19
+ Australia,Bangladesh,19
+Bangladesh, United States,22
+ Australia, Bangladesh,45
+ Bangladesh, United States,51
+ Australia, Bangladesh,21
+ Australia, United States,280
+Uganda, Uganda,8
+Switzerland, Switzerland,275
+ United Kingdom,Switzerland,69
+ United Kingdom, Switzerland,325
+ Switzerland, Switzerland,741
+ United Kingdom, Switzerland,438
+ China, China,5042
+Iran, Iran,240
+ Iran, Iran,1116
+ Bangladesh, United States,37
+ Australia, United States,305
+ Australia,Australia,554
+Croatia, Croatia,21
+Croatia, Montenegro,1
+ Croatia, Montenegro,1
+United Kingdom, United States,263
+United Kingdom, Austria,5
+United Kingdom, United Kingdom,1895
+ United States, Austria,86
+ United Kingdom, Austria,24
+ Australia, Austria,14
+ United States, Austria,85
+ United Kingdom, United Kingdom,17787
+ Australia, United Kingdom,267
+ United Kingdom, United States,1233
+Poland, Poland,98
+ Poland, Poland,186
+ United States,Dominican Republic,2
+Italy, Italy,928
+ Italy, Italy,1897
+Philippines, Philippines,8
+ United Kingdom,Philippines,2
+ United Kingdom, Philippines,14
+ Philippines, Philippines,16
+ United Kingdom, Philippines,14
+China, United States,207
+ United States, China,340
+ United States, China,447
+India, South Africa,7
+South Africa, South Africa,356
+South Africa, Ivory Coast,2
+ Germany,South Africa,27
+ South Africa, Ivory Coast,16
+ Germany, South Africa,166
+ Germany, Ivory Coast,8
+ Netherlands, Netherlands,585
+ United States,Mexico,17
+ United States, Mexico,59
+Iran, Netherlands,10
+ Iran, Netherlands,25
+ Iran, Netherlands,22
+Sri Lanka, United States,2
+ United States, Sri Lanka,4
+ Taiwan,Taiwan,337
+United States, Canada,120
+Netherlands, Mexico,3
+ France,Netherlands,9
+ France, Mexico,12
+ Mexico, Netherlands,7
+ France, Netherlands,102
+ United States,Switzerland,91
+ United States, Switzerland,413
+ United States, Switzerland,425
+ Sweden,Sweden,34
+Nigeria, Canada,10
+Nigeria, Nigeria,89
+ Canada, Nigeria,23
+ Nigeria, Nigeria,371
+ China,Iran,7
+Iran, Nigeria,2
+ China, Nigeria,13
+Bangladesh, Germany,3
+ Bangladesh, Germany,1
+Latvia, Latvia,5
+ Latvia, Latvia,10
+United States, China,147
+United States, United Kingdom,173
+Switzerland, South Africa,26
+Switzerland, Netherlands,12
+Switzerland, Trinidad and Tobago,2
+ Australia,Switzerland,22
+Switzerland, Kenya,2
+ Singapore,Switzerland,2
+ Brazil,Switzerland,15
+Switzerland, Belgium,8
+ India,Switzerland,7
+Switzerland, Denmark,3
+Switzerland, Bulgaria,1
+ Sweden,Switzerland,3
+ South Africa, Netherlands,18
+ South Africa, South Africa,1360
+ South Africa, Trinidad and Tobago,3
+ Australia, South Africa,55
+ United Kingdom, South Africa,555
+ South Africa, Kenya,41
+ Singapore, South Africa,30
+ United States, South Africa,730
+ Brazil, South Africa,218
+ South Africa, Belgium,58
+ India, South Africa,50
+ South Africa, Denmark,9
+ South Africa, Bulgaria,4
+ Sweden, South Africa,21
+ South Africa, Netherlands,19
+ Netherlands, Trinidad and Tobago,3
+ Australia, Netherlands,39
+ United Kingdom, Netherlands,105
+ Netherlands, Kenya,3
+ Singapore, Netherlands,17
+ United States, Netherlands,212
+ Brazil, Netherlands,14
+ Netherlands, Belgium,19
+ India, Netherlands,10
+ Netherlands, Denmark,13
+ Netherlands, Bulgaria,2
+ Sweden, Netherlands,18
+ Australia, Trinidad and Tobago,10
+ United Kingdom, Trinidad and Tobago,14
+ Trinidad and Tobago, Kenya,3
+ Singapore, Trinidad and Tobago,4
+ United States, Trinidad and Tobago,13
+ Brazil, Trinidad and Tobago,11
+ Trinidad and Tobago, Belgium,6
+ India, Trinidad and Tobago,2
+ Trinidad and Tobago, Denmark,1
+ Trinidad and Tobago, Bulgaria,2
+ South Africa, Trinidad and Tobago,5
+ Netherlands, Trinidad and Tobago,4
+ Sweden, Trinidad and Tobago,2
+ Australia, United Kingdom,228
+ Australia, Kenya,7
+ Australia, Brazil,48
+ Australia, Belgium,16
+ India, Australia,37
+ Australia, Denmark,13
+ Australia, Bulgaria,6
+ Australia, South Africa,49
+ Australia, Netherlands,48
+ Australia, Sweden,28
+ United Kingdom, Kenya,70
+ Singapore, United Kingdom,111
+ Brazil, United Kingdom,341
+ United Kingdom, Belgium,177
+ United Kingdom, Denmark,50
+ United Kingdom, Bulgaria,6
+ United Kingdom, South Africa,500
+ United Kingdom, Netherlands,126
+ United Kingdom, Sweden,48
+ Singapore, Kenya,7
+ United States, Kenya,104
+ Brazil, Kenya,27
+ Kenya, Belgium,12
+ India, Kenya,13
+ Kenya, Denmark,7
+ Australia, Kenya,10
+ United Kingdom, Kenya,73
+ Kenya, Bulgaria,3
+ South Africa, Kenya,63
+ Netherlands, Kenya,5
+ Sweden, Kenya,4
+ Kenya, Kenya,59
+ Singapore, United States,148
+ Singapore, Brazil,18
+ Singapore, Belgium,4
+ India, Singapore,2
+ Singapore, Denmark,4
+ Singapore, United Kingdom,93
+ Singapore, Bulgaria,4
+ Singapore, South Africa,20
+ Singapore, Netherlands,9
+ Singapore, Sweden,18
+ Singapore, Kenya,3
+ Brazil, United States,519
+ United States, Belgium,339
+ Singapore, United States,205
+ India, United States,188
+ United States, Denmark,41
+ United States, Bulgaria,12
+ United States, South Africa,684
+ United States, Netherlands,198
+ United States, Kenya,74
+ Brazil, Belgium,83
+ Brazil, United States,501
+ Singapore, Brazil,16
+ India, Brazil,22
+ Brazil, Denmark,15
+ Australia, Brazil,46
+ Brazil, Bulgaria,13
+ Brazil, South Africa,252
+ Brazil, Netherlands,14
+ Brazil, Sweden,12
+ Brazil, Kenya,18
+ United States, Belgium,316
+ Brazil, Belgium,63
+ Singapore, Belgium,5
+ India, Belgium,4
+ Belgium, Denmark,16
+ Australia, Belgium,13
+ United Kingdom, Belgium,220
+ Belgium, Belgium,618
+ Belgium, Bulgaria,4
+ South Africa, Belgium,46
+ Netherlands, Belgium,35
+ Sweden, Belgium,15
+ Kenya, Belgium,11
+ India, Denmark,13
+ India, Australia,45
+ India, United States,293
+ India, Brazil,26
+ India, United Kingdom,119
+ India, Belgium,6
+ India, Bulgaria,2
+ India, South Africa,56
+ India, Netherlands,20
+ India, Sweden,20
+ India, Kenya,10
+ Australia, Denmark,19
+ United States, Denmark,68
+ Brazil, Denmark,18
+ United Kingdom, Denmark,72
+ Belgium, Denmark,14
+ Denmark, Bulgaria,2
+ South Africa, Denmark,10
+ Netherlands, Denmark,19
+ Sweden, Denmark,12
+ Kenya, Denmark,5
+ South Africa, Bulgaria,2
+ Netherlands, Bulgaria,1
+ Sweden, Bulgaria,1
+ Brazil, Bulgaria,5
+ Kenya, Bulgaria,1
+ Brazil, Sweden,10
+ Sweden, Kenya,4
+Saudi Arabia, Saudi Arabia,99
+Netherlands, Poland,2
+ India,United States,89
+Japan, Indonesia,6
+ Indonesia, Indonesia,21
+ Belgium,Belgium,241
+ United States,South Africa,135
+ United Kingdom,South Africa,85
+Netherlands, Iran,18
+Netherlands, United States,42
+ United States, Iran,71
+ United States, Iran,103
+ South Korea, South Korea,354
+United States, Saudi Arabia,15
+ Malaysia,United States,6
+ United States, Saudi Arabia,78
+ Malaysia, United States,4
+ United States, Saudi Arabia,110
+ Malaysia, Saudi Arabia,2
+United States, Colombia,33
+ United States,Iran,23
+Qatar, Qatar,28
+ Qatar, Qatar,68
+ Uruguay,Australia,3
+Colombia, Colombia,65
+ Colombia, Colombia,68
+ France,French Guiana,3
+French Guiana, French Guiana,1
+ France, French Guiana,6
+ Germany,Austria,11
+ Austria,Austria,89
+ United Kingdom,Austria,3
+ Germany, Austria,45
+ United Kingdom, Germany,301
+ Austria, Austria,177
+ United Kingdom, Austria,20
+ Singapore,Taiwan,2
+ Singapore, Taiwan,2
+ Singapore, Taiwan,6
+Netherlands, Denmark,4
+Netherlands, Norway,2
+ Norway, Netherlands,16
+ Norway, Denmark,2
+New Zealand, New Zealand,50
+ United States,New Zealand,14
+ New Zealand, New Zealand,80
+ United States, New Zealand,59
+ Australia,Iran,12
+ Australia, Iran,13
+ Bangladesh,Australia,17
+ United States,Australia,101
+Portugal, Portugal,43
+Pakistan, Pakistan,57
+Greece, Greece,73
+ United Kingdom,Greece,9
+ Greece, Greece,105
+ United Kingdom, Greece,46
+ South Korea,Pakistan,1
+ Pakistan, Pakistan,104
+ South Korea, Pakistan,4
+ South Korea, Pakistan,2
+Tunisia, Tunisia,19
+Ecuador, Ecuador,23
+Costa Rica, Costa Rica,12
+ Germany,Costa Rica,5
+ Costa Rica, Costa Rica,6
+ Germany, Costa Rica,7
+ United States,Russia,13
+United Kingdom, Spain,19
+ Spain, United Kingdom,84
+Turkey, Italy,9
+ Sweden,Croatia,1
+ Sweden, Croatia,4
+ Croatia, Croatia,26
+ Sweden, Croatia,4
+United States, Iran,21
+Japan, United Kingdom,31
+Brazil, Italy,35
+Brazil, United States,114
+ Brazil, Italy,113
+ United States, Italy,322
+ United States, Italy,325
+United States, Argentina,17
+ United States, Argentina,52
+ United States,Taiwan,29
+ Taiwan, United States,59
+Italy, Switzerland,21
+ United States, Lebanon,15
+ Uruguay,Brazil,2
+ Uruguay, Brazil,10
+Bosnia and Herzegovina, Bosnia and Herzegovina,15
+ Bosnia and Herzegovina, Bosnia and Herzegovina,28
+United Kingdom, Saint Lucia,1
+United Kingdom, Jamaica,1
+United Kingdom, Trinidad and Tobago,3
+United Kingdom, Barbados,1
+United Kingdom, Brazil,118
+United Kingdom, Bahamas,1
+ Saint Lucia, Jamaica,1
+ Trinidad and Tobago, Saint Lucia,3
+ Saint Lucia, Barbados,1
+ United Kingdom, Saint Lucia,3
+ Brazil, Saint Lucia,1
+ Saint Lucia, Bahamas,1
+ Trinidad and Tobago, Jamaica,3
+ Jamaica, Barbados,1
+ United Kingdom, Jamaica,3
+ Brazil, Jamaica,1
+ Jamaica, Bahamas,1
+ Trinidad and Tobago, Trinidad and Tobago,3
+ Trinidad and Tobago, Barbados,2
+ Trinidad and Tobago, Bahamas,2
+ United Kingdom, Barbados,3
+ Brazil, Barbados,1
+ Barbados, Bahamas,1
+ Trinidad and Tobago, Barbados,1
+ United Kingdom, Bahamas,2
+ United Kingdom, Trinidad and Tobago,7
+ Brazil, Bahamas,1
+ Brazil, Trinidad and Tobago,3
+ United Kingdom, Bahamas,1
+ Trinidad and Tobago, Bahamas,1
+ Singapore,Thailand,14
+ Singapore, Thailand,12
+ Singapore, Thailand,16
+ Singapore,Singapore,297
+ United Kingdom,Singapore,23
+United States, Italy,110
+ United Kingdom, Canada,231
+ United Kingdom, Italy,141
+ Canada, Italy,45
+ China,Pakistan,27
+ China, Pakistan,34
+United Kingdom, Greece,11
+ Malaysia,Pakistan,2
+China, Belgium,5
+China, United Kingdom,62
+ United Kingdom, China,155
+ United Kingdom, China,164
+Peru, Peru,27
+ Brazil,Peru,5
+ Peru, Peru,26
+ Brazil, Peru,9
+Netherlands, Italy,11
+ Italy, Netherlands,32
+ Brazil,Italy,45
+ Brazil, Italy,118
+ Switzerland, Netherlands,40
+China, Togo,1
+Spain, Austria,3
+ Spain, Austria,27
+Italy, Ethiopia,3
+ Ethiopia, Ethiopia,11
+ Italy, Ethiopia,4
+China, Saudi Arabia,8
+China, Pakistan,33
+ Saudi Arabia, Pakistan,28
+ China, Saudi Arabia,29
+ United States, Pakistan,30
+ China, Pakistan,32
+China, Lebanon,2
+ Lebanon, Saudi Arabia,4
+ Lebanon, Pakistan,6
+India, Poland,8
+ India, Poland,9
+ India, Poland,11
+Iraq, Finland,2
+ Iraq, Finland,1
+Brazil, Kenya,2
+ Australia,Brazil,11
+Brazil, Denmark,2
+ India,Brazil,4
+Brazil, South Africa,42
+Brazil, Trinidad and Tobago,1
+Brazil, Switzerland,9
+Brazil, Belgium,9
+ Singapore,Brazil,5
+Brazil, United Kingdom,62
+Brazil, Lithuania,1
+Brazil, Netherlands,3
+Brazil, Israel,1
+Brazil, Bulgaria,2
+ Trinidad and Tobago, Kenya,3
+ Switzerland, Kenya,19
+ Kenya, Lithuania,2
+ Kenya, Israel,2
+ Australia, Trinidad and Tobago,3
+ Australia, Switzerland,66
+ Australia, Lithuania,2
+ Australia, Israel,6
+ United States, Trinidad and Tobago,7
+ United States, Lithuania,2
+ United States, Israel,86
+ India, Denmark,13
+ Trinidad and Tobago, Denmark,1
+ Switzerland, Denmark,15
+ Singapore, Denmark,6
+ Denmark, Lithuania,7
+ Denmark, Israel,1
+ India, Trinidad and Tobago,4
+ India, Switzerland,14
+ India, Singapore,6
+ India, Lithuania,1
+ India, Israel,7
+ Brazil, Switzerland,35
+ Brazil, Lithuania,3
+ Brazil, Israel,9
+ Switzerland, South Africa,106
+ South Africa, Lithuania,2
+ South Africa, Israel,14
+ Switzerland, Trinidad and Tobago,2
+ Trinidad and Tobago, Lithuania,1
+ Trinidad and Tobago, Israel,2
+ Brazil, Switzerland,44
+ Switzerland, Belgium,42
+ Singapore, Switzerland,23
+ Switzerland, South Africa,101
+ Switzerland, Lithuania,4
+ Australia, Switzerland,67
+ Switzerland, Israel,1
+ Switzerland, Bulgaria,3
+ Belgium, Lithuania,11
+ Belgium, Israel,4
+ Singapore, Lithuania,1
+ Singapore, Israel,2
+ United Kingdom, Lithuania,3
+ United Kingdom, Israel,48
+ Brazil, Lithuania,2
+ Australia, Lithuania,1
+ United States, Lithuania,2
+ Belgium, Lithuania,13
+ Netherlands, Lithuania,4
+ United Kingdom, Lithuania,9
+ Singapore, Lithuania,1
+ Lithuania, Israel,1
+ Bulgaria, Lithuania,1
+ South Africa, Lithuania,1
+ Netherlands, Israel,7
+ Bulgaria, Israel,1
+ South Africa, Israel,27
+Italy, Turkey,7
+ Spain,Italy,17
+Italy, United Kingdom,60
+ Turkey, Turkey,184
+ Spain, Turkey,11
+ United Kingdom, Turkey,18
+Italy, Iran,4
+Japan, Saudi Arabia,3
+ Japan, Saudi Arabia,16
+ Singapore,China,26
+China, Indonesia,2
+ Singapore, China,59
+ Singapore, Indonesia,2
+ China, Indonesia,4
+ China, Indonesia,5
+Nigeria, Ghana,2
+Nigeria, United States,21
+Nigeria, South Africa,7
+ Nigeria, Ghana,65
+ United States, Nigeria,232
+ South Africa, Nigeria,147
+ Nigeria, Ghana,58
+ United States, Ghana,67
+ South Africa, Ghana,59
+Kuwait, Kuwait,8
+ Kuwait, Kuwait,3
+Spain, Switzerland,4
+ Australia,Spain,4
+ Spain, Switzerland,78
+ Australia, Spain,84
+ Spain, Switzerland,43
+ Australia, Spain,48
+ United States, New Zealand,73
+ India,South Korea,29
+Germany, China,18
+Uganda, Belgium,3
+Uganda, South Korea,1
+ Belgium, South Korea,3
+ Belgium, Uganda,6
+ Belgium, South Korea,2
+ South Korea, Uganda,2
+ Uganda, Uganda,25
+ Belgium, Uganda,2
+ France,Senegal,3
+ Senegal,Senegal,1
+ France, Senegal,11
+ Israel,Israel,177
+North Macedonia, North Macedonia,2
+Germany, Denmark,6
+ Denmark,Singapore,1
+ Switzerland,Singapore,2
+ Sweden,Singapore,4
+ Russia,Singapore,2
+ Russia, Denmark,1
+ United Kingdom, Russia,15
+ Singapore, Switzerland,6
+ Singapore, Russia,5
+ Sweden, Switzerland,16
+ Russia, Switzerland,13
+ Sweden, Russia,2
+ United States, South Korea,25
+ United States,Israel,20
+Germany, Italy,34
+Germany, Saudi Arabia,4
+ Italy, Saudi Arabia,27
+ Italy, Saudi Arabia,22
+ China,Australia,34
+ Canada,Kazakhstan,7
+Kazakhstan, Kazakhstan,6
+ Canada, Kazakhstan,6
+ Canada, Kazakhstan,5
+ Kazakhstan, Kazakhstan,1
+Netherlands, Uganda,1
+Netherlands, United Kingdom,26
+ United Kingdom, Uganda,41
+Italy, United States,80
+ Spain,India,4
+China, Canada,31
+ China,Cambodia,2
+Cambodia, Cambodia,3
+ Australia,Cambodia,1
+ China, Cambodia,3
+ Australia, China,78
+ Australia, Cambodia,2
+ China, Cambodia,1
+ Cambodia, Cambodia,6
+ Australia, China,108
+ Australia, Cambodia,2
+Canada, Morocco,1
+ United States, Morocco,25
+India, Mexico,5
+ India, Mexico,10
+ India, Mexico,13
+ Taiwan,South Korea,2
+ India, Taiwan,14
+ India, Taiwan,8
+Hungary, Hungary,23
+ Hungary, Hungary,29
+ Germany,Belgium,15
+ Germany, Belgium,41
+Ireland, Ireland,20
+ Ireland, Ireland,27
+ France,Vietnam,6
+ Brazil,Belgium,5
+ Sweden,Denmark,1
+Czechia, Czechia,27
+ Czechia, Czechia,38
+ France,Germany,13
+Belgium, Lithuania,6
+ Italy,Belgium,14
+ Sweden,Belgium,9
+ Italy, Belgium,42
+ Italy, Lithuania,4
+ Sweden, Lithuania,2
+ Italy, Belgium,44
+ Sweden, Italy,26
+ Sweden, Belgium,15
+ United Kingdom, Italy,174
+United States, Ethiopia,5
+United States, Kenya,8
+United States, South Africa,87
+ Kenya, Ethiopia,19
+ South Africa, Ethiopia,57
+ Kenya, Ethiopia,13
+ South Africa, Ethiopia,36
+China, South Korea,8
+ China, South Korea,12
+ China, South Korea,4
+India, South Korea,12
+India, Taiwan,6
+ India, South Korea,9
+ Taiwan, South Korea,3
+ Brazil,China,3
+China, Russia,11
+ Brazil, China,8
+ Russia, China,28
+ Brazil, Russia,8
+ Brazil, China,9
+ Russia, China,20
+ Russia, Russia,321
+ United Kingdom,Denmark,31
+ United Kingdom,Colombia,7
+Colombia, New Zealand,3
+ United Kingdom, Colombia,11
+ United Kingdom, New Zealand,56
+ United States, Colombia,39
+ Colombia, New Zealand,4
+ United States, Colombia,60
+ Colombia, New Zealand,1
+Brazil, New Zealand,2
+Brazil, Peru,10
+ Brazil, New Zealand,10
+ Brazil, Peru,12
+ New Zealand, Peru,2
+Italy, Saudi Arabia,4
+ United Kingdom, Saudi Arabia,59
+Saudi Arabia, Pakistan,19
+Saudi Arabia, Indonesia,6
+ Saudi Arabia, Saudi Arabia,184
+ Indonesia, Saudi Arabia,27
+ Saudi Arabia, Pakistan,27
+ Indonesia, Pakistan,3
+ Bangladesh, Germany,4
+United States, Portugal,10
+ United States, Portugal,72
+ Japan,Cambodia,3
+Poland, Finland,5
+ Poland, Finland,4
+Russia, China,6
+ Russia,Jordan,1
+Jordan, Jordan,21
+ Iraq,Jordan,1
+ Egypt,Jordan,1
+ United States,Jordan,9
+ Russia, Jordan,5
+ Russia, Iraq,1
+ Egypt, Russia,3
+ United States, Russia,37
+ Jordan, Jordan,11
+ Iraq, Jordan,2
+ Egypt, Jordan,9
+ United States, Jordan,23
+ Egypt, Iraq,2
+ United States, Iraq,2
+ Iraq, Jordan,2
+ Egypt, Jordan,12
+ United States, Jordan,10
+Turkey, Cyprus,3
+ Cyprus, Cyprus,13
+United Kingdom, Pakistan,3
+ United Kingdom, Pakistan,15
+ Colombia,Venezuela,4
+ United States,Venezuela,5
+Lebanon, Saudi Arabia,3
+ Lebanon, Saudi Arabia,2
+ France,Burkina Faso,4
+Burkina Faso, Burkina Faso,5
+Burkina Faso, Gambia,1
+ Germany,Burkina Faso,1
+ France, Burkina Faso,16
+ France, Gambia,5
+ France, Germany,134
+ Burkina Faso, Gambia,1
+ Germany, Burkina Faso,5
+ France, Burkina Faso,8
+ Burkina Faso, Burkina Faso,6
+ Germany, Gambia,8
+ France, Gambia,4
+ Burkina Faso, Gambia,5
+ France, Germany,92
+ Germany, Burkina Faso,9
+ Israel, Israel,406
+Germany, United States,88
+ United States, Germany,468
+ United States,Hungary,2
+ Poland,Hungary,2
+ United States, Hungary,18
+ Poland, Hungary,5
+ United States, Hungary,8
+ United States, Poland,14
+ Poland, Hungary,2
+Japan, United States,63
+ Japan, United States,309
+United States, Indonesia,4
+ Spain, Italy,68
+ Switzerland, Italy,69
+China, Netherlands,11
+ China, Netherlands,31
+ Russia, United Arab Emirates,1
+ Egypt,Saudi Arabia,23
+Germany, United Kingdom,51
+ United States,Portugal,10
+ India, South Korea,20
+Italy, Canada,7
+ Canada, Italy,73
+United Kingdom, South Africa,79
+United Kingdom, Gibraltar,2
+ United Kingdom, Gibraltar,7
+ South Africa, Gibraltar,1
+ United Kingdom, Gibraltar,8
+ United Kingdom, Egypt,71
+ Brazil,South Africa,34
+ Brazil, Germany,33
+ United Kingdom, Germany,268
+ United States,South Korea,18
+ Sweden,Finland,3
+ Finland,Finland,59
+ Poland,Finland,1
+ Sweden, Finland,10
+ Sweden, Poland,3
+Germany, Iran,2
+United States, Switzerland,97
+ Switzerland, China,45
+Slovakia, Slovakia,32
+ Slovakia, Slovakia,41
+ Morocco,Morocco,30
+ Finland, Finland,62
+ Sweden, Finland,8
+Uruguay, United States,10
+ Japan,Uruguay,2
+ Japan, Brazil,17
+India, Saudi Arabia,14
+ India, Saudi Arabia,68
+ Iraq,Finland,2
+ Australia, Iran,8
+United Kingdom, Switzerland,45
+ Australia,United States,56
+United States, Bangladesh,15
+Germany, Czechia,4
+ Germany, Czechia,8
+United Kingdom, China,85
+ Nigeria,Niger,13
+ South Africa,Niger,1
+ South Africa, Nigeria,145
+ Sweden,Jordan,2
+ Sweden, Jordan,1
+Spain, Mexico,2
+Spain, South Korea,1
+Spain, Morocco,2
+ Spain, Mexico,25
+ Mexico, South Korea,1
+ Mexico, Morocco,2
+ Spain, South Korea,12
+ Spain, Morocco,2
+ South Korea, Morocco,2
+ Morocco, Morocco,33
+ Netherlands,Belgium,7
+ France,United States,66
+ Singapore,United States,36
+United States, Cambodia,7
+ France, Cambodia,17
+ Singapore, Cambodia,3
+ Singapore, Cambodia,6
+Netherlands, Hungary,3
+ Cyprus,Cyprus,10
+Vietnam, Republic of the Congo,2
+Vietnam, Gabon,2
+ Germany,Vietnam,6
+ Republic of the Congo, Gabon,3
+ Germany, Republic of the Congo,18
+ Republic of the Congo, Republic of the Congo,7
+ Germany, Gabon,24
+ Republic of the Congo, Gabon,6
+ Germany, Republic of the Congo,10
+United States, Egypt,20
+United Kingdom, Germany,45
+United States, Greece,6
+ Spain,United States,26
+ Australia, Greece,9
+ Spain, Greece,2
+ India, Greece,6
+ Italy, Greece,14
+ Australia, Italy,33
+ India, Spain,23
+ India, Italy,24
+ Portugal, Portugal,36
+United States, Germany,91
+United Kingdom, Ukraine,3
+ United States, Ukraine,7
+ United Kingdom, Ukraine,3
+ Malaysia,India,4
+ Malaysia, Saudi Arabia,5
+ China,Ghana,3
+ Germany,Ghana,4
+Ghana, Romania,1
+ Ghana,Ghana,20
+ Germany, China,70
+ China, Romania,6
+ China, Ghana,2
+ Germany, Romania,4
+ Germany, Ghana,21
+ Germany, China,57
+ Ghana, Romania,2
+ China, Romania,3
+ Ghana, Ghana,52
+ China, Ghana,6
+United States, Netherlands,45
+ United States,Qatar,8
+ United States, Qatar,61
+ United States, Qatar,25
+ Greece,Cyprus,8
+ India,Poland,10
+Brazil, Germany,20
+Brazil, Mozambique,1
+ South Africa, Mozambique,9
+ Germany, South Africa,129
+ Germany, Mozambique,7
+ Australia,China,33
+Japan, Cambodia,2
+Japan, Burkina Faso,2
+ Japan, Cambodia,2
+ Japan, Burkina Faso,5
+ Cambodia, Burkina Faso,1
+ United States,Belgium,100
+ Canada,Belgium,13
+ Trinidad and Tobago,Belgium,1
+Belgium, Portugal,3
+ Canada, Trinidad and Tobago,5
+ Canada, Belgium,54
+ Canada, Portugal,7
+ Trinidad and Tobago, Portugal,3
+ Belgium, Portugal,2
+ Belgium, Portugal,3
+ United States, Portugal,49
+ Romania,Romania,15
+ Germany,Greece,2
+ Switzerland,Greece,3
+ Italy,Greece,1
+ United States,Greece,5
+ Germany, Greece,11
+ Switzerland, Greece,23
+ United States, Greece,45
+ Germany, Switzerland,111
+ Germany, Greece,15
+ Germany, Italy,56
+ United States, Germany,406
+ Switzerland, Greece,17
+ Germany, Switzerland,145
+ United Kingdom, Greece,40
+ Germany, Italy,79
+ Italy, Greece,13
+ United States, Greece,16
+Canada, Israel,1
+Canada, China,17
+ Canada, Israel,11
+ China, Israel,4
+ Canada, China,53
+United States, Uganda,10
+ United States, Uganda,50
+United Kingdom, Sri Lanka,11
+ Israel,Czechia,2
+ France,Belgium,22
+ France, Belgium,87
+ France, Belgium,101
+ Spain,Saudi Arabia,5
+ Spain, Pakistan,5
+ Spain, Saudi Arabia,10
+China, Denmark,5
+China, United Arab Emirates,1
+ United Arab Emirates, China,2
+ United Arab Emirates, China,2
+ United States, United Arab Emirates,18
+ France,Spain,11
+ France, Spain,75
+ Saudi Arabia,Jordan,1
+Bangladesh, Saudi Arabia,4
+ Argentina,Argentina,164
+ Spain, United States,176
+ Spain, United States,224
+ Brazil, Germany,32
+Algeria, Hungary,1
+ Canada,Bahrain,1
+ Netherlands,Greece,3
+ Netherlands, Greece,6
+France, Belgium,26
+United Kingdom, Malaysia,11
+ Malaysia, United Kingdom,13
+Bosnia and Herzegovina, North Macedonia,1
+United Kingdom, Italy,49
+ Italy, South Africa,23
+United Kingdom, Serbia,2
+ Serbia, Serbia,3
+ United Kingdom,Canada,70
+ United Kingdom, Canada,262
+India, Israel,4
+ Canada,Poland,1
+ Sweden,South Africa,3
+ Australia,Canada,13
+ Australia, Canada,70
+ Australia, Canada,41
+ United Kingdom,Zimbabwe,3
+Zimbabwe, Zimbabwe,3
+ United Kingdom, Zimbabwe,19
+ Zimbabwe, Zimbabwe,9
+Germany, Switzerland,31
+United Kingdom, Portugal,4
+ Chile,Chile,36
+ Chile, Chile,50
+ France,Romania,1
+ France, Romania,6
+United States, Jordan,4
+ Japan,United States,71
+United States, New Zealand,7
+United States, Russia,14
+United States, Mexico,21
+ India, Egypt,29
+ Spain, Egypt,4
+ Japan, Egypt,139
+ Egypt, Italy,6
+ Egypt, South Africa,105
+ Egypt, New Zealand,7
+ Egypt, Saudi Arabia,37
+ Brazil, Egypt,32
+ Egypt, Russia,3
+ Mexico, Egypt,4
+ India, Jordan,8
+ India, Spain,10
+ India, Japan,36
+ India, Egypt,31
+ India, New Zealand,26
+ India, Saudi Arabia,55
+ India, Russia,14
+ Spain, Jordan,2
+ Japan, Jordan,1
+ Italy, Jordan,3
+ India, Jordan,9
+ South Africa, Jordan,2
+ New Zealand, Jordan,4
+ Saudi Arabia, Jordan,3
+ United Kingdom, Jordan,5
+ Brazil, Jordan,4
+ Russia, Jordan,3
+ Mexico, Jordan,3
+ Spain, Japan,12
+ Spain, Egypt,5
+ Spain, South Africa,13
+ Spain, New Zealand,13
+ Spain, Saudi Arabia,20
+ Spain, Brazil,42
+ Spain, Russia,5
+ Spain, Mexico,10
+ Japan, Italy,11
+ Japan, Egypt,35
+ India, Japan,43
+ Japan, South Africa,42
+ Japan, New Zealand,9
+ Japan, United Kingdom,141
+ Japan, Brazil,13
+ Japan, Russia,6
+ Japan, Mexico,5
+ United States, Mexico,56
+ Egypt, Italy,10
+ India, Italy,30
+ Italy, South Africa,38
+ Italy, New Zealand,13
+ Russia, Italy,18
+ Mexico, Italy,4
+ South Africa, New Zealand,5
+ South Africa, Saudi Arabia,16
+ Russia, South Africa,6
+ Mexico, South Africa,2
+ India, New Zealand,3
+ Saudi Arabia, New Zealand,2
+ United Kingdom, New Zealand,16
+ Brazil, New Zealand,3
+ Russia, New Zealand,2
+ Mexico, New Zealand,1
+ United Kingdom, Saudi Arabia,58
+ Brazil, Saudi Arabia,11
+ Russia, Saudi Arabia,6
+ Mexico, Saudi Arabia,2
+ Brazil, Mexico,9
+ Brazil, Russia,4
+ Mexico, Russia,2
+Greece, Cyprus,2
+ Greece, Cyprus,7
+ Greece, Cyprus,10
+ United Kingdom, Cyprus,2
+ United Kingdom,Czechia,3
+ United Kingdom,South Korea,7
+ United Kingdom, South Korea,13
+ United States,Saudi Arabia,12
+China, Mexico,2
+ Canada, Mexico,5
+ Canada, Mexico,5
+ France,Italy,19
+Italy, Denmark,5
+Italy, China,6
+ France, Italy,113
+ France, Denmark,31
+ France, China,49
+ Italy, Denmark,25
+ France, Italy,111
+ China, Italy,46
+ France, Denmark,34
+ Italy, Denmark,24
+ China, Denmark,16
+ France, China,43
+ Spain,Switzerland,6
+Uruguay, South Africa,2
+Uruguay, Belgium,4
+ Uruguay, United States,9
+ Uruguay, South Africa,2
+ Uruguay, Belgium,2
+ Uruguay, Belgium,2
+ United Kingdom,Australia,49
+ Chile,Colombia,2
+ Chile, United States,20
+ Chile, Venezuela,2
+ Chile, United States,46
+ India,Australia,11
+Spain, United Kingdom,9
+Japan, Germany,17
+ Japan, Germany,63
+ Japan, Germany,45
+ Argentina, Argentina,426
+ United States, Argentina,82
+ Netherlands,Hungary,1
+ Japan,Saudi Arabia,4
+ United Kingdom,Saudi Arabia,7
+ Canada,United Arab Emirates,2
+ Austria,United Arab Emirates,3
+ United Arab Emirates,United Arab Emirates,14
+ Canada, Austria,20
+ Canada, United Arab Emirates,4
+ United Arab Emirates, Austria,5
+ United Arab Emirates, United Arab Emirates,33
+United States, Philippines,8
+ India, Philippines,11
+ United States, Philippines,12
+ Italy, Philippines,2
+ China,Belgium,11
+ United Kingdom,Belgium,26
+ Norway,Belgium,1
+ China, Belgium,24
+ Norway, China,12
+ Norway, United States,51
+ China, Belgium,20
+ Norway, Belgium,1
+ Norway, United Kingdom,48
+ Norway, United States,41
+ Norway, United Kingdom,41
+ Norway, China,10
+ Norway, Belgium,1
+United Kingdom, Sweden,10
+ Italy,Sweden,8
+ China,Sweden,8
+ Sweden, China,20
+ Australia,Kuwait,1
+ Australia, Kuwait,2
+ United States, Nigeria,162
+Botswana, Botswana,3
+ United States,Botswana,14
+ South Africa,Botswana,10
+ United States, Botswana,75
+ South Africa, Botswana,91
+United States, Botswana,4
+ United States, Botswana,56
+ South Africa, Botswana,78
+ Switzerland, Italy,92
+ Italy, Botswana,6
+ Switzerland, Botswana,18
+ United Kingdom, Botswana,34
+ Brazil, Botswana,21
+ United Kingdom, Botswana,53
+ Switzerland, Botswana,13
+ Brazil, Botswana,18
+ Taiwan, South Korea,1
+United Kingdom, Mexico,11
+United Kingdom, Belgium,29
+ Mexico, Belgium,27
+ Mexico, Belgium,22
+Italy, Mexico,1
+South Korea, China,3
+United Kingdom, Ecuador,11
+ Brazil, Ecuador,2
+ Mexico, Ecuador,2
+ United Kingdom, Ecuador,37
+United States, Israel,30
+ United States, Israel,104
+ Canada,Saudi Arabia,4
+United Kingdom, Reunion,3
+ United Kingdom, Reunion,2
+ France, United Kingdom,132
+ United Kingdom, Reunion,5
+ France, Reunion,7
+ Kenya,Democratic Republic of the Congo,1
+Germany, Republic of the Congo,8
+United Kingdom, Rwanda,5
+ United Kingdom, Rwanda,22
+ Rwanda, Rwanda,11
+ Belgium, Rwanda,13
+ Brazil, Rwanda,7
+ United Kingdom, Rwanda,29
+ Belgium, Rwanda,18
+ Brazil, Rwanda,12
+Canada, Romania,3
+ United Kingdom, Romania,6
+ Canada, Romania,7
+ United Kingdom, Romania,11
+South Africa, Nigeria,13
+South Africa, Mali,1
+ United States, Mali,7
+ Nigeria, Mali,1
+ Nigeria, Mali,10
+ United States, Mali,15
+United States, Malawi,2
+ South Africa, Malawi,53
+ Taiwan, South Africa,5
+ United States, Malawi,25
+ United Kingdom, Malawi,27
+ South Africa, Malawi,24
+ Taiwan, Malawi,1
+ Malawi, Malawi,18
+ Taiwan, United States,72
+ United States, Malawi,37
+ Taiwan, United Kingdom,55
+ United Kingdom, Malawi,38
+ Taiwan, South Africa,3
+ Taiwan, Malawi,1
+Italy, Albania,1
+ Italy, Albania,1
+ Turkey, Albania,1
+ Italy, Turkey,26
+ Russia,Austria,10
+ Switzerland,Austria,2
+ Russia, Austria,17
+ Russia, Switzerland,10
+ Switzerland, Austria,9
+ Russia, Austria,9
+ Switzerland, Austria,5
+ Chile,Canada,2
+ Chile, Canada,10
+United States, Paraguay,3
+ United States, Paraguay,19
+ Brazil, Portugal,24
+ United Kingdom, Portugal,18
+ Portugal, Paraguay,3
+ Brazil, Paraguay,22
+ United Kingdom, Paraguay,2
+ United States, Paraguay,5
+ United States,Paraguay,22
+ Brazil,Paraguay,12
+ United Kingdom,Paraguay,2
+ Portugal,Paraguay,2
+ Brazil, Portugal,24
+ United Kingdom, Portugal,23
+ India,Saudi Arabia,27
+ Denmark,Denmark,93
+ Denmark, Denmark,142
+ Canada, China,72
+ Spain,France,19
+France, Italy,19
+France, Germany,13
+France, United Kingdom,18
+ Spain, Germany,55
+ France, United Kingdom,147
+ United States,Philippines,1
+Vietnam, Vietnam,26
+ Germany, Vietnam,4
+Vietnam, Finland,1
+ United Kingdom,Vietnam,5
+ Sweden,Vietnam,1
+ Finland, Vietnam,4
+ United Kingdom, Finland,28
+ United Kingdom, Vietnam,19
+ Sweden, Vietnam,2
+ Vietnam, Vietnam,22
+ United Kingdom, Vietnam,15
+ Sweden, Vietnam,4
+United Kingdom, United Arab Emirates,7
+United Kingdom, Egypt,3
+ Egypt, United Arab Emirates,9
+ Egypt, United Arab Emirates,14
+Germany, Taiwan,1
+South Korea, Palestinian Territory,1
+ South Korea, Palestinian Territory,1
+ Venezuela, Venezuela,1
+ United States, Venezuela,5
+ Colombia, Venezuela,4
+ Kenya,Kenya,21
+ Denmark,Kenya,1
+ United Kingdom,Kenya,13
+Belarus, Belarus,1
+ United States,Belarus,1
+ United States, Belarus,1
+ Germany,Lithuania,1
+ France,Lithuania,2
+ Lithuania,Lithuania,4
+ Canada,Lithuania,3
+ Belgium,Lithuania,2
+Lithuania, Cameroon,3
+ Italy,Lithuania,1
+ Switzerland,Lithuania,1
+ Sweden,Lithuania,1
+Lithuania, Democratic Republic of the Congo,2
+ United Kingdom,Lithuania,1
+ Denmark,Lithuania,1
+ Netherlands,Lithuania,1
+ Germany, Lithuania,9
+ Canada, Germany,76
+ Germany, Cameroon,15
+ Sweden, Germany,33
+ Germany, Democratic Republic of the Congo,12
+ Germany, Denmark,15
+ Germany, Netherlands,119
+ France, Lithuania,8
+ France, Canada,65
+ France, Cameroon,18
+ France, Switzerland,149
+ France, Sweden,24
+ France, Democratic Republic of the Congo,15
+ Canada, Lithuania,8
+ Lithuania, Cameroon,3
+ France, Lithuania,10
+ Switzerland, Lithuania,1
+ Lithuania, Democratic Republic of the Congo,3
+ Lithuania, Lithuania,16
+ Denmark, Lithuania,3
+ Canada, Cameroon,3
+ France, Canada,42
+ Canada, Switzerland,46
+ Canada, Sweden,18
+ Canada, Democratic Republic of the Congo,3
+ Canada, Lithuania,20
+ Canada, Denmark,16
+ Canada, Netherlands,40
+ Belgium, Cameroon,3
+ Switzerland, Belgium,37
+ Belgium, Democratic Republic of the Congo,2
+ Canada, Belgium,46
+ France, Cameroon,13
+ Italy, Cameroon,8
+ Switzerland, Cameroon,13
+ Cameroon, Cameroon,13
+ Sweden, Cameroon,3
+ Cameroon, Democratic Republic of the Congo,15
+ Canada, Cameroon,9
+ Lithuania, Cameroon,14
+ United Kingdom, Cameroon,34
+ Denmark, Cameroon,3
+ Belgium, Cameroon,4
+ Netherlands, Cameroon,4
+ Italy, Cameroon,2
+ Italy, Democratic Republic of the Congo,4
+ Italy, Lithuania,8
+ Italy, Netherlands,34
+ Switzerland, Cameroon,10
+ Switzerland, Democratic Republic of the Congo,15
+ Canada, Switzerland,53
+ Switzerland, Denmark,15
+ Sweden, Cameroon,1
+ Sweden, Democratic Republic of the Congo,4
+ Canada, Sweden,24
+ Sweden, Lithuania,8
+ United Kingdom, Sweden,51
+ Sweden, Denmark,9
+ Sweden, Netherlands,23
+ Canada, Democratic Republic of the Congo,3
+ Lithuania, Democratic Republic of the Congo,5
+ Democratic Republic of the Congo, Democratic Republic of the Congo,6
+ United Kingdom, Democratic Republic of the Congo,26
+ Denmark, Democratic Republic of the Congo,2
+ Belgium, Democratic Republic of the Congo,2
+ Netherlands, Democratic Republic of the Congo,3
+ Netherlands, Lithuania,7
+France, Republic of the Congo,2
+ France, Republic of the Congo,9
+ France, Republic of the Congo,7
+ United States,Austria,14
+ Egypt,Austria,1
+ Italy,Tunisia,5
+ United Kingdom,Tunisia,1
+ Senegal,Tunisia,1
+ Italy, Tunisia,8
+ Tunisia, Tunisia,78
+ United Kingdom, Tunisia,59
+ Senegal, Tunisia,15
+ Italy, Tunisia,11
+ Senegal, Italy,7
+ United Kingdom, Tunisia,54
+ Senegal, United Kingdom,14
+ Senegal, Tunisia,15
+ France, United States,374
+ Taiwan,China,9
+ Taiwan, Saudi Arabia,5
+ Taiwan, China,9
+ Taiwan, China,7
+ United Kingdom,Slovakia,2
+ United Kingdom, Slovakia,12
+Thailand, Philippines,6
+France, Reunion,3
+ France, Reunion,6
+Egypt, South Africa,12
+ Egypt, South Africa,49
+ Canada,Chile,6
+ Chile, Canada,6
+South Africa, Belgium,5
+ Switzerland,South Africa,8
+South Africa, Botswana,6
+ Belgium, Botswana,5
+ Botswana, Botswana,16
+ Germany,Australia,15
+ Australia,Italy,15
+ France, Switzerland,102
+ France, Brazil,20
+ South Africa,Denmark,4
+ India,Denmark,5
+United Kingdom, Malawi,2
+Italy, Belgium,16
+ Egypt, Pakistan,7
+ Norway,China,4
+ Germany,Niger,4
+ Sweden,Niger,1
+ United States,Niger,1
+ Ghana,Niger,1
+Niger, Rwanda,1
+ France,Niger,1
+ Ivory Coast,Niger,1
+ Belgium,Niger,2
+Niger, Togo,1
+ Germany, Rwanda,11
+ Germany, Ivory Coast,8
+ Germany, Togo,8
+ Germany, Nigeria,28
+ Sweden, Ghana,1
+ Sweden, Rwanda,1
+ France, Sweden,34
+ Sweden, Ivory Coast,1
+ Sweden, Germany,31
+ Sweden, Togo,1
+ Sweden, Nigeria,3
+ United States, Ghana,69
+ United States, Rwanda,33
+ France, United States,315
+ United States, Ivory Coast,10
+ United States, Togo,8
+ Ghana, Rwanda,13
+ France, Ghana,20
+ Ivory Coast, Ghana,8
+ Germany, Ghana,30
+ Belgium, Ghana,2
+ Ghana, Togo,4
+ France, Rwanda,8
+ Ivory Coast, Rwanda,4
+ Germany, Rwanda,9
+ Rwanda, Togo,3
+ Nigeria, Rwanda,26
+ France, Ivory Coast,8
+ France, Togo,6
+ France, Nigeria,43
+ Ivory Coast, Belgium,2
+ Ivory Coast, Togo,3
+ Ivory Coast, Nigeria,13
+ Belgium, Togo,1
+ Germany, Belgium,71
+ Nigeria, Belgium,1
+ Germany, Togo,2
+ Nigeria, Togo,10
+ Belgium, Togo,1
+ Nigeria, Belgium,1
+Germany, South Korea,3
+ Germany, South Korea,10
+ Germany, South Korea,6
+Switzerland, Argentina,7
+ Switzerland, Argentina,13
+ United Kingdom,Laos,14
+ South Africa,Paraguay,3
+ Australia,Paraguay,1
+ South Africa, Portugal,12
+ Australia, Portugal,14
+Italy, Austria,4
+Mexico, Peru,2
+ India,Japan,7
+Japan, Netherlands,7
+ Japan, Netherlands,17
+ United States,Panama,2
+ France,Mexico,6
+ Japan,Iran,1
+ Japan, Iran,8
+Egypt, Austria,1
+Brazil, Portugal,3
+Brazil, Paraguay,3
+ South Africa, Portugal,12
+ South Africa, Paraguay,4
+ Australia, Portugal,5
+ Australia, Paraguay,2
+ Italy, Portugal,6
+ South Africa, Paraguay,2
+ Brazil, Paraguay,7
+ Italy, Paraguay,2
+ United Kingdom, Paraguay,1
+ Paraguay, Paraguay,1
+ Italy, Paraguay,1
+Japan, Thailand,7
+Japan, Bangladesh,4
+ Bangladesh, Thailand,3
+Bangladesh, Switzerland,2
+ Bangladesh, Switzerland,3
+ Japan, Switzerland,32
+ Japan, Bangladesh,9
+ Japan, Bangladesh,5
+ Sweden, Sweden,37
+United Kingdom, Kenya,17
+ India,Germany,4
+ India, Germany,38
+ United Kingdom,Ghana,7
+ Taiwan,Ghana,1
+ Gambia,Ghana,1
+ United Kingdom, Ghana,41
+ Taiwan, Ghana,2
+ Ghana, Gambia,6
+ United Kingdom, Ghana,52
+ United Kingdom, Gambia,13
+ Taiwan, United Kingdom,55
+ Taiwan, Gambia,1
+Egypt, Saudi Arabia,12
+ Egypt, Saudi Arabia,45
+ India,South Africa,5
+United Kingdom, Canada,37
+ India,China,13
+France, Canada,13
+Iran, Saudi Arabia,2
+ Australia, Saudi Arabia,10
+ Australia, Saudi Arabia,11
+ Malaysia,Iraq,2
+ Malaysia, Iraq,6
+ Spain,United Arab Emirates,1
+ Spain, United Arab Emirates,1
+China, Czechia,1
+Switzerland, Liechtenstein,2
+ Switzerland, Liechtenstein,7
+ Switzerland, Liechtenstein,15
+ Malaysia, United Kingdom,27
+ Malaysia, Singapore,6
+ Canada, Romania,10
+United States, Turkey,7
+ United States, Turkey,43
+ United States,Poland,3
+Poland, Ukraine,3
+ Poland, Ukraine,1
+Japan, Israel,15
+Japan, Egypt,14
+ Japan, Israel,60
+ Egypt, Israel,8
+Australia, Nepal,1
+ United States, Nepal,6
+Spain, United States,46
+Spain, Canada,6
+Spain, Germany,6
+ Canada, Germany,45
+ Colombia,Chile,3
+ United Kingdom,Zambia,10
+ United States,Zambia,12
+ Japan,Zambia,6
+Zambia, Zambia,21
+ South Africa,Zambia,3
+Zambia, Namibia,1
+ Japan, United Kingdom,158
+ United Kingdom, Zambia,35
+ United Kingdom, Namibia,10
+ United States, Zambia,41
+ United States, Namibia,16
+ Japan, Zambia,6
+ Japan, Namibia,2
+ Zambia, Zambia,23
+ South Africa, Zambia,28
+ Zambia, Namibia,8
+ United Kingdom, Zambia,28
+ South Africa, Zambia,35
+ South Africa, Namibia,14
+ United Kingdom, Namibia,10
+India, Bangladesh,16
+India, China,9
+India, Sweden,13
+ Bangladesh, China,15
+ India, Bangladesh,27
+ Bangladesh, Sweden,8
+ India, China,19
+ Bangladesh, China,17
+ India, Bangladesh,16
+ India, China,29
+Bangladesh, South Korea,1
+Bangladesh, Iran,2
+Bangladesh, Spain,2
+ South Korea, Saudi Arabia,3
+ Iran, Saudi Arabia,7
+ Iran, South Korea,1
+ Spain, South Korea,8
+ Spain, Iran,5
+Spain, Italy,14
+Spain, Netherlands,9
+Egypt, Poland,1
+ Japan,Egypt,3
+ Poland, Saudi Arabia,3
+ Japan, Saudi Arabia,21
+ Egypt, Poland,6
+ Japan, Poland,6
+ Poland, Saudi Arabia,1
+ Brazil,Denmark,17
+ United States,Denmark,19
+ Belgium,Denmark,6
+ Colombia, Venezuela,1
+Netherlands, China,4
+Kazakhstan, Finland,2
+ Kazakhstan, Finland,2
+ Australia,Malaysia,1
+ Malaysia, Australia,7
+United Kingdom, Turkey,2
+United States, Trinidad and Tobago,1
+United States, Belarus,2
+ Belarus, Belarus,1
+India, Nepal,9
+ India, Nepal,21
+ South Africa, Nepal,4
+ India, Nepal,19
+ United Arab Emirates, Austria,6
+Saudi Arabia, Peru,2
+Saudi Arabia, Nepal,2
+Saudi Arabia, Colombia,2
+ Saudi Arabia, Peru,3
+ India, Peru,4
+ Peru, Nepal,4
+ Colombia, Peru,17
+ Indonesia, Peru,2
+ United States, Peru,16
+ Saudi Arabia, Nepal,6
+ Saudi Arabia, Peru,1
+ Saudi Arabia, Colombia,9
+ India, Peru,4
+ India, Colombia,17
+ India, Indonesia,13
+ Peru, Nepal,4
+ Nepal, Nepal,15
+ Colombia, Nepal,11
+ Indonesia, Nepal,2
+ United States, Nepal,7
+ Saudi Arabia, Nepal,7
+ India, Colombia,13
+ Indonesia, Colombia,2
+ Saudi Arabia, Colombia,12
+ United States, Indonesia,8
+ Indonesia, Saudi Arabia,6
+Australia, New Caledonia,1
+ United Kingdom,Turkey,1
+Turkey, United States,4
+Italy, Poland,6
+ Poland, Italy,9
+ Poland, Italy,7
+Slovenia, Slovenia,15
+ Slovenia, Slovenia,19
+United Kingdom, Iran,2
+ United Kingdom, Iran,6
+ Iraq,Iran,2
+ Iraq, Iran,9
+ United States,Bulgaria,6
+ Bulgaria,Bulgaria,9
+United States, Belgium,80
+ Iraq,Australia,1
+ United Kingdom, Iraq,4
+ Iraq, China,4
+ United Kingdom, Iraq,2
+Switzerland, Italy,11
+ Japan,Switzerland,10
+Switzerland, Pakistan,4
+ Switzerland, Argentina,13
+ Switzerland, Pakistan,12
+ Italy, Argentina,5
+ Japan, Argentina,6
+ Australia, Argentina,4
+ Pakistan, Argentina,3
+ Japan, Italy,13
+ Australia, Italy,53
+ Italy, Pakistan,13
+ Japan, Switzerland,29
+ Australia, Japan,31
+ Japan, Pakistan,4
+ Australia, Japan,31
+ Australia, Pakistan,8
+Germany, South Africa,4
+ United Kingdom, Turkey,5
+Brazil, Canada,8
+ Canada, South Africa,34
+ Canada, South Africa,38
+ Brazil, Canada,37
+ Brazil, Canada,35
+India, Turkey,2
+ India, Turkey,3
+ Saudi Arabia, Turkey,10
+ India, Turkey,6
+Sweden, Cuba,2
+ Sweden, Italy,22
+ Sweden, China,10
+ Sweden, Cuba,3
+ Italy, Cuba,2
+ China, Cuba,2
+ Australia, Germany,39
+ Italy,Qatar,4
+Qatar, Turkey,3
+ Italy, Qatar,7
+ Qatar, Turkey,4
+ United States, Turkey,25
+ Italy, Turkey,22
+ Italy, Qatar,10
+ Qatar, Turkey,5
+France, United States,62
+France, Netherlands,8
+ France, Netherlands,67
+United States, Madagascar,4
+ United States, Madagascar,13
+ Madagascar, Madagascar,1
+ United States, Madagascar,33
+ Indonesia,Pakistan,1
+ Indonesia, Pakistan,3
+ Japan, Israel,82
+ India, Israel,13
+ Sweden, Israel,3
+ South Korea, Israel,3
+ India, Sweden,11
+ Sweden, South Korea,4
+ Saudi Arabia,Pakistan,8
+ India,Pakistan,1
+ Taiwan,Pakistan,2
+ Egypt,Pakistan,1
+ India, Pakistan,19
+ Taiwan, Pakistan,2
+ Egypt, Pakistan,10
+ Taiwan, Egypt,3
+ Singapore,Sweden,9
+ United States,Sweden,42
+ Malaysia, Spain,4
+ Malaysia, United States,2
+United Kingdom, Denmark,19
+ Spain, Belgium,23
+ Spain, Brazil,40
+ Spain, United Kingdom,51
+ Spain, Denmark,9
+ Chile, Colombia,2
+ Chile, Colombia,4
+ Ukraine,Ukraine,6
+United Kingdom, Peru,1
+ Ecuador, Ecuador,43
+ Peru, Ecuador,2
+ Germany, Ecuador,5
+ United States, Ecuador,8
+ Peru, Ecuador,4
+ Germany, Peru,1
+ United Kingdom, Peru,5
+ Germany, Ecuador,14
+ United Kingdom, Ecuador,29
+ Spain, Italy,45
+Nigeria, Italy,4
+Nigeria, United Kingdom,5
+ Malaysia,Nigeria,1
+ Malaysia, Italy,3
+ Italy, Nigeria,6
+ United Kingdom, Nigeria,100
+ Malaysia, Nigeria,3
+France, China,14
+ Sweden,Russia,1
+Russia, Denmark,1
+ Sweden,Czechia,2
+ Switzerland,Czechia,5
+ United States,Czechia,5
+ Iran,Czechia,4
+ Italy,Czechia,7
+ Sweden, Czechia,8
+ Switzerland, Czechia,25
+ United States, Czechia,18
+ Iran, Czechia,16
+ Italy, Czechia,32
+ Sweden, Czechia,3
+ Sweden, Switzerland,20
+ Sweden, Iran,2
+ Switzerland, Iran,6
+ Switzerland, Czechia,2
+ United States, Czechia,2
+ Iran, Czechia,6
+ Switzerland, Iran,11
+ Iran, Italy,27
+South Korea, Italy,4
+ Italy, South Korea,13
+ Italy, South Korea,8
+United States, Tanzania,2
+ Italy, Tanzania,5
+ Italy, Israel,25
+ United States, Tanzania,13
+ Italy, Tanzania,7
+ Israel, Tanzania,2
+ Australia, Tanzania,1
+ Italy, Israel,18
+ Australia, Israel,13
+Canada, Mexico,2
+Canada, Netherlands,5
+Canada, Italy,7
+ Mexico, Italy,2
+United States, Burkina Faso,1
+United States, Rwanda,2
+United States, Morocco,3
+United States, Democratic Republic of the Congo,4
+United States, Tunisia,8
+United States, Zimbabwe,2
+United States, Mali,3
+United States, Nigeria,14
+United States, Ghana,5
+United States, Gabon,2
+United States, Senegal,2
+United States, Cameroon,3
+United States, Guinea,1
+United States, Mozambique,2
+United States, Eswatini,1
+United States, Zambia,1
+United States, Namibia,1
+ Brazil, Burkina Faso,9
+ Burkina Faso, Rwanda,8
+ Uganda, Burkina Faso,9
+ United Kingdom, Burkina Faso,16
+ Morocco, Burkina Faso,4
+ Burkina Faso, Democratic Republic of the Congo,6
+ Burkina Faso, Tunisia,15
+ United States, Burkina Faso,32
+ Burkina Faso, Botswana,6
+ Burkina Faso, Zimbabwe,2
+ Egypt, Burkina Faso,8
+ Israel, Burkina Faso,1
+ Burkina Faso, Mali,1
+ Saudi Arabia, Burkina Faso,2
+ South Africa, Burkina Faso,26
+ Nigeria, Burkina Faso,23
+ Ghana, Burkina Faso,11
+ Switzerland, Burkina Faso,5
+ Ethiopia, Burkina Faso,5
+ Kenya, Burkina Faso,3
+ Burkina Faso, Gabon,2
+ Senegal, Burkina Faso,2
+ Burkina Faso, Cameroon,5
+ Burkina Faso, Guinea,6
+ Burkina Faso, Tanzania,1
+ Burkina Faso, Madagascar,6
+ Japan, Burkina Faso,3
+ Burkina Faso, Mozambique,1
+ Burkina Faso, Eswatini,2
+ Burkina Faso, Zambia,4
+ Burkina Faso, Namibia,2
+ Brazil, Uganda,9
+ Brazil, Morocco,10
+ Brazil, Democratic Republic of the Congo,7
+ Brazil, Tunisia,26
+ Brazil, Zimbabwe,1
+ Brazil, Egypt,17
+ Brazil, Mali,3
+ Brazil, Saudi Arabia,6
+ Brazil, Nigeria,44
+ Brazil, Ghana,18
+ Brazil, Ethiopia,9
+ Brazil, Gabon,3
+ Brazil, Senegal,9
+ Brazil, Cameroon,9
+ Brazil, Guinea,6
+ Brazil, Tanzania,3
+ Brazil, Madagascar,9
+ Brazil, Mozambique,3
+ Brazil, Eswatini,5
+ Brazil, Zambia,8
+ Brazil, Namibia,3
+ Uganda, Rwanda,7
+ Morocco, Rwanda,4
+ Rwanda, Democratic Republic of the Congo,5
+ Rwanda, Tunisia,15
+ United States, Rwanda,30
+ Botswana, Rwanda,7
+ Zimbabwe, Rwanda,2
+ Egypt, Rwanda,6
+ Israel, Rwanda,1
+ Rwanda, Mali,1
+ Saudi Arabia, Rwanda,1
+ South Africa, Rwanda,27
+ Ghana, Rwanda,12
+ Switzerland, Rwanda,5
+ Ethiopia, Rwanda,6
+ Kenya, Rwanda,6
+ Gabon, Rwanda,3
+ Senegal, Rwanda,1
+ Rwanda, Cameroon,6
+ Rwanda, Guinea,5
+ Rwanda, Tanzania,1
+ Rwanda, Madagascar,6
+ Japan, Rwanda,4
+ Rwanda, Mozambique,2
+ Rwanda, Eswatini,3
+ Rwanda, Zambia,6
+ Rwanda, Namibia,3
+ Uganda, Morocco,8
+ Uganda, Democratic Republic of the Congo,6
+ Uganda, Tunisia,16
+ United States, Uganda,84
+ Uganda, Botswana,8
+ Uganda, Zimbabwe,5
+ Egypt, Uganda,13
+ France, Uganda,10
+ Brazil, Uganda,10
+ Israel, Uganda,1
+ Uganda, Mali,3
+ Saudi Arabia, Uganda,9
+ South Africa, Uganda,36
+ Nigeria, Uganda,28
+ Ghana, Uganda,13
+ Switzerland, Uganda,10
+ Ethiopia, Uganda,8
+ Kenya, Uganda,19
+ Uganda, Gabon,3
+ Senegal, Uganda,4
+ Uganda, Cameroon,6
+ Germany, Uganda,13
+ Uganda, Guinea,8
+ Uganda, Tanzania,3
+ Uganda, Rwanda,8
+ Uganda, Madagascar,10
+ Japan, Uganda,7
+ Uganda, Mozambique,3
+ Uganda, Eswatini,2
+ Uganda, Zambia,10
+ Uganda, Namibia,5
+ United Kingdom, Morocco,16
+ United Kingdom, Democratic Republic of the Congo,26
+ United Kingdom, Egypt,44
+ United Kingdom, Mali,4
+ United Kingdom, Ethiopia,23
+ United Kingdom, Gabon,8
+ United Kingdom, Cameroon,21
+ United Kingdom, Guinea,18
+ United Kingdom, Tanzania,9
+ United Kingdom, Madagascar,21
+ United Kingdom, Mozambique,4
+ United Kingdom, Eswatini,8
+ United Kingdom, Morocco,11
+ Morocco, Democratic Republic of the Congo,3
+ Morocco, Tunisia,14
+ Morocco, Botswana,9
+ Morocco, Zimbabwe,1
+ Egypt, Morocco,7
+ France, Morocco,11
+ Brazil, Morocco,4
+ Israel, Morocco,2
+ Morocco, Mali,2
+ Saudi Arabia, Morocco,3
+ South Africa, Morocco,28
+ Nigeria, Morocco,24
+ Ghana, Morocco,12
+ Switzerland, Morocco,4
+ Ethiopia, Morocco,6
+ Kenya, Morocco,6
+ Morocco, Gabon,2
+ Senegal, Morocco,3
+ Morocco, Cameroon,6
+ Germany, Morocco,5
+ Morocco, Guinea,3
+ Morocco, Tanzania,3
+ Morocco, Rwanda,5
+ Morocco, Madagascar,4
+ Japan, Morocco,5
+ Morocco, Mozambique,3
+ Morocco, Eswatini,4
+ Morocco, Zambia,5
+ Morocco, Namibia,3
+ Democratic Republic of the Congo, Tunisia,24
+ United States, Democratic Republic of the Congo,48
+ Botswana, Democratic Republic of the Congo,14
+ Zimbabwe, Democratic Republic of the Congo,4
+ Egypt, Democratic Republic of the Congo,17
+ France, Democratic Republic of the Congo,11
+ Brazil, Democratic Republic of the Congo,12
+ Morocco, Democratic Republic of the Congo,7
+ Israel, Democratic Republic of the Congo,2
+ Mali, Democratic Republic of the Congo,3
+ Saudi Arabia, Democratic Republic of the Congo,5
+ South Africa, Democratic Republic of the Congo,45
+ Nigeria, Democratic Republic of the Congo,33
+ Ghana, Democratic Republic of the Congo,19
+ Switzerland, Democratic Republic of the Congo,10
+ Ethiopia, Democratic Republic of the Congo,9
+ Kenya, Democratic Republic of the Congo,9
+ Gabon, Democratic Republic of the Congo,3
+ Senegal, Democratic Republic of the Congo,5
+ Cameroon, Democratic Republic of the Congo,11
+ Germany, Democratic Republic of the Congo,8
+ Democratic Republic of the Congo, Guinea,6
+ Democratic Republic of the Congo, Tanzania,2
+ Rwanda, Democratic Republic of the Congo,9
+ Democratic Republic of the Congo, Madagascar,7
+ Japan, Democratic Republic of the Congo,5
+ Democratic Republic of the Congo, Mozambique,2
+ Democratic Republic of the Congo, Eswatini,4
+ Democratic Republic of the Congo, Zambia,9
+ Democratic Republic of the Congo, Namibia,3
+ United States, Tunisia,104
+ Botswana, Tunisia,31
+ Zimbabwe, Tunisia,8
+ Democratic Republic of the Congo, Tunisia,18
+ Egypt, Tunisia,37
+ France, Tunisia,24
+ Brazil, Tunisia,22
+ Morocco, Tunisia,14
+ Israel, Tunisia,1
+ Mali, Tunisia,3
+ Saudi Arabia, Tunisia,6
+ South Africa, Tunisia,96
+ Nigeria, Tunisia,84
+ Ghana, Tunisia,42
+ Switzerland, Tunisia,15
+ Ethiopia, Tunisia,23
+ Kenya, Tunisia,21
+ Gabon, Tunisia,6
+ Cameroon, Tunisia,27
+ Germany, Tunisia,21
+ Tunisia, Guinea,17
+ Tunisia, Tanzania,5
+ Rwanda, Tunisia,22
+ Tunisia, Madagascar,20
+ Japan, Tunisia,16
+ Tunisia, Mozambique,7
+ Tunisia, Eswatini,12
+ Tunisia, Zambia,20
+ Tunisia, Namibia,11
+ United States, Zimbabwe,10
+ United States, Democratic Republic of the Congo,27
+ United States, Morocco,25
+ United States, Ethiopia,33
+ United States, Gabon,12
+ United States, Tunisia,82
+ Senegal, United States,26
+ United States, Cameroon,40
+ United States, Guinea,22
+ United States, Mozambique,10
+ United States, Eswatini,17
+ Zimbabwe, Botswana,3
+ Botswana, Democratic Republic of the Congo,8
+ Egypt, Botswana,18
+ France, Botswana,13
+ Morocco, Botswana,6
+ Israel, Botswana,4
+ Botswana, Mali,1
+ Saudi Arabia, Botswana,3
+ Nigeria, Botswana,44
+ Ghana, Botswana,25
+ Ethiopia, Botswana,11
+ Kenya, Botswana,11
+ Gabon, Botswana,5
+ Botswana, Tunisia,27
+ Senegal, Botswana,7
+ Botswana, Cameroon,10
+ Germany, Botswana,19
+ Botswana, Guinea,9
+ Botswana, Tanzania,2
+ Botswana, Rwanda,12
+ Botswana, Madagascar,10
+ Japan, Botswana,7
+ Botswana, Mozambique,4
+ Botswana, Eswatini,6
+ Botswana, Zambia,8
+ Botswana, Namibia,5
+ United States, Zimbabwe,28
+ Zimbabwe, Democratic Republic of the Congo,4
+ Egypt, Zimbabwe,8
+ France, Zimbabwe,5
+ Brazil, Zimbabwe,8
+ Morocco, Zimbabwe,5
+ United Kingdom, Zimbabwe,17
+ Israel, Zimbabwe,1
+ Zimbabwe, Mali,3
+ Zimbabwe, Botswana,8
+ Saudi Arabia, Zimbabwe,2
+ South Africa, Zimbabwe,27
+ Nigeria, Zimbabwe,19
+ Ghana, Zimbabwe,10
+ Switzerland, Zimbabwe,5
+ Ethiopia, Zimbabwe,5
+ Kenya, Zimbabwe,7
+ Gabon, Zimbabwe,2
+ Zimbabwe, Tunisia,13
+ Senegal, Zimbabwe,3
+ Zimbabwe, Cameroon,4
+ Germany, Zimbabwe,7
+ Zimbabwe, Guinea,3
+ Zimbabwe, Tanzania,1
+ Zimbabwe, Rwanda,5
+ Zimbabwe, Madagascar,5
+ Japan, Zimbabwe,3
+ Zimbabwe, Mozambique,2
+ Zimbabwe, Eswatini,2
+ Zimbabwe, Zambia,9
+ Zimbabwe, Namibia,2
+ France, Egypt,21
+ Egypt, Morocco,11
+ Egypt, Israel,11
+ Egypt, Mali,2
+ Egypt, Botswana,26
+ Egypt, Nigeria,80
+ Egypt, Ghana,45
+ Egypt, Switzerland,24
+ Egypt, Ethiopia,22
+ Egypt, Kenya,24
+ Egypt, Gabon,8
+ Egypt, Tunisia,46
+ Senegal, Egypt,10
+ Egypt, Cameroon,21
+ Germany, Egypt,25
+ Egypt, Guinea,17
+ Egypt, Tanzania,7
+ Egypt, Rwanda,23
+ Egypt, Madagascar,16
+ Egypt, Mozambique,5
+ Egypt, Eswatini,6
+ Egypt, Zambia,21
+ Egypt, Namibia,9
+ France, Brazil,28
+ France, Morocco,10
+ France, Israel,6
+ France, Mali,4
+ France, Botswana,19
+ France, Saudi Arabia,33
+ France, South Africa,68
+ France, Egypt,23
+ France, Ghana,26
+ France, Ethiopia,11
+ France, Kenya,16
+ France, Gabon,10
+ France, Tunisia,30
+ France, Guinea,12
+ France, Tanzania,2
+ France, Rwanda,12
+ France, Madagascar,16
+ France, Japan,47
+ France, Mozambique,3
+ France, Eswatini,4
+ France, Zambia,14
+ France, Namibia,6
+ Israel, Mali,2
+ Israel, Botswana,6
+ United Kingdom, Israel,52
+ Saudi Arabia, Israel,3
+ Nigeria, Israel,10
+ Israel, Ghana,5
+ Brazil, Israel,3
+ Switzerland, Israel,4
+ Ethiopia, Israel,3
+ Kenya, Israel,3
+ Israel, Gabon,2
+ Israel, Tunisia,10
+ Senegal, Israel,3
+ Israel, Cameroon,3
+ France, Israel,9
+ Germany, Israel,26
+ Israel, Guinea,2
+ Israel, Morocco,2
+ Israel, Tanzania,1
+ Israel, Rwanda,2
+ Israel, Madagascar,2
+ Israel, Mozambique,1
+ Israel, Eswatini,2
+ Israel, Zambia,2
+ Israel, Namibia,1
+ Botswana, Mali,5
+ United Kingdom, Mali,6
+ Saudi Arabia, Mali,1
+ South Africa, Mali,14
+ Egypt, Mali,4
+ Ghana, Mali,5
+ Brazil, Mali,2
+ Switzerland, Mali,2
+ Ethiopia, Mali,2
+ Kenya, Mali,4
+ Gabon, Mali,1
+ Mali, Tunisia,8
+ Senegal, Mali,2
+ Mali, Cameroon,2
+ France, Mali,2
+ Germany, Mali,4
+ Mali, Guinea,1
+ Morocco, Mali,3
+ Mali, Tanzania,1
+ Rwanda, Mali,2
+ Mali, Madagascar,2
+ Japan, Mali,2
+ Mali, Mozambique,1
+ Mali, Eswatini,2
+ Mali, Zambia,1
+ Mali, Namibia,2
+ South Africa, Saudi Arabia,28
+ Nigeria, Saudi Arabia,22
+ Saudi Arabia, Ghana,12
+ Switzerland, Saudi Arabia,13
+ Saudi Arabia, Ethiopia,6
+ Kenya, Saudi Arabia,8
+ Saudi Arabia, Gabon,3
+ Saudi Arabia, Tunisia,16
+ Senegal, Saudi Arabia,2
+ Saudi Arabia, Cameroon,4
+ France, Saudi Arabia,33
+ Germany, Saudi Arabia,19
+ Saudi Arabia, Guinea,4
+ Saudi Arabia, Morocco,2
+ Saudi Arabia, Tanzania,2
+ Saudi Arabia, Rwanda,6
+ Saudi Arabia, Madagascar,4
+ Saudi Arabia, Botswana,8
+ Saudi Arabia, Mozambique,1
+ Saudi Arabia, Eswatini,2
+ Saudi Arabia, Zambia,5
+ Saudi Arabia, Namibia,2
+ South Africa, Ghana,56
+ South Africa, Gabon,11
+ South Africa, Tunisia,67
+ Senegal, South Africa,17
+ South Africa, Cameroon,30
+ France, South Africa,38
+ South Africa, Guinea,22
+ South Africa, Morocco,17
+ South Africa, Tanzania,7
+ South Africa, Rwanda,29
+ South Africa, Madagascar,28
+ Japan, South Africa,44
+ South Africa, Eswatini,11
+ Egypt, Nigeria,48
+ Brazil, Nigeria,29
+ Switzerland, Nigeria,32
+ Nigeria, Ethiopia,34
+ Nigeria, Kenya,37
+ Nigeria, Gabon,12
+ Nigeria, Tunisia,69
+ Senegal, Nigeria,11
+ Nigeria, Cameroon,40
+ France, Nigeria,39
+ Germany, Nigeria,39
+ Nigeria, Guinea,26
+ Nigeria, Morocco,11
+ Nigeria, Tanzania,7
+ Nigeria, Rwanda,32
+ Nigeria, Madagascar,24
+ Nigeria, Botswana,33
+ Japan, Nigeria,21
+ Nigeria, Mozambique,8
+ Nigeria, Eswatini,11
+ Nigeria, Zambia,36
+ Nigeria, Namibia,18
+ Brazil, Ghana,12
+ Switzerland, Ghana,13
+ Ethiopia, Ghana,12
+ Kenya, Ghana,18
+ Ghana, Gabon,5
+ Ghana, Tunisia,26
+ Egypt, Ghana,10
+ Senegal, Ghana,4
+ Ghana, Cameroon,12
+ Ghana, Guinea,13
+ Ghana, Morocco,6
+ Ghana, Tanzania,4
+ Ghana, Madagascar,13
+ Ghana, Botswana,10
+ Japan, Ghana,8
+ Ghana, Mozambique,5
+ Ghana, Eswatini,3
+ Ghana, Zambia,21
+ Ghana, Namibia,9
+ Switzerland, Nigeria,31
+ Switzerland, Ethiopia,6
+ Switzerland, Kenya,6
+ Switzerland, Gabon,2
+ Switzerland, Tunisia,16
+ Egypt, Switzerland,11
+ Senegal, Switzerland,6
+ Switzerland, Ghana,10
+ Switzerland, Guinea,5
+ Switzerland, Morocco,3
+ Switzerland, Tanzania,2
+ Switzerland, Rwanda,6
+ Switzerland, Madagascar,8
+ Switzerland, Mozambique,1
+ Switzerland, Eswatini,2
+ Switzerland, Zambia,6
+ Switzerland, Namibia,2
+ Ethiopia, Gabon,4
+ Ethiopia, Tunisia,24
+ Nigeria, Ethiopia,48
+ Egypt, Ethiopia,18
+ Senegal, Ethiopia,4
+ Ethiopia, Ghana,21
+ Ethiopia, Cameroon,13
+ France, Ethiopia,14
+ United States, Ethiopia,53
+ Germany, Ethiopia,12
+ Ethiopia, Guinea,8
+ Ethiopia, Morocco,4
+ Ethiopia, Tanzania,3
+ Ethiopia, Rwanda,11
+ Ethiopia, Madagascar,9
+ Ethiopia, Botswana,13
+ Japan, Ethiopia,7
+ Ethiopia, Mozambique,2
+ Ethiopia, Eswatini,3
+ Ethiopia, Zambia,14
+ Ethiopia, Namibia,5
+ Kenya, Gabon,5
+ Kenya, Tunisia,26
+ Nigeria, Kenya,45
+ Egypt, Kenya,18
+ Senegal, Kenya,3
+ Kenya, Ghana,22
+ Kenya, Cameroon,13
+ France, Kenya,13
+ Germany, Kenya,21
+ Kenya, Guinea,11
+ Kenya, Morocco,6
+ Kenya, Tanzania,4
+ Kenya, Rwanda,11
+ Kenya, Madagascar,10
+ Kenya, Botswana,13
+ Japan, Kenya,11
+ Kenya, Mozambique,2
+ Kenya, Eswatini,3
+ Kenya, Zambia,13
+ Kenya, Namibia,8
+ Gabon, Tunisia,15
+ Nigeria, Gabon,17
+ Egypt, Gabon,8
+ Senegal, Gabon,5
+ Ghana, Gabon,11
+ Gabon, Cameroon,6
+ France, Gabon,8
+ United States, Gabon,24
+ Kenya, Gabon,6
+ South Africa, Gabon,23
+ Gabon, Guinea,4
+ Morocco, Gabon,3
+ Gabon, Tanzania,1
+ Gabon, Rwanda,4
+ Gabon, Madagascar,5
+ Gabon, Botswana,5
+ Japan, Gabon,3
+ Ethiopia, Gabon,5
+ Gabon, Mozambique,2
+ Gabon, Eswatini,2
+ Gabon, Zambia,7
+ Gabon, Namibia,3
+ Senegal, Ghana,12
+ Senegal, Nigeria,20
+ France, Senegal,7
+ Senegal, United States,30
+ Senegal, Kenya,8
+ Senegal, South Africa,25
+ Senegal, Germany,8
+ Senegal, Guinea,4
+ Senegal, Morocco,5
+ Senegal, Tanzania,1
+ Senegal, Rwanda,6
+ Senegal, Madagascar,5
+ Senegal, Botswana,5
+ Japan, Senegal,3
+ Senegal, Ethiopia,5
+ Senegal, Mozambique,3
+ Senegal, Eswatini,2
+ Senegal, Zambia,6
+ Senegal, Namibia,3
+ Nigeria, Cameroon,39
+ United States, Cameroon,40
+ Kenya, Cameroon,10
+ Cameroon, Tunisia,20
+ South Africa, Cameroon,46
+ Germany, Cameroon,7
+ Cameroon, Guinea,8
+ Morocco, Cameroon,4
+ Cameroon, Tanzania,1
+ Rwanda, Cameroon,11
+ Cameroon, Madagascar,7
+ Botswana, Cameroon,14
+ Japan, Cameroon,7
+ Ethiopia, Cameroon,14
+ Cameroon, Mozambique,2
+ Cameroon, Eswatini,3
+ Ghana, Cameroon,20
+ Cameroon, Zambia,11
+ Cameroon, Namibia,5
+ Germany, Tunisia,21
+ Germany, Guinea,6
+ Germany, Morocco,9
+ Germany, Tanzania,1
+ Germany, Madagascar,10
+ Germany, Botswana,16
+ Germany, Ethiopia,8
+ Germany, Eswatini,4
+ Germany, Zambia,16
+ Germany, Namibia,10
+ United States, Guinea,29
+ Morocco, Guinea,3
+ Tanzania, Guinea,1
+ Rwanda, Guinea,6
+ Madagascar, Guinea,5
+ Botswana, Guinea,7
+ Japan, Guinea,3
+ Germany, Guinea,6
+ Tunisia, Guinea,14
+ Ethiopia, Guinea,7
+ Nigeria, Guinea,23
+ Guinea, Mozambique,1
+ Cameroon, Guinea,7
+ Guinea, Eswatini,3
+ South Africa, Guinea,26
+ Ghana, Guinea,8
+ Zambia, Guinea,6
+ Namibia, Guinea,2
+ France, Guinea,10
+ Rwanda, Tanzania,1
+ Madagascar, Tanzania,1
+ Botswana, Tanzania,1
+ Japan, Tanzania,1
+ Germany, Tanzania,5
+ Tunisia, Tanzania,1
+ Ethiopia, Tanzania,1
+ Nigeria, Tanzania,5
+ Tanzania, Mozambique,1
+ Cameroon, Tanzania,1
+ Tanzania, Eswatini,1
+ South Africa, Tanzania,5
+ Ghana, Tanzania,1
+ Zambia, Tanzania,1
+ Namibia, Tanzania,1
+ United States, Tanzania,10
+ France, Tanzania,5
+ Botswana, Madagascar,1
+ Japan, Madagascar,1
+ Germany, Madagascar,3
+ Tunisia, Madagascar,1
+ Ethiopia, Madagascar,1
+ Nigeria, Madagascar,5
+ Madagascar, Mozambique,2
+ Cameroon, Madagascar,2
+ Madagascar, Eswatini,2
+ South Africa, Madagascar,8
+ Ghana, Madagascar,3
+ Zambia, Madagascar,2
+ Namibia, Madagascar,2
+ France, Madagascar,5
+ Japan, Tunisia,5
+ Japan, Ethiopia,2
+ Japan, Nigeria,12
+ Japan, Mozambique,1
+ Japan, Cameroon,2
+ Japan, Eswatini,2
+ Japan, Ghana,5
+ France, Japan,22
+ Cameroon, Mozambique,3
+ Nigeria, Mozambique,10
+ Mozambique, Eswatini,1
+ South Africa, Mozambique,13
+ Ghana, Mozambique,5
+ Zambia, Mozambique,3
+ Namibia, Mozambique,3
+ United States, Mozambique,9
+ France, Mozambique,4
+ South Africa, Eswatini,20
+ Ghana, Eswatini,10
+ Zambia, Eswatini,5
+ Nigeria, Eswatini,18
+ Namibia, Eswatini,3
+ United States, Eswatini,17
+ France, Eswatini,6
+ Nigeria, Zambia,17
+ United States, Zambia,37
+ France, Zambia,7
+ United States, Namibia,13
+ France, Namibia,3
+ Germany,Denmark,14
+ France,Denmark,3
+ Switzerland,Denmark,2
+ Canada,Denmark,2
+ Colombia,Denmark,1
+ Argentina,Denmark,4
+ United Kingdom, Argentina,38
+ Belgium, Colombia,4
+ Belgium, Argentina,3
+ Germany, Colombia,9
+ Germany, Argentina,15
+ France, Colombia,5
+ France, Argentina,5
+ Switzerland, Colombia,2
+ Canada, Colombia,1
+ Canada, Argentina,9
+ United Kingdom, Colombia,33
+ Belgium, Colombia,5
+ Germany, Colombia,3
+ Colombia, Argentina,3
+ United Kingdom, Argentina,18
+ Germany, Argentina,6
+ Spain,Brazil,11
+ Spain, Belgium,23
+ France,Canada,15
+Indonesia, United Kingdom,6
+ United Kingdom, Indonesia,4
+Netherlands, Bulgaria,1
+ United States, Bulgaria,1
+ Canada,Singapore,4
+ United States,Singapore,28
+Singapore, Portugal,1
+Poland, Belgium,2
+ Poland, Belgium,2
+Japan, Austria,2
+Japan, Gabon,3
+ Germany, Austria,15
+ Austria, Gabon,4
+ Germany, Gabon,12
+ Gabon, Gabon,8
+Dominican Republic, Italy,2
+Ecuador, United States,1
+ United Kingdom,Ecuador,7
+Ecuador, Germany,1
+ United States, Ecuador,7
+ United States,Chile,8
+ South Korea,Chile,1
+China, Thailand,3
+ Thailand, China,7
+ United Arab Emirates,Austria,4
+ Malaysia,Bangladesh,8
+ Malaysia, Bangladesh,6
+ Malaysia, Japan,5
+Spain, Brazil,12
+Norway, Finland,2
+ Italy,Moldova,2
+ Uruguay,Moldova,1
+ Uruguay, Italy,1
+ Uruguay, Italy,1
+Netherlands, Belgium,7
+Oman, Oman,1
+Belgium, Cyprus,2
+ Belgium, Cyprus,10
+ Cyprus, Portugal,2
+ Bangladesh,Egypt,2
+ Germany,Egypt,7
+ Bangladesh, Egypt,1
+ Indonesia,Vietnam,1
+ South Korea,Vietnam,2
+ Bangladesh,Vietnam,1
+ India,Vietnam,3
+ Taiwan,Vietnam,4
+ Indonesia, Vietnam,3
+ South Korea, Vietnam,2
+ Bangladesh, Vietnam,2
+ India, Vietnam,4
+ Taiwan, Vietnam,10
+ Indonesia, Vietnam,3
+ Indonesia, South Korea,2
+ Bangladesh, Indonesia,3
+ India, Indonesia,15
+ Taiwan, Indonesia,5
+ Bangladesh, South Korea,2
+ Taiwan, Bangladesh,1
+ Iran, Italy,21
+ Italy, Czechia,5
+ Sweden, Iran,4
+ Germany,United Arab Emirates,1
+ India,Czechia,1
+Bangladesh, Canada,4
+ Bangladesh, Canada,7
+France, Monaco,1
+ France, Monaco,1
+ France, Monaco,1
+ India,Taiwan,2
+Taiwan, South Korea,1
+France, Morocco,5
+France, Vietnam,5
+ Morocco, Vietnam,2
+ France, Vietnam,14
+ India, Canada,31
+ India, Canada,35
+Canada, Haiti,1
+Canada, Grenada,1
+ Haiti, Grenada,1
+ Canada, Haiti,1
+ Canada, Grenada,1
+ Australia, Russia,9
+ Spain,Portugal,2
+ France,China,20
+China, Germany,19
+United States, Saint Kitts and Nevis,2
+ United States, Saint Kitts and Nevis,2
+ Germany,Russia,8
+ Germany, Russia,27
+Indonesia, Saudi Arabia,3
+Costa Rica, Peru,4
+ Colombia,Costa Rica,6
+Costa Rica, Argentina,4
+ Mexico,Costa Rica,4
+ Brazil,Costa Rica,4
+ Costa Rica, Peru,1
+ Argentina, Peru,4
+ Mexico, Peru,7
+ Costa Rica, Peru,3
+ Colombia, Costa Rica,6
+ Costa Rica, Argentina,2
+ Mexico, Costa Rica,2
+ Brazil, Costa Rica,2
+ Mexico, Colombia,2
+ Brazil, Colombia,6
+ Mexico, Argentina,6
+ Brazil, Argentina,14
+ Colombia, Argentina,10
+ Brazil, Mexico,10
+ Mexico, Argentina,5
+ Mexico, Colombia,10
+ Brazil, Argentina,7
+ Brazil, Colombia,10
+Italy, Netherlands,4
+ Japan,South Korea,8
+ Spain, Kenya,8
+ Japan, Belgium,8
+ Spain, Japan,12
+ Japan, Belgium,2
+ Spain, Germany,34
+ Australia, Germany,62
+ Spain, South Africa,8
+Australia, Italy,16
+United Kingdom, Japan,27
+ India, Switzerland,27
+ India, Germany,22
+United States, Pakistan,8
+Germany, Tunisia,1
+ United States,Senegal,2
+ Poland,Ukraine,2
+ United States,Ukraine,10
+ Iran,Ukraine,2
+ Portugal,Ukraine,1
+ Turkey,Ukraine,1
+ United States, Poland,37
+ Iran, Poland,4
+ Poland, Portugal,1
+ Poland, Turkey,1
+ Iran, Portugal,1
+ Iran, Turkey,8
+ Iran, Portugal,1
+ Turkey, Portugal,1
+ China,Saudi Arabia,20
+South Africa, Zimbabwe,6
+ India,Egypt,2
+China, Italy,16
+ Russia,Australia,5
+United Kingdom, Gambia,5
+ United Kingdom, Gambia,22
+ Switzerland,Sweden,5
+ Austria,Romania,8
+Canada, Greece,4
+ Australia, Greece,8
+ Thailand,Singapore,5
+ India,Sweden,5
+India, Ireland,1
+ United Kingdom,United Arab Emirates,1
+ Jordan,United Arab Emirates,5
+ Australia,United Arab Emirates,2
+ United Kingdom, Jordan,3
+ United Kingdom, United Arab Emirates,10
+ United Arab Emirates, Jordan,5
+ Australia, Jordan,2
+ Australia, United Arab Emirates,9
+ Australia, United Arab Emirates,6
+China, Sudan,1
+ Japan,China,10
+ China, Sudan,2
+ Japan, Sudan,4
+ Japan, China,27
+ Germany,Azerbaijan,1
+ Iran,Azerbaijan,2
+Azerbaijan, Azerbaijan,1
+ Germany, Iran,16
+ Germany, Azerbaijan,1
+ Iran, Azerbaijan,2
+ Gabon,Gabon,3
+ France,Gabon,2
+ Germany,Gabon,2
+ Australia,New Zealand,9
+ Brazil, Bangladesh,1
+ Brazil,Singapore,2
+Netherlands, Gabon,1
+Netherlands, Senegal,2
+Netherlands, Gambia,1
+Netherlands, Austria,4
+ Gambia, Gabon,2
+ United Kingdom, Gabon,15
+ Austria, Gabon,3
+ Senegal, Gambia,2
+ Senegal, United Kingdom,26
+ Senegal, Senegal,2
+ Senegal, Austria,3
+ Senegal, Gambia,3
+ Austria, Gambia,1
+ Australia,Chile,5
+ Australia, Chile,12
+Indonesia, Thailand,1
+ Thailand, Indonesia,2
+ United Kingdom, Thailand,171
+ United Kingdom, Indonesia,5
+ Japan, Argentina,9
+ Italy, Argentina,12
+ Switzerland, Pakistan,3
+ United States, Pakistan,19
+ France,Sweden,11
+United Kingdom, Lebanon,4
+ Lebanon, Gambia,1
+ Lebanon, Gambia,3
+ United Kingdom,Poland,1
+ United Kingdom, Poland,9
+ Thailand,Philippines,3
+United Kingdom, Uganda,6
+ United Kingdom, Uganda,55
+ United Kingdom,Uganda,4
+ United States,Pakistan,9
+ United States,Lebanon,3
+ Brazil,Lebanon,3
+ Brazil, Lebanon,1
+Italy, South Africa,2
+Italy, Portugal,2
+India, Vietnam,2
+ Saudi Arabia, Vietnam,3
+ United States, Vietnam,20
+ Saudi Arabia, Vietnam,2
+ United States, Vietnam,12
+ United Kingdom,Lebanon,7
+ United Kingdom, Lebanon,22
+ Kenya,Belgium,3
+Belgium, Uganda,1
+ Kenya, Uganda,24
+ France,Cameroon,2
+Cameroon, Niger,2
+Cameroon, Algeria,1
+Cameroon, Tunisia,1
+ Senegal, Niger,3
+ Senegal, Algeria,2
+ France, Niger,2
+ France, Algeria,4
+ Niger, Algeria,2
+ Tunisia, Niger,4
+ Tunisia, Algeria,4
+China, Bangladesh,11
+ Bangladesh, Canada,7
+United States, Bulgaria,3
+ Italy, Bulgaria,1
+ Belgium, Pakistan,3
+ Mozambique,Mozambique,2
+ Spain,Mozambique,3
+ Spain, Mozambique,8
+ Mozambique, Mozambique,1
+ Spain, Mozambique,7
+ Germany,Switzerland,24
+Germany, Japan,7
+Germany, Brazil,4
+ Malawi,Malawi,4
+ United States,Malawi,2
+ United Kingdom,Malawi,8
+France, Tunisia,3
+ Australia,South Africa,5
+ Italy,South Africa,3
+Colombia, Nepal,3
+ Japan,Colombia,1
+Colombia, Honduras,1
+Colombia, Saudi Arabia,1
+Colombia, China,1
+ United Kingdom, Nepal,9
+ United Kingdom, Honduras,1
+ Japan, Nepal,1
+ Nepal, Honduras,1
+ China, Nepal,2
+ Japan, Honduras,1
+ Japan, Colombia,8
+ Japan, Nepal,8
+ Japan, China,19
+ Colombia, Honduras,1
+ Nepal, Honduras,2
+ Saudi Arabia, Honduras,1
+ China, Honduras,1
+ Colombia, Nepal,6
+ China, Colombia,3
+ China, Nepal,1
+Indonesia, United States,2
+India, Algeria,1
+ Bangladesh, Nepal,2
+ Bangladesh, Algeria,1
+ Nepal, Algeria,1
+ India, Algeria,5
+ Nepal, Algeria,1
+Australia, Nigeria,2
+Australia, Ethiopia,1
+Australia, South Africa,6
+ United Kingdom, Nigeria,102
+ United Kingdom, Ethiopia,40
+ Cambodia, Burkina Faso,1
+Italy, Israel,2
+ France,Turkey,3
+South Korea, Iran,1
+ Spain,South Korea,3
+ Iran, South Korea,5
+ United Kingdom, Iran,10
+ United Kingdom, South Korea,6
+Italy, Germany,20
+ Kenya,Tanzania,2
+ Tanzania,Tanzania,1
+ United Kingdom,Tanzania,1
+ United States,Tanzania,2
+ United Kingdom, Tanzania,4
+ Kenya, Tanzania,4
+China, Finland,4
+China, Sweden,5
+ China, Finland,9
+Belgium, Finland,3
+ Belgium, Finland,4
+ United States, Finland,38
+ Belgium, Finland,3
+ United States, Finland,90
+ Turkey,Cyprus,3
+United States, Finland,9
+Spain, Portugal,11
+ Spain, Portugal,12
+United States, Vietnam,3
+ United States, Cambodia,3
+ France, Vietnam,8
+ Vietnam, Madagascar,3
+ Cambodia, Vietnam,2
+ Cambodia, Madagascar,3
+ France, Cambodia,10
+Myanmar, Myanmar,1
+Ireland, Netherlands,4
+Ireland, United States,2
+Germany, Vietnam,2
+Germany, Gabon,4
+Germany, Austria,14
+ Gabon, Vietnam,5
+ Germany, Vietnam,10
+ Austria, Vietnam,2
+ Norway,Sweden,4
+ Australia,Sweden,7
+ Australia, Norway,12
+ United Kingdom,Estonia,2
+Spain, Argentina,1
+ Spain, Argentina,6
+ Australia,India,11
+ Australia,Nepal,2
+ Colombia,Nepal,4
+ Turkey,Nepal,1
+ Canada,Nepal,5
+ United Kingdom,Nepal,5
+ Spain,Nepal,1
+ Switzerland,Nepal,1
+ Romania,Nepal,1
+ Netherlands,Nepal,1
+ Philippines,Nepal,1
+ Malaysia,Nepal,1
+ Brazil,Nepal,1
+ South Africa,Nepal,2
+ Pakistan,Nepal,1
+ Italy,Nepal,1
+ India,Nepal,6
+ Saudi Arabia,Nepal,4
+ Australia, Colombia,2
+ Australia, Turkey,4
+ Australia, Romania,2
+ Australia, Philippines,9
+ Colombia, Turkey,6
+ Canada, Colombia,20
+ Spain, Colombia,7
+ Switzerland, Colombia,8
+ Colombia, Romania,3
+ Netherlands, Colombia,5
+ Philippines, Colombia,5
+ Malaysia, Colombia,6
+ South Africa, Colombia,8
+ Australia, Colombia,8
+ Colombia, Pakistan,4
+ Italy, Colombia,10
+ Canada, Turkey,9
+ Switzerland, Turkey,3
+ Turkey, Romania,2
+ Netherlands, Turkey,5
+ Philippines, Turkey,2
+ Malaysia, Turkey,3
+ Brazil, Turkey,2
+ South Africa, Turkey,2
+ Australia, Turkey,3
+ Pakistan, Turkey,2
+ Spain, Canada,67
+ Canada, Philippines,11
+ Malaysia, Canada,10
+ Canada, Pakistan,13
+ Canada, Saudi Arabia,14
+ United Kingdom, Pakistan,20
+ Spain, Canada,37
+ Spain, Romania,2
+ Spain, Netherlands,42
+ Spain, Philippines,2
+ Malaysia, Spain,1
+ Spain, Pakistan,6
+ Switzerland, Romania,1
+ Switzerland, Philippines,6
+ Malaysia, Switzerland,3
+ Switzerland, Saudi Arabia,11
+ Netherlands, Romania,2
+ Philippines, Romania,2
+ Malaysia, Romania,3
+ Brazil, Romania,5
+ South Africa, Romania,4
+ Australia, Romania,3
+ Pakistan, Romania,2
+ Italy, Romania,11
+ India, Romania,4
+ Saudi Arabia, Romania,5
+ Philippines, Netherlands,5
+ Malaysia, Netherlands,3
+ Canada, Netherlands,39
+ Netherlands, Pakistan,3
+ Netherlands, Saudi Arabia,7
+ Malaysia, Philippines,5
+ Brazil, Philippines,3
+ Philippines, South Africa,7
+ Canada, Philippines,6
+ Australia, Philippines,7
+ Philippines, Pakistan,1
+ Philippines, Saudi Arabia,1
+ Malaysia, Brazil,4
+ Malaysia, South Africa,2
+ Malaysia, Canada,3
+ Malaysia, Australia,9
+ Malaysia, Pakistan,10
+ Malaysia, Italy,1
+ India, Malaysia,12
+ Brazil, Pakistan,2
+ South Africa, Pakistan,3
+ Italy, Pakistan,12
+ South Africa, Pakistan,6
+ Austria,Kuwait,1
+ Austria, Kuwait,1
+ Italy,Israel,7
+ China,Israel,8
+ France,Israel,4
+ Russia,Israel,2
+ Belgium,Israel,2
+ Greece,Israel,2
+ Germany,Israel,6
+ Pakistan,Israel,1
+ Canada,Israel,2
+ Spain,Israel,1
+Israel, Hungary,1
+ Australia,Israel,2
+Israel, Ireland,2
+ India,Israel,4
+ Turkey,Israel,1
+Israel, Cyprus,1
+Israel, Jordan,1
+ Lebanon,Israel,1
+Israel, Romania,1
+ Senegal,Israel,1
+ Iran,Israel,1
+ Saudi Arabia,Israel,1
+ United Kingdom,Israel,5
+ Austria,Israel,1
+ Italy, Hungary,2
+ Italy, Ireland,10
+ Italy, Cyprus,4
+ Italy, Jordan,6
+ Lebanon, Italy,10
+ Italy, Romania,8
+ Austria, Italy,10
+ China, Italy,45
+ China, Greece,10
+ Spain, China,12
+ China, Hungary,2
+ China, Israel,4
+ China, Ireland,8
+ China, Turkey,3
+ China, Cyprus,3
+ China, Jordan,3
+ Lebanon, China,5
+ Senegal, China,7
+ China, Iran,10
+ China, Saudi Arabia,26
+ China, Austria,13
+ United States, Ireland,19
+ United States, Cyprus,3
+ United States, Romania,4
+ France, Russia,8
+ France, Greece,5
+ France, Pakistan,2
+ France, Spain,47
+ France, Hungary,2
+ France, Ireland,25
+ India, France,12
+ France, Turkey,24
+ France, Cyprus,2
+ France, Jordan,2
+ France, Lebanon,7
+ France, Iran,22
+ France, Austria,7
+ Russia, Belgium,2
+ Russia, Greece,2
+ Germany, Russia,32
+ Russia, Pakistan,1
+ France, Russia,6
+ Canada, Russia,7
+ Spain, Russia,8
+ Russia, Hungary,1
+ Russia, Israel,3
+ Australia, Russia,7
+ Russia, Ireland,3
+ India, Russia,8
+ Russia, Turkey,2
+ Russia, Italy,5
+ Russia, Cyprus,1
+ Lebanon, Russia,1
+ Russia, Romania,1
+ Senegal, Russia,2
+ Russia, Iran,1
+ Russia, Saudi Arabia,4
+ United Kingdom, Russia,3
+ Belgium, Greece,2
+ Belgium, Pakistan,1
+ Belgium, Hungary,1
+ Belgium, Ireland,3
+ Belgium, Turkey,10
+ Belgium, Cyprus,9
+ Belgium, Jordan,2
+ Lebanon, Belgium,1
+ Belgium, Romania,1
+ Senegal, Belgium,2
+ Iran, Belgium,14
+ Belgium, Saudi Arabia,12
+ Russia, Belgium,6
+ Austria, Belgium,5
+ Greece, Pakistan,1
+ France, Greece,9
+ Canada, Greece,3
+ Greece, Hungary,1
+ Greece, Israel,1
+ Greece, Ireland,3
+ Greece, Turkey,1
+ China, Greece,6
+ Greece, Jordan,2
+ Lebanon, Greece,2
+ Greece, Romania,2
+ Belgium, Greece,2
+ Senegal, Greece,2
+ Iran, Greece,2
+ Saudi Arabia, Greece,2
+ Russia, Greece,2
+ Austria, Greece,3
+ Germany, Pakistan,6
+ Germany, Hungary,10
+ Germany, Israel,12
+ Germany, Ireland,13
+ Germany, Turkey,2
+ Germany, Cyprus,1
+ Germany, Jordan,1
+ Lebanon, Germany,11
+ Senegal, Germany,9
+ Germany, Saudi Arabia,9
+ France, Pakistan,4
+ Canada, Pakistan,7
+ Pakistan, Hungary,1
+ Pakistan, Israel,2
+ Australia, Pakistan,13
+ Pakistan, Ireland,3
+ Pakistan, Turkey,1
+ Greece, Pakistan,3
+ Pakistan, Cyprus,1
+ Pakistan, Jordan,1
+ Lebanon, Pakistan,5
+ Pakistan, Romania,1
+ Senegal, Pakistan,2
+ Germany, Pakistan,2
+ Iran, Pakistan,3
+ Russia, Pakistan,2
+ Austria, Pakistan,1
+ Canada, Hungary,1
+ Canada, Israel,13
+ Canada, Ireland,12
+ Canada, Turkey,8
+ Canada, Greece,3
+ Canada, Cyprus,1
+ Canada, Jordan,1
+ Canada, Lebanon,11
+ Senegal, Canada,2
+ Canada, Iran,16
+ Canada, Russia,6
+ Spain, Hungary,3
+ Spain, Israel,13
+ Spain, Ireland,8
+ Spain, Turkey,14
+ Spain, Greece,7
+ Spain, China,8
+ Spain, Cyprus,1
+ Spain, Jordan,2
+ Spain, Lebanon,7
+ Spain, Senegal,1
+ Spain, Iran,8
+ Israel, Hungary,1
+ Australia, Hungary,1
+ Hungary, Ireland,3
+ India, Hungary,1
+ Turkey, Hungary,3
+ Italy, Hungary,5
+ Greece, Hungary,2
+ China, Hungary,1
+ Hungary, Cyprus,1
+ Hungary, Jordan,1
+ Lebanon, Hungary,1
+ France, Hungary,2
+ Hungary, Romania,1
+ Belgium, Hungary,1
+ Senegal, Hungary,1
+ Germany, Hungary,8
+ Canada, Hungary,2
+ Iran, Hungary,1
+ Saudi Arabia, Hungary,1
+ United Kingdom, Hungary,2
+ Russia, Hungary,1
+ Austria, Hungary,2
+ Israel, Ireland,3
+ Israel, Turkey,2
+ Greece, Israel,3
+ Israel, Cyprus,1
+ Israel, Jordan,1
+ Lebanon, Israel,4
+ Israel, Romania,1
+ Belgium, Israel,2
+ Iran, Israel,1
+ Russia, Israel,3
+ Austria, Israel,1
+ Australia, Ireland,8
+ Australia, Cyprus,1
+ Australia, Jordan,1
+ Australia, Lebanon,8
+ Australia, Senegal,5
+ Australia, Austria,7
+ India, Ireland,6
+ Turkey, Ireland,1
+ Italy, Ireland,12
+ Greece, Ireland,4
+ United States, Ireland,41
+ China, Ireland,5
+ Ireland, Cyprus,1
+ Ireland, Jordan,1
+ Lebanon, Ireland,4
+ France, Ireland,17
+ Ireland, Romania,1
+ Belgium, Ireland,1
+ Senegal, Ireland,1
+ Germany, Ireland,7
+ Canada, Ireland,12
+ Iran, Ireland,1
+ Saudi Arabia, Ireland,5
+ United Kingdom, Ireland,22
+ Russia, Ireland,2
+ Austria, Ireland,5
+ India, Greece,3
+ India, Cyprus,1
+ India, Lebanon,14
+ India, France,16
+ India, Romania,2
+ India, Senegal,6
+ India, Iran,21
+ India, Ireland,4
+ India, Austria,6
+ Greece, Turkey,5
+ China, Turkey,2
+ Turkey, Cyprus,1
+ Turkey, Jordan,1
+ Lebanon, Turkey,1
+ France, Turkey,17
+ Belgium, Turkey,7
+ Senegal, Turkey,1
+ Germany, Turkey,2
+ Iran, Turkey,4
+ Turkey, Ireland,3
+ Russia, Turkey,5
+ Austria, Turkey,3
+ Jordan, Cyprus,1
+ Lebanon, Cyprus,1
+ Italy, Cyprus,2
+ France, Cyprus,3
+ Cyprus, Romania,1
+ United States, Cyprus,4
+ Senegal, Cyprus,1
+ Germany, Cyprus,3
+ Canada, Cyprus,3
+ Iran, Cyprus,4
+ Ireland, Cyprus,1
+ Saudi Arabia, Cyprus,1
+ Russia, Cyprus,3
+ Austria, Cyprus,1
+ Lebanon, Jordan,1
+ France, Jordan,2
+ Jordan, Romania,1
+ Belgium, Jordan,1
+ Senegal, Jordan,1
+ Germany, Jordan,1
+ Canada, Jordan,5
+ Iran, Jordan,3
+ Ireland, Jordan,1
+ Austria, Jordan,2
+ Lebanon, Italy,8
+ Lebanon, Romania,1
+ Lebanon, Belgium,1
+ Senegal, Lebanon,3
+ Lebanon, Germany,5
+ Canada, Lebanon,8
+ Lebanon, Iran,1
+ Lebanon, Ireland,2
+ Lebanon, Russia,2
+ Lebanon, Austria,1
+ Belgium, Romania,2
+ United States, Romania,5
+ Senegal, Romania,1
+ Germany, Romania,5
+ Iran, Romania,1
+ Ireland, Romania,1
+ France, Romania,3
+ Russia, Romania,1
+ Austria, Romania,2
+ Senegal, Canada,3
+ Senegal, Iran,1
+ Senegal, Ireland,1
+ Senegal, Saudi Arabia,3
+ Senegal, Russia,2
+ Iran, Ireland,1
+ Iran, Saudi Arabia,8
+ France, Iran,18
+ Russia, Iran,4
+ Iran, Austria,3
+ Austria, Saudi Arabia,1
+Japan, China,17
+ Australia,Germany,18
+Italy, Argentina,1
+ Netherlands,Luxembourg,1
+ Italy,Luxembourg,1
+ France,Luxembourg,1
+ Belgium,Luxembourg,1
+ Nigeria,Dominica,1
+ United States,Dominica,2
+United States, Sweden,8
+ Kenya,Seychelles,2
+ Ethiopia,Seychelles,1
+ United Kingdom,Seychelles,1
+South Africa, Ghana,5
+Iceland, Iceland,5
+ Iceland, Iceland,5
+Bangladesh, Pakistan,3
+Bangladesh, Thailand,2
+Bangladesh, Portugal,1
+ India,Bangladesh,7
+ Malaysia, Thailand,7
+ Malaysia, Portugal,3
+ Thailand, Pakistan,3
+ Pakistan, Portugal,3
+ Thailand, Portugal,1
+ India, Thailand,7
+ Australia, Thailand,37
+ Thailand, Portugal,2
+ India, Portugal,2
+ Italy, Bulgaria,3
+ Canada,Australia,16
+Australia, Finland,5
+ France,Australia,15
+Australia, Botswana,2
+ Lebanon,Australia,2
+ Spain,Australia,5
+Australia, Israel,4
+Australia, New Zealand,7
+Australia, Trinidad and Tobago,1
+ Switzerland,Australia,15
+Australia, Ireland,1
+Australia, Pakistan,1
+Australia, Netherlands,10
+Australia, South Korea,2
+ Sweden,Australia,6
+Australia, Portugal,1
+ Canada, Finland,22
+ Canada, Botswana,5
+ Canada, New Zealand,22
+ Canada, South Korea,8
+ France, Finland,12
+ India, Finland,11
+ Finland, Botswana,5
+ Lebanon, Finland,5
+ Spain, Finland,9
+ Germany, Finland,11
+ Canada, Finland,17
+ Israel, Finland,4
+ New Zealand, Finland,11
+ Trinidad and Tobago, Finland,2
+ Switzerland, Finland,9
+ Ireland, Finland,2
+ Pakistan, Finland,4
+ Australia, Finland,25
+ Italy, Finland,10
+ Netherlands, Finland,16
+ South Africa, Finland,4
+ South Korea, Finland,5
+ Finland, Portugal,3
+ France, New Zealand,17
+ France, Trinidad and Tobago,2
+ France, Finland,36
+ France, South Korea,3
+ France, Portugal,10
+ India, Botswana,6
+ India, Pakistan,13
+ India, Finland,10
+ India, Portugal,3
+ Lebanon, Botswana,7
+ Spain, Botswana,5
+ Canada, Botswana,11
+ India, Botswana,5
+ New Zealand, Botswana,9
+ Trinidad and Tobago, Botswana,3
+ Ireland, Botswana,3
+ Pakistan, Botswana,3
+ Australia, Botswana,13
+ Italy, Botswana,8
+ Finland, Botswana,3
+ Netherlands, Botswana,6
+ South Korea, Botswana,4
+ Sweden, Botswana,4
+ Portugal, Botswana,3
+ Spain, Lebanon,4
+ Lebanon, Botswana,2
+ India, Lebanon,3
+ Lebanon, Israel,1
+ Lebanon, New Zealand,6
+ Lebanon, Trinidad and Tobago,1
+ Lebanon, Switzerland,1
+ Australia, Lebanon,11
+ Lebanon, Finland,3
+ Lebanon, Netherlands,5
+ Lebanon, South Africa,3
+ Lebanon, South Korea,3
+ Sweden, Lebanon,3
+ Lebanon, Portugal,3
+ Spain, Botswana,3
+ Spain, Trinidad and Tobago,3
+ Spain, Finland,9
+ Spain, Sweden,11
+ Spain, Portugal,7
+ United Kingdom, Ireland,21
+ United Kingdom, Finland,41
+ Germany, New Zealand,29
+ Germany, Trinidad and Tobago,5
+ Germany, Finland,37
+ Germany, Portugal,6
+ New Zealand, Israel,4
+ Spain, Israel,37
+ Trinidad and Tobago, Israel,1
+ Pakistan, Israel,1
+ Israel, Finland,3
+ Netherlands, Israel,6
+ Israel, Portugal,2
+ Spain, New Zealand,11
+ Trinidad and Tobago, New Zealand,4
+ Switzerland, New Zealand,6
+ New Zealand, Ireland,4
+ New Zealand, Pakistan,4
+ Lebanon, New Zealand,6
+ Australia, New Zealand,38
+ Italy, New Zealand,10
+ New Zealand, Finland,8
+ Netherlands, New Zealand,12
+ South Africa, New Zealand,6
+ South Korea, New Zealand,4
+ Sweden, New Zealand,5
+ New Zealand, Portugal,5
+ Canada, New Zealand,12
+ Germany, New Zealand,5
+ Trinidad and Tobago, Ireland,1
+ Trinidad and Tobago, Pakistan,1
+ Lebanon, Trinidad and Tobago,3
+ Italy, Trinidad and Tobago,4
+ Trinidad and Tobago, Finland,2
+ Trinidad and Tobago, South Korea,2
+ Trinidad and Tobago, New Zealand,2
+ Canada, Trinidad and Tobago,4
+ Germany, Trinidad and Tobago,1
+ Switzerland, Ireland,3
+ Lebanon, Switzerland,5
+ Switzerland, Finland,13
+ Switzerland, South Korea,1
+ Switzerland, Portugal,9
+ Switzerland, New Zealand,5
+ Pakistan, Ireland,1
+ Australia, Ireland,19
+ Ireland, Finland,5
+ Netherlands, Ireland,7
+ South Africa, Ireland,5
+ South Korea, Ireland,2
+ Sweden, Ireland,9
+ Ireland, Portugal,7
+ New Zealand, Ireland,3
+ Pakistan, Finland,3
+ Netherlands, Pakistan,4
+ Sweden, Pakistan,3
+ New Zealand, Pakistan,2
+ Australia, Finland,22
+ Australia, South Korea,7
+ Australia, New Zealand,26
+ Italy, Finland,9
+ Italy, Portugal,12
+ Netherlands, South Korea,5
+ Netherlands, Portugal,9
+ Netherlands, New Zealand,15
+ Germany, Netherlands,113
+ South Africa, South Korea,2
+ Sweden, South Korea,1
+ Netherlands, South Korea,1
+ South Korea, Portugal,1
+ South Korea, New Zealand,2
+ Canada, South Korea,6
+ Australia, South Korea,12
+ Sweden, Portugal,5
+ Sweden, New Zealand,3
+ Australia, Sweden,30
+ New Zealand, Portugal,2
+ Canada, Portugal,5
+ Germany, Portugal,12
+ Australia,Pakistan,1
+ Singapore,Malaysia,1
+ Malaysia, Singapore,7
+Spain, Mozambique,2
+United Kingdom, Philippines,2
+ France, Philippines,2
+ France,Ghana,2
+ Switzerland,Belgium,23
+United Kingdom, Slovakia,2
+ Germany, Slovakia,5
+ United States, Slovakia,2
+ United States, Slovakia,3
+ Netherlands,Denmark,2
+ Germany, Denmark,30
+ Sri Lanka, Sri Lanka,3
+ United States, Sri Lanka,3
+Poland, Italy,4
+ Portugal, Paraguay,1
+United States, Peru,4
+Australia, Tanzania,1
+ Brazil,Canada,9
+Canada, Sweden,1
+Canada, Switzerland,3
+ Norway,Australia,2
+ Norway, Sweden,3
+ Norway, Sweden,9
+ Singapore, China,45
+ Spain,Chile,3
+ Spain, Chile,8
+ Spain, Chile,11
+ France,Japan,11
+Nigeria, Russia,1
+ Russia, South Africa,5
+ Russia, Nigeria,3
+United Kingdom, Israel,9
+Indonesia, Japan,5
+ Spain,Finland,4
+France, Saudi Arabia,5
+France, Japan,7
+France, Ireland,5
+ Saudi Arabia, Ireland,3
+ Japan, Ireland,12
+ Uruguay,Chile,1
+ Singapore, Sweden,12
+India, Sri Lanka,2
+India, Italy,6
+ China, Sri Lanka,1
+ Spain, Sri Lanka,1
+ Italy, Sri Lanka,1
+ India, Sri Lanka,1
+ Israel, Sri Lanka,1
+ Spain, Sri Lanka,1
+ Italy, Vietnam,2
+ Republic of the Congo, Vietnam,4
+ Italy, Gabon,1
+ Italy, Republic of the Congo,4
+ France,Norway,1
+ Lebanon,Qatar,1
+ United States,Argentina,8
+ South Africa,Argentina,1
+ United Arab Emirates,Australia,4
+ Chile,France,2
+ Japan,Vietnam,2
+ Japan, Vietnam,2
+Sweden, Romania,1
+ Brazil,Sweden,4
+ Sweden, Romania,2
+ Egypt,Australia,3
+ Japan,Australia,4
+Germany, Russia,11
+Cuba, Cuba,1
+ United Kingdom, Sri Lanka,69
+Germany, Bulgaria,2
+Germany, Slovenia,1
+ Germany, Bulgaria,2
+ Germany, Slovenia,3
+ Germany, Bulgaria,1
+ Bulgaria, Slovenia,3
+ Italy, Slovenia,1
+India, Kuwait,1
+ India, Kuwait,1
+ Philippines, Netherlands,3
+ Canada, Nigeria,20
+ Bangladesh,Saudi Arabia,9
+France, Switzerland,19
+ Australia, Vietnam,3
+ France,Brazil,8
+ United Kingdom,Thailand,21
+ United Kingdom, Thailand,176
+Kazakhstan, Kyrgyzstan,1
+United Kingdom, Nigeria,6
+ India, Nigeria,9
+ France,Switzerland,12
+ Belgium,Morocco,1
+ Belgium, Morocco,1
+ United Kingdom,Peru,3
+ Mexico,Peru,2
+ United Kingdom, Peru,12
+ Mexico, Peru,8
+Singapore, Cambodia,1
+ United States, Cambodia,2
+United States, Ecuador,2
+ Bangladesh, Egypt,9
+ United States,Kenya,8
+ Canada,Kenya,3
+ Canada, Kenya,15
+ Canada, Kenya,1
+ Iran,Australia,8
+ Belgium,Cyprus,3
+Canada, Belgium,13
+Canada, Argentina,1
+ Taiwan, Vietnam,11
+ Bangladesh, Sweden,7
+Iran, Poland,1
+ Iran, Poland,4
+ Switzerland, Sri Lanka,2
+ United Kingdom, Sri Lanka,86
+ Australia, Sri Lanka,1
+ Switzerland, Sri Lanka,3
+ Switzerland, Netherlands,40
+United States, Albania,1
+United States, Denmark,8
+ United States, Albania,2
+ Germany, Albania,3
+ Denmark, Albania,1
+Brazil, Thailand,3
+Brazil, Ghana,1
+Brazil, Russia,2
+Brazil, China,4
+Brazil, Norway,2
+ United States, Thailand,56
+ Thailand, Netherlands,3
+ Netherlands, Ghana,2
+ Russia, Netherlands,5
+ China, Netherlands,38
+ Thailand, Switzerland,2
+ Switzerland, China,37
+ Norway, Switzerland,12
+ United States, Thailand,57
+ Thailand, South Africa,7
+ Thailand, Ghana,1
+ Thailand, Russia,2
+ Norway, Thailand,1
+ China, South Africa,20
+ Norway, South Africa,1
+ Australia, Ghana,1
+ Australia, Norway,2
+ India, Ghana,4
+ Russia, Ghana,1
+ Norway, Ghana,1
+ India, Norway,2
+ Norway, Russia,1
+ Malaysia,Jordan,1
+ Malaysia, Jordan,2
+South Africa, Kenya,4
+Germany, Croatia,5
+Germany, Sweden,9
+ Croatia, Italy,1
+ Germany, Croatia,14
+ Croatia, Italy,3
+ Germany, Croatia,11
+ Taiwan, Gabon,1
+ Spain,Austria,6
+ Sweden,Austria,3
+ Netherlands,Austria,2
+ Canada,Austria,1
+ Sweden, Austria,9
+ Austria, Netherlands,3
+ Sweden, Austria,10
+ Canada, Austria,6
+Iraq, United Kingdom,1
+ United Kingdom,Argentina,1
+ United States,Thailand,17
+India, Qatar,1
+ India, Qatar,10
+Germany, Netherlands,23
+Norway, United Kingdom,3
+China, Switzerland,12
+Canada, Iran,19
+France, Israel,3
+Botswana, Eswatini,1
+ Nigeria,Botswana,10
+ Egypt,Botswana,5
+Botswana, Liberia,1
+ Senegal,Botswana,1
+Botswana, Tunisia,5
+Botswana, Cameroon,3
+Botswana, Mozambique,1
+ Saudi Arabia,Botswana,1
+Botswana, Rwanda,2
+ Ghana,Botswana,4
+Botswana, Central African Republic,1
+Botswana, Niger,1
+ United Arab Emirates,Botswana,2
+ Ethiopia,Botswana,3
+ France,Botswana,3
+ Gambia,Botswana,1
+ Kenya,Botswana,3
+Botswana, Seychelles,1
+ Gabon,Botswana,2
+ Republic of the Congo,Botswana,2
+ United Kingdom,Botswana,6
+ Germany,Botswana,3
+Botswana, Sierra Leone,2
+ Ivory Coast,Botswana,2
+ Uganda,Botswana,3
+Botswana, Angola,2
+ Switzerland,Botswana,2
+Botswana, Togo,1
+Botswana, Sudan,4
+Botswana, Zambia,2
+ Burkina Faso,Botswana,2
+Botswana, Namibia,1
+ Japan,Botswana,1
+Botswana, Democratic Republic of the Congo,2
+Botswana, Guinea,2
+ Zimbabwe,Botswana,1
+ Brazil,Botswana,2
+Botswana, Malawi,3
+Botswana, Vietnam,1
+Botswana, Burundi,1
+Botswana, Algeria,1
+Botswana, Madagascar,1
+ Egypt, Eswatini,10
+ Eswatini, Liberia,1
+ Botswana, Eswatini,5
+ Senegal, Eswatini,2
+ Tunisia, Eswatini,9
+ Cameroon, Eswatini,6
+ Mozambique, Eswatini,1
+ Saudi Arabia, Eswatini,2
+ Rwanda, Eswatini,4
+ Eswatini, Central African Republic,2
+ Eswatini, Niger,1
+ United Arab Emirates, Eswatini,3
+ Ethiopia, Eswatini,6
+ Gambia, Eswatini,2
+ Kenya, Eswatini,6
+ Eswatini, Seychelles,2
+ Gabon, Eswatini,2
+ Republic of the Congo, Eswatini,4
+ United Kingdom, Eswatini,12
+ Germany, Eswatini,4
+ Eswatini, Sierra Leone,4
+ Ivory Coast, Eswatini,3
+ Uganda, Eswatini,6
+ Eswatini, Angola,3
+ Switzerland, Eswatini,4
+ Togo, Eswatini,2
+ Eswatini, Sudan,7
+ Burkina Faso, Eswatini,4
+ Japan, Eswatini,2
+ Democratic Republic of the Congo, Eswatini,4
+ Guinea, Eswatini,3
+ Zimbabwe, Eswatini,2
+ Brazil, Eswatini,4
+ Malawi, Eswatini,6
+ Vietnam, Eswatini,2
+ Eswatini, Burundi,2
+ Eswatini, Algeria,2
+ Madagascar, Eswatini,2
+ Nigeria, Liberia,4
+ Nigeria, Saudi Arabia,9
+ Nigeria, Central African Republic,14
+ Nigeria, Niger,2
+ United Arab Emirates, Nigeria,17
+ Nigeria, Gambia,7
+ Nigeria, Seychelles,8
+ Nigeria, Republic of the Congo,25
+ Nigeria, Sierra Leone,20
+ Ivory Coast, Nigeria,20
+ Nigeria, Uganda,44
+ Nigeria, Angola,15
+ Nigeria, Togo,11
+ Nigeria, Sudan,48
+ Nigeria, Burkina Faso,26
+ Nigeria, Democratic Republic of the Congo,31
+ Nigeria, Zimbabwe,10
+ Nigeria, Malawi,48
+ Nigeria, Vietnam,13
+ Nigeria, Burundi,13
+ Nigeria, Algeria,13
+ United States, Liberia,2
+ United States, Central African Republic,12
+ United States, Niger,1
+ United States, Gambia,5
+ United States, Seychelles,5
+ United States, Republic of the Congo,17
+ United States, Sierra Leone,9
+ United States, Angola,6
+ United States, Sudan,30
+ United States, Burkina Faso,19
+ United States, Burundi,10
+ United States, Algeria,7
+ South Africa, Liberia,1
+ South Africa, Central African Republic,13
+ South Africa, Niger,3
+ United Arab Emirates, South Africa,11
+ South Africa, Gambia,3
+ South Africa, Seychelles,6
+ South Africa, Republic of the Congo,16
+ South Africa, Sierra Leone,13
+ South Africa, Uganda,41
+ South Africa, Angola,6
+ South Africa, Togo,4
+ South Africa, Sudan,38
+ South Africa, Burkina Faso,22
+ South Africa, Democratic Republic of the Congo,25
+ South Africa, Zimbabwe,6
+ South Africa, Vietnam,10
+ South Africa, Burundi,13
+ South Africa, Algeria,8
+ Egypt, Liberia,1
+ Egypt, Central African Republic,7
+ Egypt, Niger,2
+ Egypt, Gambia,5
+ Egypt, Seychelles,6
+ Egypt, Republic of the Congo,14
+ Egypt, Sierra Leone,12
+ Egypt, Ivory Coast,11
+ Egypt, Uganda,32
+ Egypt, Angola,6
+ Egypt, Togo,7
+ Egypt, Sudan,33
+ Egypt, Burkina Faso,18
+ Egypt, Democratic Republic of the Congo,15
+ Egypt, Zimbabwe,8
+ Egypt, Malawi,29
+ Egypt, Vietnam,9
+ Egypt, Burundi,10
+ Egypt, Algeria,5
+ Botswana, Liberia,5
+ Senegal, Liberia,2
+ Tunisia, Liberia,10
+ Egypt, Liberia,9
+ Cameroon, Liberia,6
+ Mozambique, Liberia,1
+ Saudi Arabia, Liberia,2
+ Rwanda, Liberia,4
+ Ghana, Liberia,8
+ Liberia, Central African Republic,2
+ Niger, Liberia,1
+ United Arab Emirates, Liberia,3
+ Ethiopia, Liberia,6
+ South Africa, Liberia,16
+ France, Liberia,5
+ Gambia, Liberia,2
+ Kenya, Liberia,6
+ Nigeria, Liberia,16
+ Liberia, Seychelles,2
+ Gabon, Liberia,2
+ Republic of the Congo, Liberia,4
+ United Kingdom, Liberia,12
+ Germany, Liberia,4
+ Liberia, Sierra Leone,4
+ Ivory Coast, Liberia,3
+ Uganda, Liberia,6
+ United States, Liberia,15
+ Liberia, Angola,3
+ Switzerland, Liberia,4
+ Togo, Liberia,2
+ Sudan, Liberia,7
+ Zambia, Liberia,4
+ Burkina Faso, Liberia,4
+ Namibia, Liberia,2
+ Japan, Liberia,2
+ Democratic Republic of the Congo, Liberia,4
+ Guinea, Liberia,3
+ Zimbabwe, Liberia,2
+ Brazil, Liberia,4
+ Malawi, Liberia,6
+ Vietnam, Liberia,2
+ Liberia, Burundi,2
+ Algeria, Liberia,2
+ Madagascar, Liberia,2
+ Botswana, Central African Republic,4
+ Botswana, Niger,1
+ United Arab Emirates, Botswana,3
+ Gambia, Botswana,1
+ Botswana, Seychelles,1
+ Republic of the Congo, Botswana,7
+ Botswana, Sierra Leone,5
+ Ivory Coast, Botswana,5
+ Uganda, Botswana,13
+ Botswana, Angola,4
+ Botswana, Togo,2
+ Botswana, Sudan,12
+ Burkina Faso, Botswana,10
+ Botswana, Malawi,13
+ Botswana, Vietnam,2
+ Botswana, Burundi,3
+ Botswana, Algeria,2
+ Senegal, Egypt,8
+ Senegal, Central African Republic,2
+ Senegal, United Arab Emirates,2
+ Senegal, Seychelles,2
+ Senegal, Gabon,2
+ Senegal, Republic of the Congo,3
+ Senegal, Sierra Leone,3
+ Senegal, Ivory Coast,3
+ Senegal, Uganda,8
+ Senegal, Angola,2
+ Senegal, Switzerland,5
+ Senegal, Togo,2
+ Senegal, Sudan,7
+ Senegal, Burkina Faso,4
+ Senegal, Democratic Republic of the Congo,3
+ Senegal, Zimbabwe,2
+ Brazil, Senegal,4
+ Senegal, Malawi,6
+ Senegal, Vietnam,2
+ Senegal, Burundi,2
+ Tunisia, Central African Republic,6
+ Tunisia, Niger,2
+ United Arab Emirates, Tunisia,10
+ Gambia, Tunisia,5
+ Tunisia, Seychelles,5
+ Republic of the Congo, Tunisia,11
+ Tunisia, Sierra Leone,10
+ Ivory Coast, Tunisia,9
+ Uganda, Tunisia,25
+ Tunisia, Angola,7
+ Tunisia, Togo,5
+ Tunisia, Sudan,23
+ Burkina Faso, Tunisia,16
+ Malawi, Tunisia,24
+ Vietnam, Tunisia,7
+ Tunisia, Burundi,8
+ Tunisia, Algeria,7
+ Saudi Arabia, Cameroon,5
+ Cameroon, Central African Republic,5
+ Cameroon, Niger,1
+ United Arab Emirates, Cameroon,5
+ Gambia, Cameroon,3
+ Cameroon, Seychelles,3
+ Gabon, Cameroon,3
+ Republic of the Congo, Cameroon,7
+ Cameroon, Sierra Leone,6
+ Ivory Coast, Cameroon,6
+ Egypt, Cameroon,18
+ Uganda, Cameroon,15
+ Cameroon, Angola,2
+ Cameroon, Togo,3
+ Cameroon, Sudan,16
+ Burkina Faso, Cameroon,10
+ Zimbabwe, Cameroon,5
+ Brazil, Cameroon,11
+ Malawi, Cameroon,15
+ Vietnam, Cameroon,4
+ Cameroon, Burundi,5
+ Cameroon, Algeria,2
+ Saudi Arabia, Mozambique,1
+ Rwanda, Mozambique,2
+ Mozambique, Central African Republic,1
+ Tunisia, Mozambique,4
+ Mozambique, Niger,2
+ United Arab Emirates, Mozambique,2
+ Ethiopia, Mozambique,3
+ Gambia, Mozambique,1
+ Kenya, Mozambique,5
+ Mozambique, Seychelles,1
+ Gabon, Mozambique,2
+ Republic of the Congo, Mozambique,2
+ Botswana, Mozambique,1
+ United Kingdom, Mozambique,8
+ Germany, Mozambique,5
+ Mozambique, Sierra Leone,2
+ Ivory Coast, Mozambique,2
+ Egypt, Mozambique,3
+ Uganda, Mozambique,4
+ Mozambique, Angola,2
+ Switzerland, Mozambique,2
+ Togo, Mozambique,1
+ Mozambique, Sudan,4
+ Burkina Faso, Mozambique,2
+ Japan, Mozambique,1
+ Democratic Republic of the Congo, Mozambique,2
+ Guinea, Mozambique,2
+ Zimbabwe, Mozambique,1
+ Brazil, Mozambique,2
+ Malawi, Mozambique,3
+ Vietnam, Mozambique,1
+ Mozambique, Burundi,1
+ Mozambique, Algeria,1
+ Madagascar, Mozambique,1
+ Saudi Arabia, Central African Republic,2
+ Saudi Arabia, Niger,1
+ United Arab Emirates, Saudi Arabia,4
+ Saudi Arabia, Gambia,1
+ Saudi Arabia, Seychelles,1
+ Saudi Arabia, Republic of the Congo,4
+ Saudi Arabia, Sierra Leone,3
+ Ivory Coast, Saudi Arabia,3
+ Saudi Arabia, Uganda,8
+ Saudi Arabia, Angola,2
+ Saudi Arabia, Togo,1
+ Saudi Arabia, Sudan,7
+ Saudi Arabia, Burkina Faso,4
+ Saudi Arabia, Democratic Republic of the Congo,4
+ Saudi Arabia, Zimbabwe,2
+ Saudi Arabia, Malawi,6
+ Saudi Arabia, Burundi,2
+ Saudi Arabia, Algeria,1
+ Rwanda, Central African Republic,3
+ Rwanda, Niger,1
+ United Arab Emirates, Rwanda,3
+ Gambia, Rwanda,1
+ Rwanda, Seychelles,1
+ Republic of the Congo, Rwanda,4
+ Rwanda, Sierra Leone,3
+ Rwanda, Angola,2
+ Rwanda, Sudan,6
+ Burkina Faso, Rwanda,3
+ Rwanda, Malawi,9
+ Rwanda, Vietnam,1
+ Rwanda, Burundi,2
+ Rwanda, Algeria,2
+ Ghana, Central African Republic,5
+ Ghana, Niger,4
+ United Arab Emirates, Ghana,5
+ Ghana, Seychelles,2
+ Ghana, Republic of the Congo,12
+ Ghana, Sierra Leone,8
+ Ghana, Uganda,26
+ Ghana, Angola,5
+ Ghana, Sudan,22
+ Ghana, Burkina Faso,10
+ Ghana, Democratic Republic of the Congo,8
+ Ghana, Zimbabwe,6
+ Ghana, Malawi,21
+ Ghana, Vietnam,6
+ Ghana, Burundi,7
+ Ghana, Algeria,4
+ Tunisia, Central African Republic,4
+ Niger, Central African Republic,1
+ United Arab Emirates, Central African Republic,2
+ Ethiopia, Central African Republic,3
+ South Africa, Central African Republic,10
+ France, Central African Republic,3
+ Gambia, Central African Republic,1
+ Kenya, Central African Republic,3
+ Nigeria, Central African Republic,8
+ Central African Republic, Seychelles,1
+ Gabon, Central African Republic,2
+ Republic of the Congo, Central African Republic,2
+ Botswana, Central African Republic,1
+ Ghana, Central African Republic,3
+ United Kingdom, Central African Republic,7
+ Germany, Central African Republic,3
+ Central African Republic, Sierra Leone,2
+ Ivory Coast, Central African Republic,2
+ Egypt, Central African Republic,4
+ Uganda, Central African Republic,3
+ United States, Central African Republic,11
+ Central African Republic, Angola,2
+ Switzerland, Central African Republic,3
+ Togo, Central African Republic,1
+ Sudan, Central African Republic,4
+ Zambia, Central African Republic,2
+ Burkina Faso, Central African Republic,2
+ Namibia, Central African Republic,1
+ Cameroon, Central African Republic,2
+ Japan, Central African Republic,1
+ Democratic Republic of the Congo, Central African Republic,2
+ Guinea, Central African Republic,2
+ Zimbabwe, Central African Republic,1
+ Brazil, Central African Republic,3
+ Malawi, Central African Republic,3
+ Vietnam, Central African Republic,1
+ Central African Republic, Burundi,1
+ Rwanda, Central African Republic,1
+ Algeria, Central African Republic,1
+ Madagascar, Central African Republic,1
+ United Arab Emirates, Niger,2
+ Ethiopia, Niger,3
+ South Africa, Niger,8
+ France, Niger,3
+ Gambia, Niger,1
+ Kenya, Niger,3
+ Nigeria, Niger,8
+ Niger, Seychelles,1
+ Gabon, Niger,2
+ Republic of the Congo, Niger,2
+ Botswana, Niger,1
+ Ghana, Niger,3
+ United Kingdom, Niger,7
+ Germany, Niger,3
+ Niger, Sierra Leone,2
+ Ivory Coast, Niger,2
+ Egypt, Niger,3
+ Uganda, Niger,3
+ United States, Niger,8
+ Niger, Angola,2
+ Switzerland, Niger,2
+ Togo, Niger,1
+ Sudan, Niger,4
+ Zambia, Niger,2
+ Burkina Faso, Niger,2
+ Namibia, Niger,2
+ Cameroon, Niger,2
+ Japan, Niger,1
+ Democratic Republic of the Congo, Niger,2
+ Guinea, Niger,2
+ Zimbabwe, Niger,1
+ Brazil, Niger,2
+ Malawi, Niger,3
+ Vietnam, Niger,1
+ Niger, Burundi,1
+ Rwanda, Niger,1
+ Madagascar, Niger,1
+ United Arab Emirates, Ethiopia,4
+ United Arab Emirates, South Africa,15
+ France, United Arab Emirates,4
+ United Arab Emirates, Gambia,2
+ United Arab Emirates, Kenya,5
+ United Arab Emirates, Nigeria,13
+ United Arab Emirates, Seychelles,2
+ United Arab Emirates, Gabon,2
+ United Arab Emirates, Republic of the Congo,3
+ United Arab Emirates, Botswana,4
+ United Arab Emirates, Ghana,7
+ United Kingdom, United Arab Emirates,13
+ Germany, United Arab Emirates,3
+ United Arab Emirates, Sierra Leone,3
+ United Arab Emirates, Ivory Coast,3
+ United Arab Emirates, Uganda,7
+ United Arab Emirates, Angola,2
+ United Arab Emirates, Switzerland,4
+ United Arab Emirates, Togo,2
+ United Arab Emirates, Sudan,7
+ United Arab Emirates, Zambia,4
+ United Arab Emirates, Burkina Faso,4
+ United Arab Emirates, Namibia,1
+ United Arab Emirates, Tunisia,5
+ United Arab Emirates, Cameroon,4
+ United Arab Emirates, Democratic Republic of the Congo,3
+ United Arab Emirates, Guinea,3
+ United Arab Emirates, Zimbabwe,1
+ Brazil, United Arab Emirates,5
+ United Arab Emirates, Malawi,6
+ United Arab Emirates, Vietnam,2
+ United Arab Emirates, Burundi,2
+ United Arab Emirates, Rwanda,3
+ United Arab Emirates, Algeria,1
+ United Arab Emirates, Madagascar,3
+ Ethiopia, Gambia,3
+ Ethiopia, Seychelles,3
+ Ethiopia, Republic of the Congo,8
+ Ethiopia, Sierra Leone,7
+ Ivory Coast, Ethiopia,7
+ Ethiopia, Uganda,15
+ Ethiopia, Angola,4
+ Switzerland, Ethiopia,16
+ Ethiopia, Togo,4
+ Ethiopia, Sudan,17
+ Ethiopia, Burkina Faso,10
+ Ethiopia, Democratic Republic of the Congo,12
+ Ethiopia, Zimbabwe,4
+ Brazil, Ethiopia,13
+ Ethiopia, Malawi,16
+ Ethiopia, Vietnam,5
+ Ethiopia, Burundi,5
+ Ethiopia, Algeria,4
+ United Arab Emirates, Ethiopia,5
+ France, Seychelles,3
+ France, Sierra Leone,6
+ France, Uganda,16
+ France, Angola,4
+ France, Sudan,17
+ France, Zimbabwe,6
+ France, Malawi,15
+ France, Burundi,5
+ France, United Arab Emirates,4
+ South Africa, Gambia,16
+ Kenya, Gambia,7
+ Nigeria, Gambia,13
+ Gambia, Seychelles,2
+ Gambia, Gabon,2
+ Gambia, Republic of the Congo,4
+ Gambia, Botswana,4
+ Ghana, Gambia,7
+ Ethiopia, Gambia,3
+ Gambia, Sierra Leone,3
+ Ivory Coast, Gambia,3
+ Egypt, Gambia,5
+ Uganda, Gambia,9
+ United States, Gambia,12
+ Gambia, Angola,2
+ Switzerland, Gambia,4
+ Gambia, Togo,2
+ Gambia, Sudan,7
+ Gambia, Zambia,6
+ Gambia, Namibia,2
+ Gambia, Tunisia,5
+ Gambia, Cameroon,3
+ Japan, Gambia,2
+ Gambia, Democratic Republic of the Congo,3
+ Gambia, Guinea,3
+ Gambia, Zimbabwe,2
+ Brazil, Gambia,3
+ Gambia, Malawi,6
+ Gambia, Vietnam,2
+ Gambia, Burundi,2
+ Gambia, Rwanda,3
+ Gambia, Algeria,1
+ United Arab Emirates, Gambia,1
+ Gambia, Madagascar,3
+ Kenya, Seychelles,4
+ Kenya, Republic of the Congo,9
+ Kenya, Sierra Leone,6
+ Ivory Coast, Kenya,6
+ Kenya, Angola,6
+ Kenya, Togo,4
+ Kenya, Sudan,20
+ Kenya, Burkina Faso,12
+ Kenya, Democratic Republic of the Congo,11
+ Kenya, Zimbabwe,4
+ Kenya, Malawi,17
+ Kenya, Vietnam,6
+ Kenya, Burundi,6
+ Kenya, Algeria,4
+ United Arab Emirates, Kenya,4
+ Nigeria, Seychelles,12
+ Gabon, Seychelles,2
+ Republic of the Congo, Seychelles,3
+ Botswana, Seychelles,4
+ Ghana, Seychelles,6
+ Ethiopia, Seychelles,4
+ United Kingdom, Seychelles,11
+ Germany, Seychelles,3
+ Seychelles, Sierra Leone,3
+ Ivory Coast, Seychelles,3
+ Kenya, Seychelles,3
+ Egypt, Seychelles,4
+ Uganda, Seychelles,7
+ United States, Seychelles,12
+ France, Seychelles,2
+ Seychelles, Angola,2
+ Switzerland, Seychelles,4
+ Togo, Seychelles,1
+ Sudan, Seychelles,7
+ Zambia, Seychelles,4
+ Burkina Faso, Seychelles,4
+ Namibia, Seychelles,1
+ Tunisia, Seychelles,5
+ Cameroon, Seychelles,3
+ South Africa, Seychelles,11
+ Japan, Seychelles,2
+ Democratic Republic of the Congo, Seychelles,2
+ Guinea, Seychelles,3
+ Zimbabwe, Seychelles,1
+ Brazil, Seychelles,3
+ Malawi, Seychelles,6
+ Vietnam, Seychelles,2
+ Seychelles, Burundi,2
+ Rwanda, Seychelles,3
+ Algeria, Seychelles,1
+ United Arab Emirates, Seychelles,1
+ Madagascar, Seychelles,2
+ Gabon, Sierra Leone,3
+ Ivory Coast, Gabon,3
+ Uganda, Gabon,8
+ Gabon, Angola,2
+ Switzerland, Gabon,4
+ Gabon, Togo,1
+ Gabon, Sudan,7
+ Burkina Faso, Gabon,4
+ Gabon, Democratic Republic of the Congo,5
+ Gabon, Zimbabwe,3
+ Brazil, Gabon,6
+ Gabon, Malawi,6
+ Gabon, Vietnam,2
+ Gabon, Burundi,2
+ Gabon, Algeria,2
+ United Arab Emirates, Gabon,2
+ Republic of the Congo, Botswana,4
+ Ghana, Republic of the Congo,8
+ Ethiopia, Republic of the Congo,6
+ United Kingdom, Republic of the Congo,22
+ Republic of the Congo, Sierra Leone,4
+ Ivory Coast, Republic of the Congo,4
+ Kenya, Republic of the Congo,9
+ Nigeria, Republic of the Congo,17
+ Egypt, Republic of the Congo,12
+ Uganda, Republic of the Congo,11
+ United States, Republic of the Congo,33
+ Republic of the Congo, Angola,3
+ Switzerland, Republic of the Congo,13
+ Republic of the Congo, Togo,2
+ Republic of the Congo, Sudan,10
+ Republic of the Congo, Zambia,8
+ Burkina Faso, Republic of the Congo,6
+ Republic of the Congo, Namibia,4
+ Republic of the Congo, Tunisia,9
+ Republic of the Congo, Cameroon,5
+ South Africa, Republic of the Congo,28
+ Japan, Republic of the Congo,3
+ Republic of the Congo, Democratic Republic of the Congo,6
+ Republic of the Congo, Guinea,6
+ Republic of the Congo, Zimbabwe,4
+ Brazil, Republic of the Congo,7
+ Republic of the Congo, Malawi,12
+ Republic of the Congo, Vietnam,3
+ Republic of the Congo, Burundi,3
+ Republic of the Congo, Rwanda,4
+ Republic of the Congo, Algeria,2
+ United Arab Emirates, Republic of the Congo,3
+ Republic of the Congo, Madagascar,6
+ United Kingdom, Sierra Leone,8
+ United Kingdom, Ivory Coast,10
+ United Kingdom, Angola,5
+ United Kingdom, Togo,5
+ United Kingdom, Sudan,31
+ United Kingdom, Republic of the Congo,17
+ United Kingdom, Burkina Faso,16
+ United Kingdom, Burundi,9
+ United Kingdom, Algeria,5
+ Germany, Sierra Leone,4
+ Germany, Kenya,15
+ Germany, Egypt,27
+ Germany, Uganda,21
+ Germany, Angola,4
+ Germany, Sudan,12
+ Germany, Zimbabwe,7
+ Germany, Malawi,9
+ Germany, Burundi,3
+ Germany, Algeria,3
+ Germany, United Arab Emirates,4
+ Ivory Coast, Sierra Leone,4
+ Kenya, Sierra Leone,6
+ Nigeria, Sierra Leone,20
+ Egypt, Sierra Leone,8
+ United Kingdom, Sierra Leone,16
+ Uganda, Sierra Leone,8
+ United States, Sierra Leone,28
+ France, Sierra Leone,6
+ Sierra Leone, Angola,3
+ Germany, Sierra Leone,4
+ Ghana, Sierra Leone,8
+ Switzerland, Sierra Leone,7
+ Togo, Sierra Leone,2
+ Sudan, Sierra Leone,11
+ Republic of the Congo, Sierra Leone,4
+ Zambia, Sierra Leone,6
+ Burkina Faso, Sierra Leone,5
+ Namibia, Sierra Leone,2
+ Tunisia, Sierra Leone,10
+ Cameroon, Sierra Leone,6
+ South Africa, Sierra Leone,21
+ Japan, Sierra Leone,3
+ Democratic Republic of the Congo, Sierra Leone,5
+ Guinea, Sierra Leone,4
+ Zimbabwe, Sierra Leone,2
+ Gabon, Sierra Leone,1
+ Brazil, Sierra Leone,6
+ Malawi, Sierra Leone,10
+ Vietnam, Sierra Leone,2
+ Sierra Leone, Sierra Leone,2
+ Sierra Leone, Burundi,4
+ Ethiopia, Sierra Leone,5
+ Rwanda, Sierra Leone,5
+ Algeria, Sierra Leone,3
+ United Arab Emirates, Sierra Leone,3
+ Madagascar, Sierra Leone,4
+ Ivory Coast, Kenya,5
+ Egypt, Ivory Coast,5
+ United Kingdom, Ivory Coast,15
+ Ivory Coast, Uganda,7
+ United States, Ivory Coast,25
+ France, Ivory Coast,4
+ Ivory Coast, Angola,2
+ Ivory Coast, Ghana,6
+ Switzerland, Ivory Coast,6
+ Ivory Coast, Sudan,8
+ Ivory Coast, Republic of the Congo,3
+ Ivory Coast, Zambia,6
+ Ivory Coast, Burkina Faso,3
+ Ivory Coast, Namibia,1
+ Ivory Coast, Tunisia,6
+ Ivory Coast, Cameroon,3
+ South Africa, Ivory Coast,16
+ Japan, Ivory Coast,2
+ Ivory Coast, Democratic Republic of the Congo,4
+ Ivory Coast, Guinea,3
+ Ivory Coast, Zimbabwe,1
+ Ivory Coast, Gabon,1
+ Brazil, Ivory Coast,5
+ Ivory Coast, Malawi,7
+ Ivory Coast, Vietnam,2
+ Ivory Coast, Sierra Leone,2
+ Ivory Coast, Burundi,2
+ Ivory Coast, Ethiopia,3
+ Ivory Coast, Ivory Coast,1
+ Ivory Coast, Rwanda,4
+ Ivory Coast, Algeria,2
+ United Arab Emirates, Ivory Coast,2
+ Ivory Coast, Madagascar,4
+ Uganda, Angola,2
+ Uganda, Togo,1
+ Uganda, Sudan,11
+ Uganda, Republic of the Congo,5
+ Uganda, Burkina Faso,5
+ Uganda, Malawi,14
+ Uganda, Vietnam,3
+ Uganda, Sierra Leone,4
+ Uganda, Burundi,4
+ Ivory Coast, Uganda,4
+ Uganda, Algeria,2
+ United Arab Emirates, Uganda,2
+ United Kingdom, Angola,13
+ Germany, Angola,3
+ Kenya, Angola,3
+ Ghana, Angola,7
+ Switzerland, Angola,5
+ Togo, Angola,2
+ Sudan, Angola,10
+ Republic of the Congo, Angola,3
+ Zambia, Angola,5
+ Burkina Faso, Angola,5
+ Namibia, Angola,2
+ Tunisia, Angola,8
+ Angola, Angola,1
+ Cameroon, Angola,7
+ Egypt, Angola,9
+ South Africa, Angola,22
+ Japan, Angola,3
+ Democratic Republic of the Congo, Angola,6
+ United States, Angola,20
+ Uganda, Angola,7
+ France, Angola,4
+ Guinea, Angola,5
+ Zimbabwe, Angola,3
+ Gabon, Angola,2
+ Brazil, Angola,7
+ Malawi, Angola,9
+ Vietnam, Angola,3
+ Sierra Leone, Angola,3
+ Angola, Burundi,3
+ Ethiopia, Angola,6
+ Nigeria, Angola,15
+ Ivory Coast, Angola,3
+ Rwanda, Angola,4
+ Algeria, Angola,3
+ United Arab Emirates, Angola,3
+ Madagascar, Angola,3
+ Switzerland, Togo,1
+ Switzerland, Sudan,8
+ Switzerland, Republic of the Congo,7
+ Switzerland, Burkina Faso,5
+ Switzerland, Angola,1
+ Switzerland, Uganda,7
+ Switzerland, Zimbabwe,1
+ Switzerland, Malawi,9
+ Switzerland, Vietnam,2
+ Switzerland, Sierra Leone,1
+ Switzerland, Burundi,3
+ Switzerland, Ivory Coast,2
+ Switzerland, Algeria,2
+ United Arab Emirates, Switzerland,2
+ Togo, Sudan,7
+ Republic of the Congo, Togo,2
+ Togo, Zambia,4
+ Burkina Faso, Togo,4
+ Togo, Namibia,1
+ Tunisia, Togo,5
+ Togo, Angola,1
+ Cameroon, Togo,3
+ Egypt, Togo,3
+ United Kingdom, Togo,7
+ South Africa, Togo,13
+ Japan, Togo,2
+ Democratic Republic of the Congo, Togo,2
+ United States, Togo,11
+ Uganda, Togo,5
+ France, Togo,1
+ Togo, Guinea,3
+ Zimbabwe, Togo,1
+ Gabon, Togo,1
+ Brazil, Togo,3
+ Ghana, Togo,5
+ Malawi, Togo,6
+ Vietnam, Togo,2
+ Togo, Sierra Leone,2
+ Togo, Burundi,2
+ Switzerland, Togo,3
+ Ethiopia, Togo,2
+ Ivory Coast, Togo,2
+ Rwanda, Togo,3
+ Togo, Algeria,1
+ United Arab Emirates, Togo,1
+ Togo, Madagascar,2
+ Republic of the Congo, Sudan,5
+ Zambia, Sudan,9
+ Burkina Faso, Sudan,6
+ Namibia, Sudan,1
+ Tunisia, Sudan,12
+ Sudan, Angola,1
+ Cameroon, Sudan,5
+ Egypt, Sudan,3
+ United Kingdom, Sudan,16
+ South Africa, Sudan,24
+ Democratic Republic of the Congo, Sudan,5
+ United States, Sudan,34
+ Uganda, Sudan,11
+ France, Sudan,3
+ Guinea, Sudan,6
+ Zimbabwe, Sudan,1
+ Gabon, Sudan,1
+ Brazil, Sudan,6
+ Ghana, Sudan,7
+ Malawi, Sudan,16
+ Sudan, Sudan,21
+ Vietnam, Sudan,3
+ Sudan, Sierra Leone,3
+ Sudan, Burundi,4
+ Switzerland, Sudan,7
+ Ethiopia, Sudan,5
+ Nigeria, Sudan,25
+ Ivory Coast, Sudan,4
+ Rwanda, Sudan,8
+ Sudan, Algeria,4
+ Germany, Sudan,6
+ United Arab Emirates, Sudan,4
+ Madagascar, Sudan,7
+ Burkina Faso, Zambia,6
+ Tunisia, Zambia,11
+ Zambia, Angola,1
+ Cameroon, Zambia,4
+ Egypt, Zambia,5
+ Japan, Zambia,7
+ Democratic Republic of the Congo, Zambia,5
+ Uganda, Zambia,12
+ Zambia, Guinea,4
+ Zimbabwe, Zambia,2
+ Gabon, Zambia,1
+ Brazil, Zambia,7
+ Ghana, Zambia,8
+ Malawi, Zambia,9
+ Zambia, Sudan,7
+ Vietnam, Zambia,3
+ Zambia, Sierra Leone,2
+ Zambia, Burundi,3
+ Switzerland, Zambia,6
+ Ethiopia, Zambia,3
+ Ivory Coast, Zambia,2
+ Rwanda, Zambia,5
+ Zambia, Algeria,1
+ Germany, Zambia,14
+ United Arab Emirates, Zambia,2
+ Zambia, Madagascar,6
+ Burkina Faso, Angola,1
+ Burkina Faso, Malawi,11
+ Burkina Faso, Sudan,8
+ Burkina Faso, Vietnam,2
+ Burkina Faso, Sierra Leone,3
+ Burkina Faso, Burundi,3
+ Ivory Coast, Burkina Faso,3
+ Burkina Faso, Algeria,2
+ United Arab Emirates, Burkina Faso,2
+ Tunisia, Namibia,5
+ Namibia, Angola,1
+ Cameroon, Namibia,3
+ Egypt, Namibia,4
+ South Africa, Namibia,14
+ Japan, Namibia,2
+ Democratic Republic of the Congo, Namibia,3
+ Uganda, Namibia,5
+ Namibia, Guinea,3
+ Zimbabwe, Namibia,2
+ Gabon, Namibia,1
+ Burkina Faso, Namibia,3
+ Brazil, Namibia,4
+ Ghana, Namibia,5
+ Malawi, Namibia,6
+ Namibia, Sudan,6
+ Vietnam, Namibia,2
+ Namibia, Sierra Leone,2
+ Namibia, Burundi,2
+ Switzerland, Namibia,3
+ Ethiopia, Namibia,3
+ Nigeria, Namibia,10
+ Ivory Coast, Namibia,2
+ Rwanda, Namibia,3
+ Namibia, Algeria,1
+ Zambia, Namibia,3
+ Germany, Namibia,1
+ United Arab Emirates, Namibia,2
+ Namibia, Madagascar,2
+ Japan, Democratic Republic of the Congo,3
+ Japan, Uganda,4
+ Japan, Guinea,3
+ Japan, Zimbabwe,1
+ Japan, Gabon,1
+ Japan, Malawi,5
+ Japan, Sudan,4
+ Japan, Vietnam,1
+ Japan, Sierra Leone,1
+ Japan, Burundi,2
+ Japan, Ivory Coast,1
+ Japan, Rwanda,3
+ Japan, Algeria,1
+ Japan, United Arab Emirates,1
+ Japan, Madagascar,3
+ Uganda, Democratic Republic of the Congo,11
+ Burkina Faso, Democratic Republic of the Congo,6
+ Malawi, Democratic Republic of the Congo,11
+ Democratic Republic of the Congo, Sudan,10
+ Vietnam, Democratic Republic of the Congo,3
+ Democratic Republic of the Congo, Sierra Leone,3
+ Democratic Republic of the Congo, Burundi,3
+ Ivory Coast, Democratic Republic of the Congo,3
+ Democratic Republic of the Congo, Algeria,3
+ United Arab Emirates, Democratic Republic of the Congo,3
+ Zimbabwe, Guinea,3
+ Gabon, Guinea,2
+ Burkina Faso, Guinea,4
+ Egypt, Guinea,9
+ Brazil, Guinea,7
+ Malawi, Guinea,8
+ Guinea, Sudan,8
+ Vietnam, Guinea,2
+ Guinea, Guinea,2
+ Guinea, Sierra Leone,4
+ Guinea, Burundi,3
+ Switzerland, Guinea,5
+ United Kingdom, Guinea,14
+ Ivory Coast, Guinea,3
+ Democratic Republic of the Congo, Guinea,6
+ Guinea, Algeria,3
+ United Arab Emirates, Guinea,3
+ Uganda, Guinea,6
+ Burkina Faso, Zimbabwe,4
+ Zimbabwe, Malawi,6
+ Zimbabwe, Sudan,6
+ Zimbabwe, Vietnam,2
+ Zimbabwe, Sierra Leone,2
+ Zimbabwe, Burundi,2
+ Ivory Coast, Zimbabwe,2
+ Zimbabwe, Algeria,1
+ United Arab Emirates, Zimbabwe,2
+ Uganda, Zimbabwe,6
+ Brazil, Malawi,15
+ Brazil, Sudan,10
+ Brazil, Vietnam,2
+ Brazil, Sierra Leone,2
+ Brazil, Burundi,4
+ Brazil, Ivory Coast,3
+ Brazil, Algeria,2
+ Brazil, United Arab Emirates,2
+ Malawi, Sudan,5
+ Malawi, Tunisia,6
+ Malawi, Vietnam,1
+ Malawi, Guinea,4
+ Malawi, Sierra Leone,2
+ Brazil, Malawi,2
+ Malawi, Burundi,2
+ Switzerland, Malawi,3
+ Ethiopia, Malawi,2
+ Nigeria, Malawi,12
+ Ivory Coast, Malawi,2
+ Malawi, Democratic Republic of the Congo,1
+ Rwanda, Malawi,3
+ Malawi, Algeria,2
+ Malawi, Zambia,3
+ Germany, Malawi,3
+ United Arab Emirates, Malawi,3
+ Uganda, Malawi,4
+ Malawi, Madagascar,4
+ Malawi, Cameroon,3
+ Vietnam, Guinea,2
+ Vietnam, Sierra Leone,2
+ Brazil, Vietnam,3
+ South Africa, Vietnam,9
+ Vietnam, Burundi,2
+ Vietnam, Sudan,5
+ Switzerland, Vietnam,3
+ Ethiopia, Vietnam,2
+ Nigeria, Vietnam,9
+ Ivory Coast, Vietnam,2
+ Vietnam, Democratic Republic of the Congo,2
+ Rwanda, Vietnam,3
+ Malawi, Vietnam,5
+ Vietnam, Algeria,1
+ Vietnam, Zambia,4
+ Vietnam, Tunisia,3
+ United Arab Emirates, Vietnam,1
+ Uganda, Vietnam,4
+ Vietnam, Cameroon,2
+ Sudan, Burundi,3
+ Switzerland, Burundi,1
+ United Kingdom, Burundi,3
+ Ethiopia, Burundi,1
+ Nigeria, Burundi,7
+ Ivory Coast, Burundi,1
+ United States, Burundi,7
+ Democratic Republic of the Congo, Burundi,1
+ Rwanda, Burundi,2
+ South Africa, Burundi,4
+ Malawi, Burundi,4
+ Algeria, Burundi,1
+ Zambia, Burundi,1
+ Tunisia, Burundi,2
+ Germany, Burundi,1
+ United Arab Emirates, Burundi,1
+ Uganda, Burundi,2
+ Madagascar, Burundi,2
+ Cameroon, Burundi,1
+ Zambia, Algeria,3
+ Malawi, Algeria,4
+ South Africa, Algeria,9
+ Germany, Algeria,1
+ United Arab Emirates, Algeria,2
+ United States, Algeria,10
+ Uganda, Algeria,4
+ Madagascar, Algeria,2
+ United Kingdom, Algeria,7
+ Cameroon, Algeria,4
+ United Kingdom, Madagascar,7
+France, Guinea,1
+Egypt, Ireland,2
+ Egypt, Ireland,2
+ India,Iran,13
+ Egypt, China,14
+ Austria,Slovakia,2
+ Austria, Slovakia,4
+ Japan, Colombia,2
+ Spain,Netherlands,12
+ Spain, Netherlands,30
+ Egypt, China,7
+Germany, Ireland,1
+Germany, Argentina,3
+ Argentina, Ireland,6
+ Canada,Jordan,4
+ Netherlands,Jordan,2
+ Netherlands, Jordan,2
+Indonesia, Poland,2
+France, Senegal,4
+Japan, Belgium,2
+ Malaysia,Singapore,2
+Australia, Kuwait,1
+ Italy, Kuwait,2
+ Iran, Kuwait,4
+ United States, Kuwait,10
+Italy, Sweden,8
+Italy, Greece,3
+ Sweden, Greece,3
+ India,France,3
+South Africa, South Korea,1
+ China,South Africa,3
+ Singapore,South Africa,1
+ Canada,South Africa,7
+ Singapore, South Korea,1
+ Singapore, Italy,11
+ Singapore, Canada,5
+ Singapore, Italy,10
+United Kingdom, Argentina,4
+United Kingdom, Russia,3
+Cameroon, Gabon,1
+Cameroon, Germany,5
+Cameroon, Ghana,3
+Cameroon, Gambia,1
+Cameroon, Republic of the Congo,1
+Cameroon, Uganda,3
+Cameroon, Zambia,2
+Cameroon, Benin,1
+Cameroon, Zimbabwe,1
+Cameroon, Madagascar,1
+Cameroon, Mozambique,1
+Cameroon, Kenya,2
+Cameroon, Mali,1
+Cameroon, United Kingdom,2
+Cameroon, South Africa,2
+Cameroon, Canada,1
+Cameroon, Namibia,1
+Cameroon, Morocco,1
+ Gabon, Benin,1
+ Gabon, Mali,2
+ Canada, Gabon,1
+ Gabon, Niger,1
+ Germany, Gambia,2
+ Germany, Benin,3
+ Germany, Mali,5
+ Germany, Niger,5
+ Ghana, Benin,3
+ Ghana, Mali,3
+ Canada, Ghana,3
+ Gambia, Benin,1
+ Gambia, Mozambique,1
+ Gambia, Mali,1
+ Canada, Gambia,1
+ Gambia, Niger,1
+ Morocco, Gambia,1
+ Senegal, Republic of the Congo,3
+ Republic of the Congo, Benin,1
+ Republic of the Congo, Mozambique,1
+ Republic of the Congo, Mali,1
+ Canada, Republic of the Congo,9
+ Republic of the Congo, Niger,1
+ Morocco, Republic of the Congo,2
+ Uganda, Benin,2
+ Canada, Uganda,4
+ Uganda, Niger,3
+ Senegal, Zambia,2
+ Zambia, Benin,1
+ Zambia, Mozambique,2
+ Kenya, Zambia,10
+ Mali, Zambia,3
+ Canada, Zambia,2
+ Zambia, Niger,2
+ Morocco, Zambia,3
+ France, Benin,2
+ Senegal, Benin,1
+ Senegal, Mali,1
+ Zimbabwe, Benin,1
+ Madagascar, Benin,1
+ Zambia, Benin,1
+ Mozambique, Benin,1
+ Kenya, Benin,2
+ Mali, Benin,1
+ Germany, Benin,2
+ United Kingdom, Benin,2
+ South Africa, Benin,2
+ Uganda, Benin,1
+ Canada, Benin,1
+ Niger, Benin,1
+ Namibia, Benin,1
+ Morocco, Benin,1
+ Canada, Zimbabwe,1
+ Zimbabwe, Niger,1
+ Kenya, Madagascar,3
+ Mali, Madagascar,1
+ Uganda, Madagascar,2
+ Canada, Madagascar,2
+ Madagascar, Niger,1
+ Morocco, Madagascar,3
+ Mali, Mozambique,1
+ Canada, Mozambique,1
+ Morocco, Mozambique,1
+ Kenya, Mali,1
+ Kenya, Niger,2
+ Uganda, Mali,2
+ Canada, Mali,1
+ Mali, Niger,1
+ United Kingdom, Niger,1
+ Canada, Niger,1
+ Canada, Namibia,1
+ Canada, Morocco,2
+ Morocco, Niger,1
+ Morocco, Namibia,2
+Sri Lanka, United Kingdom,3
+Malaysia, United Kingdom,3
+India, Republic of the Congo,4
+India, Philippines,6
+India, Switzerland,6
+India, Denmark,4
+India, Egypt,8
+ Philippines, Republic of the Congo,4
+ Denmark, Republic of the Congo,6
+ Sweden, Republic of the Congo,2
+ Switzerland, Philippines,5
+ Philippines, Denmark,4
+ Egypt, Philippines,4
+ Sweden, Philippines,3
+ Egypt, Denmark,3
+ Sweden, Egypt,3
+ Australia,Singapore,7
+Mexico, Argentina,4
+ Australia,Qatar,1
+ Canada,Switzerland,8
+United States, United Arab Emirates,2
+ Australia, Sri Lanka,3
+ Switzerland,Portugal,7
+ United Kingdom,Portugal,10
+ China, Denmark,5
+Sweden, Iceland,2
+ Vietnam,Zambia,2
+ Germany,Zambia,3
+Netherlands, Germany,28
+United States, Austria,6
+ China, New Zealand,7
+ Austria, New Zealand,4
+Canada, Austria,1
+ Australia,France,7
+Russia, Armenia,2
+ Russia, Armenia,6
+ Brazil,Malawi,1
+ China, Finland,22
+ Netherlands, Finland,24
+ Malaysia,Australia,6
+ Romania, Romania,7
+ India,Italy,6
+ Lebanon,Oman,1
+France, Laos,1
+ Singapore, Japan,9
+ Japan, Finland,14
+ Singapore, Germany,9
+ Singapore, Finland,11
+ Singapore, Germany,8
+India, Finland,4
+ Bangladesh, Finland,10
+ Bangladesh, Italy,5
+ Bangladesh, Finland,6
+ Bangladesh, Italy,4
+United Kingdom, Taiwan,8
+ Japan, Taiwan,2
+United Kingdom, Burkina Faso,2
+ Spain, Burkina Faso,6
+Brazil, Bangladesh,1
+Brazil, Egypt,7
+Brazil, Iran,4
+Brazil, Poland,1
+Brazil, Pakistan,1
+Brazil, Colombia,1
+Brazil, Tanzania,1
+ Bangladesh, Iran,4
+ Bangladesh, Poland,1
+ Bangladesh, Pakistan,5
+ Norway, Bangladesh,1
+ Bangladesh, Colombia,1
+ Bangladesh, Tanzania,1
+ Egypt, Iran,5
+ Norway, Egypt,1
+ Egypt, Colombia,2
+ Iran, Pakistan,4
+ Norway, Iran,3
+ Egypt, Iran,13
+ Iran, Colombia,4
+ India, Iran,7
+ Iran, Tanzania,4
+ Poland, Pakistan,1
+ Norway, Poland,6
+ Egypt, Poland,3
+ Poland, Colombia,3
+ Poland, Tanzania,1
+ Norway, Pakistan,1
+ Colombia, Pakistan,3
+ Pakistan, Tanzania,1
+ Norway, Italy,3
+ Norway, Egypt,3
+ Norway, Colombia,1
+ Norway, Iran,1
+ India, Norway,1
+ Norway, Tanzania,1
+ Italy, Colombia,1
+ Iran, Colombia,3
+ Egypt, Colombia,3
+ Colombia, Tanzania,1
+ India, Tanzania,1
+Canada, South Korea,1
+ South Africa,Zimbabwe,1
+Thailand, China,2
+ Australia,Thailand,1
+ Thailand, China,10
+Saudi Arabia, Bahrain,1
+ Saudi Arabia, Bahrain,3
+ Pakistan, Bahrain,1
+ India, Bahrain,3
+ Saudi Arabia, Bahrain,6
+ United Kingdom, Bahrain,1
+United Kingdom, South Korea,3
+ Singapore, South Korea,1
+United Kingdom, Norway,9
+Japan, Denmark,1
+Japan, South Africa,1
+Japan, Switzerland,6
+ Japan, Denmark,5
+ Japan, Denmark,8
+India, Bosnia and Herzegovina,1
+India, Ethiopia,1
+India, Colombia,5
+India, Kenya,3
+India, Madagascar,1
+India, Mongolia,2
+India, Canada,9
+ Switzerland, Bosnia and Herzegovina,1
+ Switzerland, Mongolia,3
+ Bosnia and Herzegovina, Republic of the Congo,1
+ Bosnia and Herzegovina, Ethiopia,1
+ India, Bosnia and Herzegovina,7
+ Colombia, Bosnia and Herzegovina,1
+ Bosnia and Herzegovina, Finland,1
+ Kenya, Bosnia and Herzegovina,2
+ Australia, Bosnia and Herzegovina,2
+ Bosnia and Herzegovina, Madagascar,1
+ Egypt, Bosnia and Herzegovina,1
+ Denmark, Bosnia and Herzegovina,1
+ Bosnia and Herzegovina, Mongolia,2
+ Canada, Bosnia and Herzegovina,1
+ Philippines, Bosnia and Herzegovina,1
+ United States, Bosnia and Herzegovina,1
+ Bosnia and Herzegovina, Sri Lanka,1
+ India, Republic of the Congo,9
+ Colombia, Republic of the Congo,1
+ Finland, Republic of the Congo,1
+ Australia, Republic of the Congo,4
+ Republic of the Congo, Mongolia,2
+ Republic of the Congo, Sri Lanka,1
+ India, Ethiopia,9
+ Colombia, Ethiopia,1
+ Ethiopia, Finland,1
+ Australia, Ethiopia,2
+ Denmark, Ethiopia,2
+ Ethiopia, Mongolia,2
+ Canada, Ethiopia,1
+ Philippines, Ethiopia,1
+ Ethiopia, Sri Lanka,1
+ India, Madagascar,2
+ India, Mongolia,14
+ India, Philippines,9
+ India, Sri Lanka,7
+ Colombia, Finland,1
+ Kenya, Colombia,2
+ Colombia, Madagascar,1
+ Denmark, Colombia,3
+ Colombia, Mongolia,2
+ Colombia, Sri Lanka,1
+ Kenya, Finland,3
+ Finland, Madagascar,1
+ Egypt, Finland,1
+ Denmark, Finland,3
+ Finland, Mongolia,2
+ Philippines, Finland,1
+ Finland, Sri Lanka,1
+ Kenya, Mongolia,4
+ Philippines, Kenya,2
+ Kenya, Sri Lanka,2
+ Australia, Madagascar,3
+ Australia, Egypt,7
+ Australia, Mongolia,5
+ India, Madagascar,7
+ Egypt, Madagascar,2
+ Denmark, Madagascar,1
+ Madagascar, Mongolia,3
+ Philippines, Madagascar,1
+ Australia, Madagascar,1
+ Madagascar, Sri Lanka,1
+ Egypt, Denmark,3
+ Egypt, Mongolia,3
+ Egypt, Philippines,3
+ Australia, Egypt,2
+ Egypt, Sri Lanka,1
+ Denmark, Mongolia,2
+ Canada, Denmark,11
+ Philippines, Denmark,2
+ Denmark, Sri Lanka,1
+ Canada, Mongolia,1
+ Philippines, Mongolia,1
+ Australia, Mongolia,1
+ India, Mongolia,2
+ United States, Mongolia,1
+ Sri Lanka, Mongolia,1
+ Mongolia, Mongolia,1
+ Canada, Sri Lanka,1
+ Canada, Mongolia,2
+ Philippines, Sri Lanka,1
+ Philippines, Mongolia,2
+ United States, Mongolia,5
+ Sri Lanka, Mongolia,1
+ United States,Peru,12
+ Chile,Peru,1
+ Canada, Ecuador,6
+Norway, China,8
+ Germany,Croatia,2
+United Kingdom, Bangladesh,5
+ France, Bangladesh,4
+ France,Austria,5
+ France, Austria,5
+ Malaysia,Sweden,2
+ India, Malaysia,11
+Senegal, Morocco,1
+ Lebanon,Senegal,1
+ Lebanon, Morocco,1
+ Sweden, Russia,5
+ Iran, New Zealand,3
+ Brazil, Iran,2
+ Egypt, Austria,1
+ India, Austria,2
+ Austria, New Zealand,1
+ Brazil, Austria,1
+France, Denmark,4
+ Japan,Belgium,2
+ Poland,Austria,1
+ South Africa,Belgium,7
+ Sweden, South Africa,19
+ Spain, Austria,27
+Democratic Republic of the Congo, Democratic Republic of the Congo,1
+United Kingdom, Ireland,4
+ Switzerland, Ireland,12
+Japan, Peru,4
+ Australia,Japan,3
+ Australia, Peru,1
+ Japan, Peru,6
+ Japan, Thailand,20
+ Japan, Thailand,25
+China, Slovenia,1
+China, Kenya,2
+ China, Slovenia,1
+ China, Kenya,7
+ Kenya, Slovenia,2
+ China, Slovenia,3
+ China, Kenya,5
+India, Iraq,6
+India, Libya,1
+ Iraq, Libya,1
+ India, Iraq,12
+ Bangladesh, Iraq,1
+ India, Libya,5
+ Bangladesh, Libya,1
+Norway, United States,14
+ Spain,Pakistan,1
+ Spain,Lebanon,2
+ China,Taiwan,2
+ Japan, Netherlands,16
+Germany, Colombia,1
+ Thailand,South Africa,1
+ Taiwan,South Africa,2
+ Thailand, South Africa,12
+ Thailand, Germany,6
+ Taiwan, Germany,1
+ Taiwan, Thailand,15
+Iran, Cyprus,1
+Iran, Ukraine,1
+ Iran, Cyprus,2
+ Iran, Ukraine,5
+ United States, Ukraine,11
+ Cyprus, Ukraine,1
+Pakistan, Greece,1
+ Saudi Arabia, Greece,1
+Italy, Romania,4
+ Japan, Ireland,15
+ Singapore,Australia,7
+United Kingdom, Qatar,6
+Sweden, Malta,2
+ Malta, Malta,1
+ United Kingdom,Chile,2
+ Denmark,Chile,2
+ Germany,Chile,4
+ Chile, Denmark,7
+ Chile, Germany,13
+ Chile, United Kingdom,6
+ Chile, Denmark,2
+ Chile, Germany,11
+ China,Sierra Leone,2
+ Sierra Leone,Sierra Leone,1
+ China, Sierra Leone,2
+Canada, Egypt,1
+France, Burkina Faso,2
+South Africa, Malawi,9
+ Canada,Vietnam,1
+ Turkey,Vietnam,1
+ Ethiopia,Vietnam,1
+ Canada, Ethiopia,1
+ India, Ethiopia,4
+ Ethiopia, Turkey,1
+India, Brazil,3
+India, Malawi,3
+ Italy,Austria,2
+ Austria, Italy,4
+Australia, Belgium,2
+ Spain,Canada,8
+France, Brazil,4
+India, Lebanon,1
+Canada, Denmark,1
+India, Oman,1
+India, Romania,1
+ Saudi Arabia, Oman,5
+ Romania, Oman,1
+ India, Oman,1
+ Saudi Arabia, Romania,2
+ United States,United Arab Emirates,4
+ Ireland,Zambia,1
+France, Cambodia,5
+France, Madagascar,2
+ Cambodia, Madagascar,2
+ Poland, Finland,6
+ Thailand,Saudi Arabia,1
+ Bangladesh, Thailand,4
+United States, Haiti,1
+ United States, Haiti,1
+Saudi Arabia, Sudan,1
+Germany, Sudan,1
+United States, Poland,2
+ Uruguay, United States,4
+ Uruguay, United Kingdom,5
+ India,Netherlands,1
+South Korea, Saudi Arabia,1
+ Canada,Sweden,6
+Australia, Saudi Arabia,3
+Australia, Indonesia,3
+ Iran, Indonesia,3
+ Bangladesh, Iran,1
+ Bangladesh, Saudi Arabia,7
+ Indonesia, South Korea,2
+ Bangladesh, Indonesia,4
+China, South Africa,7
+United Kingdom, Zimbabwe,6
+United Kingdom, Zambia,3
+ Italy, Zimbabwe,1
+ Italy, Zambia,3
+ Italy, Zambia,4
+United States, Norway,3
+Canada, Saudi Arabia,4
+ Canada, Saudi Arabia,5
+United States, Nepal,4
+United Kingdom, Republic of the Congo,2
+ Canada, Republic of the Congo,8
+Chile, Saint Kitts and Nevis,1
+ Germany, Saint Kitts and Nevis,2
+ Spain, Saint Kitts and Nevis,2
+ Chile, Saint Kitts and Nevis,2
+ Germany, Saint Kitts and Nevis,2
+ Australia, Saint Kitts and Nevis,1
+ Australia, Chile,8
+Germany, Portugal,4
+ China, Portugal,3
+United Kingdom, Colombia,5
+Germany, Israel,8
+United States, Qatar,12
+ China, Qatar,5
+ China, Qatar,4
+ China,Kuwait,1
+ Japan, Sweden,6
+ Iraq, Iran,4
+China, Nigeria,1
+ China, Nigeria,2
+France, French Guiana,2
+ France, French Guiana,2
+ United States,Uganda,10
+ Netherlands,Costa Rica,2
+ Netherlands, Costa Rica,4
+ United Kingdom,Taiwan,27
+ Germany,Iran,2
+Italy, Cameroon,3
+ Italy, Ethiopia,2
+Egypt, Jordan,3
+Egypt, Qatar,1
+Egypt, Syria,1
+ Egypt, Qatar,1
+ Egypt, Syria,4
+ Qatar, Jordan,1
+ Jordan, Syria,1
+ Egypt, Qatar,6
+ Qatar, Syria,1
+United Kingdom, Romania,2
+United States, Ireland,1
+United States, Thailand,2
+ Singapore, Japan,2
+ Singapore, Ireland,1
+ Singapore, Spain,5
+ Singapore, New Zealand,1
+ Singapore, Portugal,3
+ Singapore, Austria,2
+ Singapore, Bangladesh,1
+ Singapore, Argentina,3
+ Japan, Canada,11
+ Japan, Portugal,1
+ Japan, Austria,2
+ Spain, Ireland,14
+ Bangladesh, Ireland,1
+ Singapore, Ireland,3
+ Thailand, Ireland,1
+ Japan, Canada,17
+ Singapore, Canada,2
+ Canada, Thailand,3
+ Thailand, Italy,2
+ Australia, Thailand,29
+ Australia, Argentina,20
+ Spain, Bangladesh,2
+ Singapore, Spain,3
+ Spain, Thailand,3
+ Bangladesh, New Zealand,1
+ Japan, New Zealand,4
+ Singapore, New Zealand,4
+ Thailand, New Zealand,5
+ New Zealand, Argentina,1
+ Austria, Portugal,3
+ Bangladesh, Portugal,1
+ Japan, Portugal,3
+ Singapore, Portugal,5
+ Finland, Portugal,4
+ Netherlands, Portugal,4
+ Argentina, Portugal,1
+ Bangladesh, Austria,1
+ Japan, Austria,3
+ Singapore, Austria,4
+ Austria, South Africa,5
+ Thailand, Austria,2
+ Austria, Finland,4
+ Austria, Netherlands,6
+ Austria, Argentina,2
+ Bangladesh, Austria,1
+ Singapore, Bangladesh,2
+ Spain, Bangladesh,3
+ Bangladesh, South Africa,1
+ Bangladesh, Netherlands,1
+ Bangladesh, Argentina,1
+ South Africa, Finland,6
+ South Africa, Argentina,11
+ Thailand, Finland,4
+ Thailand, Netherlands,1
+ Thailand, Argentina,2
+ Argentina, Finland,2
+ Netherlands, Argentina,7
+Germany, Norway,1
+Germany, Finland,3
+ Norway, Germany,20
+ Norway, Finland,13
+ Serbia,Serbia,3
+ Germany,South Korea,2
+ Germany,Sweden,13
+Sweden, Hungary,1
+ United Kingdom,Sweden,12
+ Switzerland, Hungary,1
+ Croatia,Israel,4
+ Croatia, Israel,3
+ Croatia, Israel,2
+United States, Grenada,2
+ Sweden, Grenada,1
+ United States, Grenada,11
+ India, Grenada,1
+ Germany, Grenada,1
+ Brazil, Grenada,1
+ United States, Grenada,6
+ Germany,Slovakia,1
+ United States,Slovakia,1
+Spain, Slovenia,2
+ United States, Slovenia,10
+ United States, Slovenia,10
+ Spain, Slovenia,1
+ Portugal, Slovenia,2
+ France, Slovenia,2
+ France, Portugal,12
+Japan, Czechia,7
+ Egypt, Czechia,4
+ Japan, Czechia,27
+ United Kingdom, Czechia,7
+ Japan, Czechia,26
+ Israel, Czechia,2
+United States, Czechia,2
+ Egypt,South Korea,3
+ Egypt, South Korea,2
+ Egypt, South Korea,5
+United Kingdom, Thailand,30
+ South Africa,Israel,3
+Burkina Faso, Benin,1
+ Burkina Faso, Benin,1
+Australia, Kenya,3
+ Kenya, New Zealand,1
+ Kenya, Finland,2
+ Kenya, New Zealand,2
+ Egypt,Uganda,2
+ Iraq,Uganda,1
+Uganda, Pakistan,1
+Uganda, Saudi Arabia,2
+Uganda, China,1
+ Egypt, Iraq,2
+ Iraq, Uganda,4
+ Iraq, Pakistan,1
+ Iraq, Saudi Arabia,2
+ Pakistan, Uganda,2
+ China, Uganda,6
+ Pakistan, Uganda,3
+ Thailand, Belgium,1
+ Thailand, Israel,4
+ Bangladesh,Canada,4
+South Korea, Romania,2
+ South Korea, Romania,6
+ Nigeria,Belize,3
+Netherlands, Switzerland,11
+ Norway, Switzerland,13
+Georgia, Georgia,1
+Germany, Armenia,1
+ Russia, Armenia,3
+ Malaysia,China,7
+China, Ethiopia,4
+China, Kuwait,2
+ Malaysia, Ethiopia,2
+ Malaysia, Kuwait,1
+ Ethiopia, Kuwait,1
+Italy, Malta,1
+India, Jordan,1
+India, New Zealand,3
+ Japan, Jordan,2
+ Mexico, South Africa,1
+ Mexico, New Zealand,3
+ Mexico, Saudi Arabia,1
+ Malaysia,Iran,1
+ China, Iran,5
+ Malaysia, Iran,2
+ Malaysia, China,11
+ Malaysia, Iran,1
+ Singapore,Italy,2
+Australia, Denmark,7
+Malaysia, China,5
+ Malaysia, China,7
+Austria, Romania,2
+ Austria, Romania,5
+Bangladesh, China,1
+ Austria,Hungary,2
+ Spain, Romania,3
+France, Sweden,4
+Egypt, United Arab Emirates,2
+ Brazil, Iran,1
+ Germany,Hungary,8
+United States, Hungary,2
+India, Thailand,11
+India, Germany,11
+ Thailand, Germany,14
+ Thailand, New Zealand,5
+ Sweden, Thailand,8
+ Japan, Sweden,4
+ Sweden, Thailand,4
+ Japan, Indonesia,3
+ United States,Costa Rica,8
+United Kingdom, Netherlands,24
+ South Korea,Romania,3
+Romania, Moldova,1
+ South Korea, Romania,7
+ South Korea, Moldova,3
+ Romania, Moldova,3
+ Israel, Czechia,3
+ Egypt, Czechia,1
+ Canada,Iran,3
+Iran, Czechia,2
+ India, Czechia,8
+ Canada, Czechia,1
+ South Africa,Singapore,2
+ Germany, Qatar,3
+ Canada, Qatar,6
+ Switzerland, Qatar,7
+ United Kingdom, Qatar,17
+ United Kingdom, Qatar,12
+ Canada, Qatar,8
+China, Israel,3
+Japan, Kuwait,1
+Japan, Morocco,2
+Japan, Poland,2
+ Japan, Kuwait,1
+ Japan, Morocco,3
+ Japan, Poland,1
+ Kuwait, Morocco,2
+ Poland, Kuwait,1
+ Poland, Morocco,2
+Thailand, South Africa,2
+Thailand, Germany,1
+ Japan, Indonesia,2
+Australia, Venezuela,2
+ Germany,Poland,3
+ Germany, Poland,27
+Switzerland, New Zealand,5
+Turkey, Indonesia,1
+Turkey, Saudi Arabia,1
+France, South Korea,1
+France, Austria,2
+ Spain, Tunisia,1
+ South Korea, Tunisia,1
+ Austria, Tunisia,1
+ Austria, South Korea,1
+Turkey, Russia,1
+Turkey, Belarus,1
+ Turkey, Belarus,1
+ Russia, Belarus,1
+India, Indonesia,1
+ Egypt, Indonesia,2
+ Iraq, Indonesia,1
+ India, Iraq,3
+ Spain,Serbia,4
+ Austria,Serbia,2
+ Hungary,Serbia,1
+ Turkey,Serbia,2
+ Italy,Serbia,2
+ Ireland,Serbia,1
+ Greece,Serbia,1
+ Spain, Serbia,7
+ Austria, Hungary,1
+ Austria, Turkey,2
+ Austria, Serbia,1
+ Austria, Ireland,1
+ Austria, Greece,3
+ Spain, Hungary,2
+ Hungary, Serbia,1
+ Turkey, Serbia,2
+ Turkey, Serbia,2
+ Italy, Serbia,2
+ Spain, Serbia,14
+ Ireland, Serbia,1
+ Greece, Serbia,1
+ Austria, Serbia,1
+ South Africa,Saudi Arabia,1
+ India,Qatar,1
+ Bangladesh, Pakistan,1
+ Malaysia, Egypt,3
+ Malaysia, Egypt,9
+Germany, United Arab Emirates,1
+Iraq, Iran,1
+Russia, Austria,1
+United States, Cyprus,1
+ Switzerland, Cyprus,4
+ Bulgaria, Cyprus,1
+ Bulgaria, Greece,2
+ Bulgaria, Greece,2
+ Switzerland, Bulgaria,2
+ Sweden,Saudi Arabia,1
+ Sweden, Saudi Arabia,4
+ Sweden, Egypt,2
+ Sweden, Saudi Arabia,2
+ Australia,South Korea,6
+ Bulgaria, Bulgaria,10
+Australia, Kazakhstan,1
+ United States, Kazakhstan,1
+ Australia,Saudi Arabia,2
+ United States, Indonesia,9
+ Bangladesh, Saudi Arabia,12
+ Australia, Indonesia,1
+ Australia, Indonesia,2
+Switzerland, China,6
+ France, Colombia,17
+ France,Cambodia,1
+Saudi Arabia, Tunisia,1
+Netherlands, South Africa,1
+Spain, China,1
+Italy, Slovakia,1
+ Italy, Slovakia,1
+ India,Russia,1
+ United Kingdom,Russia,1
+ Saudi Arabia, Jordan,3
+ France,India,3
+Netherlands, Japan,1
+Malaysia, Nigeria,1
+Russia, Italy,2
+France, Portugal,1
+ Brazil, Jordan,2
+ Saudi Arabia, New Zealand,1
+ Mexico, Russia,4
+ Mexico, Egypt,3
+ Russia, New Zealand,1
+ Germany,Colombia,1
+Bangladesh, Sweden,1
+ Spain, Sweden,18
+Canada, Germany,2
+ Spain,Japan,1
+Indonesia, Spain,2
+Japan, Ireland,5
+Lebanon, United Arab Emirates,1
+ India,Lebanon,1
+ India, United Arab Emirates,2
+ United Arab Emirates, Saudi Arabia,2
+ Brazil,Australia,1
+ Chile,Australia,6
+ Spain, Uruguay,4
+ Uruguay, Netherlands,2
+ Chile, Netherlands,1
+Italy, Tunisia,2
+Germany, Canada,7
+ Malaysia, Bangladesh,1
+Sweden, Kenya,1
+ Japan,Thailand,1
+ Iraq, China,2
+ United States,Finland,6
+ Taiwan,Paraguay,1
+ Australia,Costa Rica,2
+ Chile,Costa Rica,1
+ China,Singapore,15
+ Senegal,Singapore,1
+ Singapore, Senegal,3
+ Malaysia, Russia,1
+ Malaysia, Senegal,1
+ Singapore,Netherlands,1
+Thailand, Italy,2
+ Brazil,Thailand,3
+ Canada,Thailand,4
+ Thailand, Italy,4
+ Brazil, Thailand,8
+ Canada, Thailand,11
+China, Cuba,3
+China, Iran,1
+ Cuba, Cuba,3
+ China, Cuba,3
+ Iran, Cuba,9
+Brazil, Dominican Republic,1
+ United States, Dominican Republic,3
+ Singapore,France,2
+Australia, Vietnam,3
+ Australia, Vietnam,6
+ Malta,Malta,1
+Spain, Poland,2
+ Spain, Poland,7
+ Brazil, Thailand,8
+ United Kingdom, Croatia,3
+ France, Norway,18
+Spain, Ireland,3
+Spain, Sweden,5
+Spain, Croatia,1
+ France, Croatia,5
+ Netherlands, Ireland,12
+ Croatia, Netherlands,4
+ Croatia, Ireland,3
+ Sweden, Portugal,7
+ Croatia, Portugal,2
+ Spain, Croatia,4
+ Spain, Croatia,2
+ France, Croatia,1
+France, Mexico,8
+ Mexico, Germany,3
+ Brazil, Taiwan,1
+ Taiwan, Israel,1
+ Taiwan, Thailand,8
+China, Austria,5
+ China, Austria,6
+France, Norway,1
+ France, Norway,25
+ Norway, Italy,1
+ Singapore, Norway,1
+ Norway, Canada,10
+ Brazil, Norway,1
+Egypt, China,7
+Egypt, Sudan,1
+ China, Sudan,2
+Germany, Hungary,4
+Germany, Egypt,3
+ Egypt, Bulgaria,1
+United Kingdom, Madagascar,1
+ France, Chile,8
+ France, Chile,3
+ Greece,Romania,1
+ Greece, Romania,2
+ Brazil,Turkey,1
+Nigeria, Saudi Arabia,1
+United States, Iceland,1
+ United States, Iceland,3
+ United States, Iceland,1
+ Malaysia,Czechia,1
+ Malaysia, Czechia,2
+ United Kingdom, Czechia,2
+South Korea, Ukraine,1
+ India, Ukraine,3
+ Ukraine, Romania,1
+Singapore, Estonia,1
+ Singapore, Estonia,4
+Netherlands, Sweden,1
+Netherlands, Greece,2
+ Netherlands, Greece,5
+ China, South Africa,17
+ South Africa, Ireland,2
+ Singapore, Russia,1
+ Brazil, Ireland,1
+ India,Malaysia,3
+Malaysia, Egypt,2
+Malaysia, Indonesia,1
+ Malaysia, Indonesia,4
+ Egypt, Indonesia,3
+ Malaysia, Indonesia,3
+ Switzerland,Finland,2
+ United Kingdom,Finland,2
+ India,Indonesia,3
+Indonesia, China,2
+Indonesia, Bangladesh,1
+Indonesia, Egypt,1
+Bangladesh, Netherlands,1
+ Japan, Pakistan,1
+Israel, Finland,1
+Canada, Sri Lanka,1
+Russia, Poland,1
+ India, Kuwait,3
+ Malaysia, Kuwait,1
+ Sweden, Kuwait,1
+ Ethiopia, Kuwait,1
+ Malaysia, Sweden,1
+ Sweden, Ethiopia,1
+ Belgium,Singapore,1
+ Thailand, Belgium,1
+ Canada,Taiwan,1
+ Netherlands,Taiwan,1
+ Egypt,Taiwan,1
+ Taiwan, Canada,1
+ Taiwan, Netherlands,1
+ Egypt, Netherlands,1
+Sweden, Ireland,4
+Sweden, Israel,3
+ Poland,Sweden,2
+ South Africa,Sweden,1
+Sweden, Nigeria,1
+ Spain,Sweden,3
+Sweden, Uganda,1
+Sweden, Denmark,3
+Sweden, Qatar,1
+ Japan,Sweden,3
+ Netherlands,Sweden,4
+Sweden, Bolivia,1
+Sweden, Greece,2
+ Chile,Sweden,2
+Sweden, Argentina,3
+Sweden, Peru,1
+ Israel, Ireland,2
+ Poland, Ireland,2
+ Nigeria, Ireland,1
+ Uganda, Ireland,1
+ Denmark, Ireland,3
+ Qatar, Ireland,1
+ Ireland, Bolivia,1
+ Ireland, Cuba,1
+ Chile, Ireland,2
+ Peru, Ireland,1
+ United States, Bolivia,3
+ United States, Cuba,4
+ United States, Peru,35
+ Poland, Israel,2
+ Israel, Uganda,2
+ Denmark, Israel,1
+ Qatar, Israel,1
+ Israel, Bolivia,1
+ Israel, Cuba,1
+ Chile, Israel,2
+ Argentina, Israel,3
+ Peru, Israel,1
+ United Kingdom, Bolivia,5
+ United Kingdom, Cuba,5
+ Poland, South Africa,1
+ United Kingdom, Poland,23
+ Poland, Nigeria,1
+ Spain, Poland,1
+ Poland, Uganda,1
+ Poland, Denmark,3
+ Australia, Poland,5
+ Switzerland, Poland,9
+ Poland, Qatar,1
+ Poland, Netherlands,11
+ Canada, Poland,7
+ Germany, Poland,25
+ Poland, Bolivia,1
+ Poland, Greece,2
+ Poland, Cuba,1
+ France, Poland,12
+ Sweden, Poland,3
+ Chile, Poland,2
+ Poland, Argentina,3
+ Poland, Peru,1
+ China, Poland,2
+ South Africa, Qatar,3
+ South Africa, Bolivia,1
+ South Africa, Greece,2
+ South Africa, Cuba,1
+ Chile, South Africa,3
+ South Africa, Peru,1
+ Spain, Nigeria,1
+ Nigeria, Denmark,3
+ Australia, Nigeria,3
+ Italy, Nigeria,5
+ India, Nigeria,3
+ Nigeria, Qatar,1
+ Netherlands, Nigeria,4
+ Nigeria, Bolivia,1
+ Nigeria, Greece,2
+ Nigeria, Cuba,1
+ Sweden, Nigeria,4
+ Chile, Nigeria,2
+ Nigeria, Argentina,3
+ Nigeria, Peru,2
+ Spain, Uganda,1
+ Spain, Denmark,10
+ Spain, Qatar,5
+ Spain, Bolivia,1
+ Spain, Cuba,1
+ Spain, Peru,1
+ Denmark, Uganda,2
+ Australia, Uganda,3
+ Italy, Uganda,3
+ India, Uganda,5
+ Qatar, Uganda,1
+ Netherlands, Uganda,3
+ Uganda, Bolivia,1
+ Greece, Uganda,2
+ Uganda, Cuba,1
+ Sweden, Uganda,3
+ Chile, Uganda,2
+ Argentina, Uganda,4
+ Peru, Uganda,1
+ Denmark, Qatar,3
+ Denmark, Bolivia,1
+ Denmark, Greece,2
+ Denmark, Cuba,1
+ Denmark, Argentina,3
+ Denmark, Peru,1
+ Australia, Qatar,5
+ Australia, Bolivia,1
+ Australia, Cuba,1
+ Australia, Peru,3
+ Italy, Bolivia,1
+ Chile, Italy,5
+ Italy, Peru,2
+ Switzerland, Bolivia,1
+ Switzerland, Cuba,1
+ Chile, Switzerland,3
+ Switzerland, Peru,1
+ India, Qatar,2
+ India, Bolivia,2
+ India, Cuba,1
+ India, Chile,6
+ India, Argentina,11
+ Japan, Qatar,3
+ Netherlands, Qatar,5
+ Germany, Qatar,3
+ Qatar, Bolivia,1
+ Qatar, Greece,2
+ Qatar, Cuba,1
+ France, Qatar,16
+ Australia, Qatar,4
+ Sweden, Qatar,2
+ Chile, Qatar,2
+ Qatar, Argentina,7
+ Qatar, Peru,1
+ Japan, Bolivia,2
+ Japan, Greece,2
+ Japan, Cuba,1
+ Chile, Japan,5
+ Japan, Peru,11
+ Netherlands, Bolivia,1
+ Netherlands, Cuba,1
+ Chile, Netherlands,6
+ Netherlands, Peru,2
+ Canada, Bolivia,1
+ Canada, Cuba,1
+ Canada, Peru,1
+ Germany, Bolivia,1
+ Germany, Cuba,1
+ Germany, Peru,3
+ Greece, Bolivia,2
+ United States, Bolivia,17
+ Cuba, Bolivia,1
+ France, Bolivia,1
+ India, Bolivia,5
+ Australia, Bolivia,2
+ Sweden, Bolivia,1
+ Italy, Bolivia,1
+ Netherlands, Bolivia,1
+ Japan, Bolivia,5
+ United Kingdom, Bolivia,4
+ Chile, Bolivia,2
+ Argentina, Bolivia,3
+ Peru, Bolivia,5
+ China, Bolivia,1
+ Greece, Cuba,2
+ Sweden, Greece,3
+ Japan, Greece,4
+ Chile, Greece,4
+ Greece, Argentina,6
+ Greece, Peru,2
+ France, Cuba,1
+ United States, Cuba,15
+ India, Cuba,2
+ Australia, Cuba,2
+ Sweden, Cuba,1
+ Italy, Cuba,1
+ Netherlands, Cuba,1
+ Japan, Cuba,2
+ United Kingdom, Cuba,4
+ Chile, Cuba,2
+ Argentina, Cuba,3
+ Peru, Cuba,1
+ France, Peru,1
+ Chile, Sweden,3
+ Sweden, Argentina,3
+ Sweden, Peru,1
+ Chile, Argentina,6
+ Chile, Peru,2
+ Chile, China,2
+ Chile, Japan,2
+ Argentina, Peru,7
+ China, Argentina,4
+ China, Peru,4
+Brazil, Estonia,1
+ Brazil, Estonia,2
+ Brazil, Estonia,3
+Japan, South Korea,2
+ Japan, South Korea,3
+ Croatia,Slovenia,1
+Algeria, Algeria,2
+ Czechia,Slovakia,3
+ Czechia, Slovakia,6
+ Singapore, Iran,1
+ Malaysia, Pakistan,2
+ Hungary,Slovenia,4
+ Czechia,Slovenia,1
+ Hungary, Czechia,3
+ Hungary, Slovenia,4
+ Hungary, Czechia,1
+ Czechia, Slovenia,1
+ United Kingdom,New Zealand,3
+ Switzerland,Argentina,1
+ Ukraine, Ukraine,1
+ Ivory Coast,Denmark,1
+ Australia,Denmark,5
+ Pakistan,Denmark,1
+ Philippines,Denmark,1
+ Qatar,Denmark,2
+ Uganda,Denmark,1
+Denmark, Madagascar,1
+Denmark, Central African Republic,1
+ Thailand,Denmark,1
+ Lebanon,Denmark,1
+ Senegal,Denmark,1
+ Egypt,Denmark,1
+Denmark, Mongolia,1
+ Morocco,Denmark,1
+Denmark, Nepal,1
+ Russia,Denmark,1
+ United Kingdom, Central African Republic,11
+ United Kingdom, Mongolia,3
+ Australia, Ivory Coast,2
+ Ivory Coast, Pakistan,1
+ Philippines, Ivory Coast,1
+ Ivory Coast, Qatar,2
+ Canada, Ivory Coast,1
+ Ivory Coast, Argentina,3
+ Ivory Coast, Central African Republic,2
+ India, Ivory Coast,2
+ Thailand, Ivory Coast,1
+ Lebanon, Ivory Coast,1
+ Senegal, Ivory Coast,1
+ Ivory Coast, Mongolia,1
+ Ivory Coast, Morocco,1
+ Ivory Coast, Nepal,1
+ Russia, Ivory Coast,1
+ Australia, Uganda,2
+ Australia, Central African Republic,2
+ Australia, Morocco,2
+ Australia, Nepal,2
+ Philippines, Pakistan,2
+ Qatar, Pakistan,2
+ Pakistan, Argentina,3
+ Pakistan, Madagascar,1
+ Pakistan, Central African Republic,1
+ Brazil, Pakistan,3
+ Pakistan, Mongolia,1
+ Pakistan, Morocco,1
+ Pakistan, Nepal,1
+ Philippines, Qatar,2
+ Philippines, Argentina,3
+ Philippines, Uganda,1
+ Philippines, Madagascar,1
+ Philippines, Central African Republic,1
+ Thailand, Philippines,4
+ Lebanon, Philippines,2
+ Senegal, Philippines,2
+ Philippines, Morocco,1
+ Philippines, Nepal,1
+ Russia, Philippines,1
+ Switzerland, Qatar,5
+ South Africa, Qatar,7
+ Qatar, Uganda,2
+ Qatar, Madagascar,2
+ Qatar, Central African Republic,2
+ Brazil, Qatar,2
+ Thailand, Qatar,2
+ Lebanon, Qatar,3
+ Senegal, Qatar,3
+ Qatar, Mongolia,2
+ Qatar, Morocco,2
+ Qatar, Nepal,2
+ Russia, Qatar,2
+ Canada, Uganda,1
+ Canada, Madagascar,1
+ Canada, Central African Republic,1
+ Canada, Nepal,3
+ South Africa, Argentina,6
+ Qatar, Argentina,2
+ Argentina, Uganda,2
+ Argentina, Madagascar,2
+ Argentina, Central African Republic,2
+ India, Argentina,4
+ Thailand, Argentina,3
+ Lebanon, Argentina,2
+ Senegal, Argentina,3
+ Egypt, Argentina,3
+ Argentina, Mongolia,3
+ Argentina, Morocco,3
+ Argentina, Nepal,3
+ Russia, Argentina,3
+ Switzerland, Central African Republic,7
+ Switzerland, Nepal,1
+ Lebanon, South Africa,7
+ South Africa, Mongolia,3
+ Uganda, Central African Republic,4
+ Thailand, Uganda,1
+ Lebanon, Uganda,1
+ Uganda, Mongolia,1
+ Uganda, Nepal,1
+ Russia, Uganda,1
+ Madagascar, Central African Republic,2
+ Brazil, Madagascar,1
+ Thailand, Madagascar,1
+ Lebanon, Madagascar,1
+ Senegal, Madagascar,1
+ Argentina, Madagascar,1
+ Nepal, Madagascar,1
+ Russia, Madagascar,1
+ India, Central African Republic,2
+ Thailand, Central African Republic,1
+ Lebanon, Central African Republic,1
+ Senegal, Central African Republic,1
+ Argentina, Central African Republic,1
+ Central African Republic, Mongolia,1
+ Morocco, Central African Republic,1
+ Nepal, Central African Republic,1
+ Russia, Central African Republic,1
+ Brazil, Lebanon,2
+ Brazil, Mongolia,1
+ Brazil, Nepal,1
+ India, Thailand,6
+ India, Morocco,5
+ Thailand, Lebanon,1
+ Senegal, Thailand,1
+ Thailand, Egypt,1
+ Thailand, Mongolia,1
+ Thailand, Morocco,1
+ Thailand, Nepal,3
+ Lebanon, Argentina,1
+ Lebanon, Egypt,2
+ Lebanon, Mongolia,1
+ Lebanon, Morocco,2
+ Lebanon, Nepal,1
+ Senegal, Argentina,1
+ Senegal, Mongolia,1
+ Senegal, Nepal,1
+ Egypt, Nepal,1
+ Morocco, Mongolia,1
+ Nepal, Mongolia,1
+ Russia, Mongolia,1
+ Morocco, Nepal,1
+ Russia, Morocco,1
+ Russia, Nepal,1
+Germany, Greece,3
+Switzerland, Finland,8
+France, Serbia,2
+France, Ukraine,1
+France, Turkey,1
+France, Russia,10
+France, Peru,1
+France, Kenya,1
+ Ukraine, Serbia,1
+ Mexico, Serbia,1
+ Russia, Serbia,3
+ Peru, Serbia,1
+ Kenya, Serbia,2
+ India, Serbia,2
+ Mexico, Ukraine,1
+ Turkey, Ukraine,1
+ Russia, Ukraine,2
+ Peru, Ukraine,1
+ Spain, Ukraine,2
+ Ukraine, Serbia,1
+ Kenya, Ukraine,1
+ Mexico, Turkey,1
+ Mexico, Serbia,1
+ Mexico, Kenya,2
+ Peru, Turkey,1
+ Kenya, Turkey,1
+ Russia, Peru,1
+ Russia, Serbia,1
+ Russia, Kenya,1
+ Spain, Peru,2
+ Peru, Serbia,1
+ Kenya, Peru,1
+ Russia, Peru,1
+ Spain, Kenya,1
+ Russia, Kenya,1
+Russia, Kazakhstan,1
+ United Kingdom,Qatar,1
+ Nepal,Nepal,4
+Nepal, Bolivia,1
+ Saudi Arabia, Bolivia,3
+ Nepal, Bolivia,1
+ Colombia, Bolivia,2
+ Saudi Arabia, Bolivia,1
+ Colombia, Bolivia,5
+ United Kingdom,Ireland,4
+Ireland, Sweden,2
+ France,Ireland,3
+Ireland, Portugal,1
+ Spain,Ireland,3
+Ireland, Croatia,1
+ United Kingdom, Croatia,3
+ Sweden, Ireland,2
+Spain, Belgium,4
+ Taiwan,Italy,2
+ Taiwan, Italy,2
+ South Africa,Luxembourg,1
+ Canada,Luxembourg,1
+ Brazil,Austria,1
+ Brazil, Austria,3
+United Kingdom, Saudi Arabia,14
+United Kingdom, Sudan,1
+ Saudi Arabia, Portugal,1
+ Italy, Sudan,1
+ China, Portugal,4
+ Portugal, Sudan,1
+United States, Serbia,1
+ United States, Serbia,2
+ Nigeria,Saudi Arabia,2
+ Brazil,Saudi Arabia,1
+ Thailand, Switzerland,4
+ South Africa,Taiwan,1
+ Thailand,Taiwan,4
+ Brazil,Taiwan,1
+Taiwan, Israel,1
+ Thailand, Israel,1
+Canada, Cuba,1
+ Iran, Cuba,9
+ Canada, Iran,27
+ Canada, Cuba,2
+ Spain,Germany,6
+Germany, Mexico,1
+ Chile,Germany,7
+ Russia, Netherlands,4
+ Russia, Finland,2
+ Russia, South Korea,1
+ Chile, Russia,1
+ Mexico, Netherlands,7
+ Japan, Finland,3
+ Mexico, Finland,1
+ Brazil, Finland,1
+ Chile, Finland,2
+ Australia, Mexico,2
+ South Africa, South Korea,1
+ Mexico, South Korea,1
+ Brazil, South Korea,1
+ France, South Korea,2
+ South Korea, Finland,1
+ Chile, South Korea,2
+ Mexico, Finland,3
+ Chile, Mexico,2
+ Brazil, Finland,1
+United Kingdom, New Zealand,1
+ Brazil,Argentina,1
+ Norway, Germany,22
+ Norway, Austria,2
+ Norway, Greece,3
+ Norway, Greece,1
+ India,Canada,4
+ India,Colombia,2
+Canada, Ireland,2
+ Italy,Singapore,2
+ Spain,Singapore,3
+ Malaysia,Turkey,3
+ Australia,Belgium,6
+ Singapore, Saudi Arabia,3
+ China,Peru,2
+ Norway,Canada,1
+Canada, Estonia,1
+ Norway, Estonia,1
+ France, Estonia,1
+ Canada, Estonia,1
+Norway, Estonia,1
+ Norway, Estonia,1
+ Canada, Peru,1
+ India,Uzbekistan,2
+Egypt, Indonesia,1
+Germany, Poland,10
+Belgium, Jordan,1
+ Netherlands, Jordan,1
+Spain, South Africa,1
+Germany, Senegal,1
+Germany, Nigeria,1
+Germany, Thailand,1
+ Nigeria, Argentina,1
+ Sweden, Argentina,2
+ Canada, Argentina,6
+ South Korea, Argentina,1
+ Senegal, Sweden,1
+ Senegal, Thailand,2
+ Senegal, South Korea,1
+ Thailand, Nigeria,1
+ Nigeria, South Korea,1
+ Thailand, South Korea,1
+ South Africa, Greece,1
+Canada, South Africa,5
+ Belgium,Slovenia,2
+ United Kingdom,Slovenia,2
+ Belgium, Slovenia,1
+ United Kingdom, Slovenia,8
+China, Greece,2
+China, Colombia,2
+ China, Colombia,2
+ France,Singapore,5
+Australia, Austria,1
+ Austria, Saudi Arabia,2
+ Norway, Denmark,3
+India, Morocco,1
+ India, United Arab Emirates,4
+ India, Morocco,2
+ Sweden, Morocco,1
+ United Arab Emirates, Morocco,1
+ Sweden, United Arab Emirates,1
+South Africa, Morocco,2
+South Africa, Mauritius,1
+ Morocco, Mauritius,1
+ South Africa, Mauritius,2
+Taiwan, Vietnam,2
+ Singapore, Israel,1
+ Senegal,Australia,1
+ Thailand,Australia,1
+Australia, Jamaica,1
+ China, Jamaica,1
+ Japan, Senegal,2
+ Japan, Jamaica,1
+ India, Senegal,1
+ Australia, Senegal,2
+ Senegal, Jamaica,1
+ South Africa, Jamaica,2
+ United Kingdom, Jamaica,2
+ India, Jamaica,1
+ Thailand, Nigeria,1
+ Thailand, Jamaica,1
+ Australia, Nigeria,2
+ Australia, Jamaica,2
+ Nigeria, Jamaica,1
+ United States, Jamaica,2
+ United States, Jamaica,1
+ Switzerland, Jamaica,1
+ Denmark, South Korea,1
+India, Bolivia,1
+ Thailand, Saudi Arabia,1
+ Poland, Bolivia,1
+ Thailand, Bolivia,1
+ Nepal, Bolivia,4
+ Thailand, Poland,1
+ Poland, Nepal,2
+ Thailand, Colombia,4
+ India,Belgium,2
+Belgium, Ghana,1
+ India, Ghana,1
+ Belgium, Ghana,1
+ Netherlands, Ghana,2
+Uzbekistan, Uzbekistan,1
+ South Korea,Uzbekistan,2
+ South Korea, Uzbekistan,2
+Japan, Canada,4
+ Sudan,Sudan,8
+ Japan,Denmark,1
+United Kingdom, Poland,1
+United Kingdom, Czechia,3
+ Switzerland, Poland,3
+ Spain, Czechia,1
+ France, Poland,5
+ France, Czechia,1
+ Poland, Czechia,3
+ France, Czechia,3
+ Netherlands, Czechia,2
+South Africa, Ethiopia,4
+ United States,Vietnam,3
+ Austria,Vietnam,1
+ France,Saudi Arabia,1
+Saudi Arabia, South Korea,1
+Saudi Arabia, Romania,1
+ Bangladesh, South Korea,3
+ Bangladesh, Romania,2
+ South Korea, Saudi Arabia,1
+ Egypt, Romania,1
+ Ivory Coast,Zambia,1
+ Ghana,Zambia,1
+Zambia, Sudan,1
+ Italy,Zambia,2
+ Portugal,Zambia,1
+ Denmark,Zambia,2
+ Uganda,Zambia,1
+ Ethiopia,Zambia,1
+ Sweden,Zambia,2
+Zambia, Oman,1
+ China,Zambia,1
+Zambia, Tanzania,2
+ Kenya,Zambia,2
+ Switzerland,Zambia,1
+ Nigeria,Zambia,2
+ Singapore,Zambia,1
+ Saudi Arabia,Zambia,1
+ Republic of the Congo,Zambia,1
+ France,Zambia,2
+ Democratic Republic of the Congo,Zambia,1
+ Netherlands,Zambia,1
+ Brazil,Zambia,1
+ Italy, Ivory Coast,2
+ Ivory Coast, Portugal,1
+ Ivory Coast, Denmark,2
+ Sweden, Ivory Coast,3
+ Ivory Coast, Oman,1
+ China, Ivory Coast,1
+ Ivory Coast, Tanzania,2
+ Singapore, Ivory Coast,1
+ Ivory Coast, Saudi Arabia,1
+ Ivory Coast, Netherlands,1
+ United Kingdom, Oman,2
+ Italy, Ghana,2
+ Ghana, Portugal,1
+ Denmark, Ghana,2
+ Sweden, Ghana,2
+ Ghana, Oman,1
+ Singapore, Ghana,1
+ Saudi Arabia, Ghana,2
+ Italy, Sudan,2
+ Portugal, Sudan,1
+ Denmark, Sudan,2
+ Sweden, Sudan,2
+ Sudan, Oman,1
+ Tanzania, Sudan,2
+ Kenya, Sudan,4
+ Singapore, Sudan,1
+ Saudi Arabia, Sudan,2
+ Netherlands, Sudan,1
+ Italy, Uganda,1
+ Italy, Oman,1
+ Italy, Kenya,3
+ Italy, Vietnam,1
+ South Africa, Oman,3
+ Denmark, Portugal,4
+ Portugal, Zambia,2
+ Uganda, Portugal,1
+ Ethiopia, Portugal,1
+ Portugal, Oman,1
+ Portugal, Tanzania,2
+ Kenya, Portugal,2
+ Switzerland, Portugal,6
+ Nigeria, Portugal,2
+ Portugal, Vietnam,1
+ Saudi Arabia, Portugal,1
+ Republic of the Congo, Portugal,1
+ Portugal, Democratic Republic of the Congo,3
+ Denmark, Zambia,2
+ Denmark, Uganda,1
+ Denmark, Ethiopia,1
+ Denmark, Oman,2
+ Denmark, Tanzania,2
+ Nigeria, Denmark,2
+ Denmark, Vietnam,1
+ Denmark, Saudi Arabia,7
+ Denmark, Republic of the Congo,3
+ Denmark, Democratic Republic of the Congo,2
+ Sweden, Zambia,3
+ Zambia, Oman,1
+ China, Zambia,2
+ Zambia, Tanzania,4
+ Singapore, Zambia,2
+ Saudi Arabia, Zambia,3
+ Denmark, Zambia,2
+ Republic of the Congo, Zambia,4
+ Netherlands, Zambia,2
+ Uganda, Oman,1
+ Singapore, Uganda,1
+ Sweden, Ethiopia,2
+ Ethiopia, Oman,1
+ China, Ethiopia,1
+ Singapore, Ethiopia,3
+ Saudi Arabia, Ethiopia,4
+ Netherlands, Ethiopia,1
+ Sweden, Oman,1
+ Sweden, Zambia,1
+ Sweden, Tanzania,3
+ Sweden, Republic of the Congo,3
+ Zambia, Oman,1
+ China, Oman,3
+ Tanzania, Oman,2
+ Kenya, Oman,2
+ Switzerland, Oman,2
+ United Kingdom, Oman,5
+ Nigeria, Oman,2
+ Vietnam, Oman,1
+ Singapore, Oman,1
+ Sweden, Oman,2
+ United States, Oman,6
+ Denmark, Oman,1
+ Republic of the Congo, Oman,1
+ France, Oman,2
+ Italy, Oman,2
+ Germany, Oman,3
+ Democratic Republic of the Congo, Oman,1
+ South Africa, Oman,2
+ Netherlands, Oman,2
+ Brazil, Oman,1
+ China, Tanzania,2
+ China, Vietnam,1
+ China, Republic of the Congo,2
+ China, Democratic Republic of the Congo,1
+ Switzerland, Tanzania,1
+ Vietnam, Tanzania,1
+ Singapore, Tanzania,1
+ Saudi Arabia, Tanzania,1
+ Sweden, Tanzania,1
+ Tanzania, Tanzania,1
+ Denmark, Tanzania,2
+ Republic of the Congo, Tanzania,2
+ Democratic Republic of the Congo, Tanzania,2
+ Netherlands, Tanzania,2
+ Brazil, Tanzania,2
+ Kenya, Saudi Arabia,3
+ Italy, Kenya,2
+ Singapore, Nigeria,4
+ Singapore, Vietnam,1
+ Vietnam, Tanzania,1
+ Denmark, Vietnam,1
+ Kenya, Vietnam,2
+ Netherlands, Vietnam,1
+ Singapore, Nigeria,2
+ Singapore, Tanzania,1
+ Singapore, Republic of the Congo,1
+ Singapore, Democratic Republic of the Congo,3
+ Denmark, Saudi Arabia,5
+ Netherlands, Saudi Arabia,6
+ Italy, Republic of the Congo,2
+ Netherlands, Republic of the Congo,3
+ Australia,Tunisia,1
+ Australia, Tunisia,1
+India, Ghana,1
+ Ghana, Nepal,2
+Italy, Estonia,1
+ Canada, Estonia,1
+ United Kingdom, Estonia,3
+South Africa, Argentina,1
+South Africa, Oman,1
+ Argentina, Oman,1
+ Canada, Oman,2
+ China, Oman,1
+ United States, Oman,3
+United States, Kuwait,1
+ France, Kuwait,3
+ France, Qatar,10
+ Turkey, Kuwait,1
+ Colombia, Turkey,1
+ Denmark, Turkey,3
+ United States, Kuwait,1
+ Belgium, Kuwait,1
+ Belgium, Qatar,3
+ Spain, Kuwait,3
+ Netherlands, Kuwait,2
+ Colombia, Kuwait,1
+ Denmark, Kuwait,2
+ Italy, Kuwait,5
+ France, Kuwait,9
+ Qatar, Kuwait,2
+ Switzerland, Kuwait,2
+ Saudi Arabia, Kuwait,4
+ Belgium, Kuwait,4
+ Canada, Kuwait,1
+ Turkey, Kuwait,2
+ United Kingdom, Kuwait,1
+ Spain, Colombia,1
+ Iran, Denmark,4
+ Iran, Qatar,2
+ Iran, Belgium,6
+ Netherlands, Colombia,1
+ Netherlands, Qatar,2
+ Netherlands, Turkey,4
+ Qatar, Colombia,2
+ Iran, Denmark,2
+ Denmark, Turkey,4
+ Saudi Arabia, Qatar,6
+ Belgium, Qatar,7
+ Spain, Qatar,2
+ Iran, Qatar,4
+ Denmark, Qatar,3
+ Switzerland, Turkey,6
+ Belgium, Saudi Arabia,12
+ Saudi Arabia, Qatar,2
+ Saudi Arabia, Turkey,7
+United States, Sierra Leone,1
+Netherlands, Turkey,1
+Italy, Bulgaria,3
+United Kingdom, Laos,2
+ Australia, Laos,2
+ Singapore, Laos,4
+ Laos, Laos,1
+ United Kingdom, Laos,2
+ Singapore, Laos,2
+ Thailand, Gambia,2
+ China, Gambia,2
+Ireland, Israel,1
+Netherlands, Lithuania,1
+Netherlands, Canada,1
+ Germany, Lithuania,1
+France, South Africa,4
+France, Zambia,1
+ China, Zambia,1
+Peru, Bolivia,1
+ Colombia,Peru,1
+ Colombia, Peru,8
+Italy, Senegal,1
+ Senegal, Italy,2
+Italy, Indonesia,1
+South Africa, Republic of the Congo,3
+ Australia, Ghana,3
+ Spain,Colombia,3
+ Saudi Arabia,Syria,1
+ Lebanon,Syria,1
+ United Arab Emirates,Syria,1
+ Lebanon, United Arab Emirates,1
+Colombia, Peru,4
+Japan, Bolivia,2
+Japan, Nepal,2
+ Malaysia,Japan,1
+Japan, Colombia,2
+ Malaysia, Bolivia,1
+ Malaysia, Nepal,3
+ Malaysia, Peru,1
+ Malaysia, Colombia,1
+ Malaysia, Nepal,1
+ Malaysia, Peru,1
+ Austria,Belgium,2
+ Austria, Portugal,1
+ Austria, Belgium,2
+ Austria, South Africa,2
+Malaysia, Netherlands,2
+United States, Republic of the Congo,1
+United States, Oman,1
+ India, Republic of the Congo,3
+ India, Oman,1
+ Republic of the Congo, Oman,1
+ Saudi Arabia, Republic of the Congo,3
+ China, Republic of the Congo,4
+China, Senegal,2
+ Senegal, China,2
+ Singapore, Senegal,2
+ France, New Zealand,4
+ China, New Zealand,2
+Brazil, Indonesia,1
+ France, Indonesia,1
+ Canada, Indonesia,1
+United States, Slovenia,1
+ United Kingdom, Slovenia,2
+ Australia, Slovenia,2
+Spain, Denmark,4
+Switzerland, Iran,1
+United States, French Polynesia,1
+ United Kingdom, French Polynesia,1
+ United States, French Polynesia,6
+ Australia, French Polynesia,1
+ United Kingdom, French Polynesia,1
+ Peru, Bolivia,2
+United States, Central African Republic,1
+ Ethiopia, Portugal,2
+ Ethiopia, Central African Republic,4
+ Singapore, Cameroon,2
+ Portugal, Cameroon,2
+ Nigeria, Portugal,4
+ Singapore, Central African Republic,2
+ Portugal, Democratic Republic of the Congo,2
+ Singapore, Democratic Republic of the Congo,2
+ Democratic Republic of the Congo, Central African Republic,4
+ Portugal, Central African Republic,2
+China, Ireland,2
+Saudi Arabia, Oman,1
+ Pakistan, Oman,3
+Netherlands, Czechia,2
+ Austria, Czechia,4
+ Austria, Czechia,2
+United Kingdom, Vietnam,4
+Spain, Tanzania,1
+ Spain, Tanzania,1
+China, Qatar,1
+China, Philippines,1
+China, Botswana,1
+China, Republic of the Congo,1
+China, Egypt,2
+ Italy, Philippines,2
+ United States, Philippines,3
+ Brazil, Qatar,1
+ Brazil, Philippines,1
+ Brazil, Republic of the Congo,3
+ China, Philippines,1
+ China, Botswana,1
+ Germany, Philippines,1
+ Australia, Botswana,3
+ Australia, Republic of the Congo,1
+ Philippines, South Africa,3
+ Philippines, Qatar,1
+ Qatar, Botswana,1
+ Qatar, Republic of the Congo,1
+ Singapore, Qatar,1
+ Philippines, Botswana,1
+ Philippines, Republic of the Congo,2
+ China, Philippines,2
+ Germany, Philippines,1
+ Singapore, Philippines,2
+ Denmark, Botswana,1
+ China, Botswana,2
+ Singapore, Botswana,1
+ Lebanon, Republic of the Congo,1
+ Singapore, Republic of the Congo,1
+ Lebanon, Denmark,1
+ Senegal, Denmark,1
+ Lebanon, China,1
+ Singapore, Lebanon,1
+ Senegal, Sweden,1
+ Senegal, Netherlands,1
+ Singapore, Egypt,1
+ Egypt, Netherlands,1
+ Austria,Gabon,1
+ Japan,Gabon,1
+ Madagascar,Madagascar,1
+ Sweden,Thailand,1
+ Japan,Myanmar,2
+Australia, Philippines,3
+ Malaysia, Philippines,4
+Japan, Sweden,1
+Japan, Norway,4
+Japan, Finland,4
+Japan, New Zealand,1
+ Poland, New Zealand,1
+ Japan, Norway,6
+ Norway, Canada,7
+ Norway, Netherlands,12
+ Japan, Norway,2
+ Norway, New Zealand,3
+ Norway, Finland,5
+ Norway, New Zealand,1
+ France,Armenia,2
+Armenia, French Guiana,1
+Cameroon, French Guiana,1
+ Senegal, French Guiana,1
+India, Belgium,1
+India, Iran,3
+India, Netherlands,3
+ Mexico, Germany,4
+ Mexico, China,4
+ Japan, Mexico,3
+ Mexico, Iran,3
+ Belgium, New Zealand,9
+ Germany, Iran,2
+ Japan, Iran,3
+ Iran, New Zealand,2
+Switzerland, Poland,1
+Germany, Ghana,1
+Spain, Latvia,1
+Spain, Czechia,1
+Spain, Norway,1
+Spain, Finland,1
+ Netherlands, Latvia,1
+ Netherlands, Czechia,1
+ Poland, Netherlands,1
+ United Kingdom, Latvia,1
+ Denmark, Ireland,1
+ Latvia, Denmark,1
+ Denmark, Czechia,1
+ Denmark, Portugal,1
+ Poland, Denmark,1
+ Denmark, Finland,1
+ Latvia, Ireland,1
+ Ireland, Czechia,1
+ Norway, Ireland,1
+ Latvia, Czechia,1
+ Latvia, Portugal,1
+ France, Latvia,2
+ Sweden, Latvia,1
+ Poland, Latvia,1
+ Germany, Latvia,1
+ Norway, Latvia,1
+ Latvia, Finland,1
+ Latvia, Denmark,2
+ Switzerland, Latvia,1
+ Netherlands, Latvia,1
+ Czechia, Portugal,1
+ Poland, Czechia,3
+ Germany, Czechia,2
+ Norway, Czechia,1
+ Czechia, Finland,1
+ Denmark, Czechia,2
+ Poland, Portugal,1
+ Norway, Portugal,1
+Germany, Bangladesh,5
+ Chile,India,1
+India, Ecuador,1
+ Mexico, Philippines,1
+ Sweden, Mexico,1
+ Mexico, Republic of the Congo,1
+ Mexico, Denmark,1
+ Mexico, Switzerland,3
+ Mexico, Ecuador,2
+ Chile, Egypt,1
+ Egypt, Ecuador,1
+ Chile, Philippines,1
+ Philippines, Ecuador,1
+ Sweden, Ecuador,1
+ Chile, Republic of the Congo,1
+ Republic of the Congo, Ecuador,1
+ Denmark, Ecuador,1
+ Switzerland, Ecuador,1
+ Chile, Ecuador,1
+ Sweden, Armenia,1
+ Canada, United Arab Emirates,2
+ Morocco,United Arab Emirates,1
+ France, Mexico,4
+ China,Denmark,1
+ Rwanda,Yemen,2
+ Finland,Yemen,1
+ Finland, Rwanda,2
+ Ireland,Bahrain,1
+China, Bulgaria,1
+ China, Bulgaria,2
+China, Sri Lanka,1
+South Korea, Belgium,2
+Germany, Costa Rica,4
+United States, Venezuela,1
+ Italy,Saudi Arabia,1
+ Ethiopia,Kenya,3
+ South Africa,Kenya,9
+ Japan,Brazil,2
+Canada, Poland,1
+Egypt, Nigeria,2
+United States, Romania,1
+ Iraq, Finland,1
+ Sweden, Jordan,1
+ Norway,South Africa,2
+ Norway, Zimbabwe,2
+ Lebanon,Gambia,4
+ United Kingdom,Gambia,3
+ Russia,Lithuania,1
+ United Kingdom,Pakistan,3
+ Taiwan,Australia,7
+ Australia, Taiwan,9
+ Australia, Taiwan,5
+Uganda, Netherlands,1
+Thailand, Indonesia,3
+Italy, Pakistan,1
+Brazil, Rwanda,3
+France, Finland,1
+ Germany,Republic of the Congo,1
+ Republic of the Congo,Republic of the Congo,1
+ Hungary,Denmark,1
+ Netherlands, Hungary,1
+Brazil, Botswana,1
+Germany, Albania,1
+ Denmark, Albania,1
+ Sweden, Albania,1
+ United States, Albania,1
+Mexico, Ecuador,1
+ Brazil,Mexico,1
+ Germany,Taiwan,1
+ Hungary,Slovakia,1
+Switzerland, Botswana,4
+Indonesia, Pakistan,2
+ Mexico,Belgium,6
+Mexico, Netherlands,2
+Mexico, Ireland,1
+ United States,Nepal,4
+ Egypt,South Africa,8
+Spain, Israel,3
+Spain, Serbia,1
+ Canada, Serbia,2
+ Israel, Serbia,1
+ Israel, Serbia,2
+Mexico, Denmark,1
+Mexico, Germany,2
+Norway, Germany,1
+United Kingdom, Luxembourg,1
+ United States, Luxembourg,2
+ Italy, Luxembourg,1
+ France, Luxembourg,2
+ Netherlands, Luxembourg,2
+ United States, Luxembourg,1
+Iran, Italy,1
+Mexico, Belgium,3
+Malaysia, United States,1
+ China,Nepal,1
+ Croatia,Serbia,1
+ United States,Ghana,1
+Ghana, Rwanda,1
+ Slovakia,Ghana,1
+ Ivory Coast,Ghana,1
+Ghana, Togo,1
+ Sweden,Ghana,1
+ France, Slovakia,1
+ Slovakia, Rwanda,1
+ Sweden, Rwanda,1
+ Ivory Coast, Slovakia,1
+ Slovakia, Togo,1
+ Sweden, Slovakia,1
+ Sweden, Togo,1
+Bangladesh, Czechia,1
+ Canada, Ecuador,2
+ Poland,Belgium,1
+ Ethiopia,Cyprus,1
+ India,Cyprus,1
+ Netherlands,Bulgaria,1
+ India,Ethiopia,1
+United Kingdom, Ghana,1
+ Canada, Ghana,1
+ Mexico, Costa Rica,2
+ Costa Rica, Argentina,2
+ Brazil, Costa Rica,2
+South Africa, Israel,1
+ Brazil,Ukraine,2
+ Sweden,Ukraine,1
+ Austria,Ukraine,1
+ Brazil, Poland,2
+ Austria, Poland,1
+Japan, Russia,1
+India, Estonia,1
+ India, Estonia,5
+Germany, Kenya,1
+ Austria,Sweden,4
+Switzerland, Ireland,1
+Switzerland, Israel,1
+ Lebanon,Switzerland,2
+Switzerland, Portugal,1
+Switzerland, South Korea,1
+ Netherlands, Botswana,3
+ Lebanon, Netherlands,4
+ Italy, Trinidad and Tobago,2
+ New Zealand, Botswana,3
+ New Zealand, Israel,2
+ Trinidad and Tobago, Pakistan,1
+ Pakistan, Botswana,1
+ Trinidad and Tobago, Ireland,1
+ Ireland, Botswana,1
+ Sweden, Trinidad and Tobago,1
+ Sweden, Israel,1
+ Sweden, Lebanon,2
+ Sweden, Botswana,1
+ Spain, Trinidad and Tobago,1
+ Trinidad and Tobago, Botswana,1
+ Portugal, Botswana,1
+ South Korea, Portugal,1
+ Lebanon, Portugal,1
+ Lebanon, South Korea,1
+France, Poland,1
+ Russia, Poland,3
+ Russia, Poland,5
+ Brazil,Nigeria,1
+Turkey, Greece,1
+Canada, Bahrain,1
+Brazil, Sweden,2
+Brazil, Romania,1
+ Sweden, Romania,1
+ Vietnam, Madagascar,1
+ Cambodia, Vietnam,1
+Austria, Uzbekistan,1
+ Spain, Uzbekistan,1
+ Austria, Uzbekistan,1
+South Africa, Guinea,2
+South Africa, Liberia,1
+South Africa, Tunisia,5
+South Africa, Eswatini,1
+South Africa, Sierra Leone,2
+South Africa, Angola,1
+South Africa, Democratic Republic of the Congo,2
+South Africa, Algeria,1
+ France,South Africa,2
+South Africa, Cameroon,3
+South Africa, Namibia,1
+ United Arab Emirates,South Africa,1
+South Africa, Gambia,1
+ Senegal,South Africa,1
+South Africa, Togo,1
+South Africa, Seychelles,1
+South Africa, Vietnam,1
+South Africa, Zambia,2
+South Africa, Sudan,3
+South Africa, Burkina Faso,2
+South Africa, Saudi Arabia,1
+South Africa, Uganda,3
+South Africa, Rwanda,2
+ Japan,South Africa,1
+South Africa, Burundi,1
+South Africa, Madagascar,1
+South Africa, Central African Republic,1
+ Guinea, Liberia,1
+ Kenya, Guinea,4
+ Guinea, Angola,1
+ Republic of the Congo, Guinea,2
+ Gambia, Guinea,1
+ Senegal, Guinea,2
+ Togo, Guinea,1
+ Guinea, Seychelles,1
+ Saudi Arabia, Guinea,2
+ Guinea, Central African Republic,2
+ Eswatini, Liberia,1
+ Morocco, Liberia,1
+ Morocco, Eswatini,1
+ Morocco, Sierra Leone,1
+ Gambia, Sierra Leone,1
+ Senegal, Sierra Leone,1
+ Seychelles, Sierra Leone,1
+ Saudi Arabia, Sierra Leone,1
+ Botswana, Sierra Leone,5
+ Central African Republic, Sierra Leone,2
+ Kenya, Gambia,1
+ Kenya, Central African Republic,3
+ Germany, Seychelles,1
+ Germany, Central African Republic,1
+ Morocco, Angola,1
+ Gambia, Angola,1
+ Senegal, Angola,1
+ Seychelles, Angola,1
+ Saudi Arabia, Angola,1
+ Botswana, Angola,3
+ Central African Republic, Angola,1
+ Republic of the Congo, Democratic Republic of the Congo,3
+ Gambia, Democratic Republic of the Congo,1
+ Democratic Republic of the Congo, Togo,2
+ Democratic Republic of the Congo, Seychelles,2
+ France, Algeria,2
+ Egypt, Algeria,5
+ Nigeria, Algeria,7
+ Republic of the Congo, Algeria,2
+ Namibia, Algeria,1
+ Zimbabwe, Algeria,1
+ Ethiopia, Algeria,2
+ Brazil, Algeria,2
+ Morocco, Algeria,1
+ Gambia, Algeria,1
+ Democratic Republic of the Congo, Algeria,1
+ Senegal, Algeria,1
+ Togo, Algeria,1
+ Kenya, Algeria,2
+ Ghana, Algeria,4
+ Algeria, Seychelles,1
+ Vietnam, Algeria,1
+ Sudan, Algeria,3
+ Burkina Faso, Algeria,2
+ Saudi Arabia, Algeria,1
+ Botswana, Algeria,3
+ Ivory Coast, Algeria,1
+ Rwanda, Algeria,2
+ Algeria, Sierra Leone,1
+ Switzerland, Algeria,2
+ Japan, Algeria,1
+ Algeria, Burundi,1
+ Guinea, Algeria,1
+ Algeria, Central African Republic,1
+ France, Central African Republic,2
+ Senegal, Cameroon,3
+ Gambia, Republic of the Congo,1
+ Republic of the Congo, Seychelles,1
+ Republic of the Congo, Central African Republic,2
+ Gambia, Namibia,1
+ Senegal, Namibia,1
+ Togo, Namibia,1
+ Kenya, Namibia,2
+ Namibia, Seychelles,1
+ Saudi Arabia, Namibia,1
+ Botswana, Namibia,3
+ Republic of the Congo, Namibia,1
+ Namibia, Central African Republic,1
+ Gambia, Zimbabwe,1
+ Zimbabwe, Togo,1
+ Zimbabwe, Seychelles,1
+ Republic of the Congo, Zimbabwe,1
+ Zimbabwe, Central African Republic,1
+ United Arab Emirates, Morocco,1
+ Senegal, United Arab Emirates,1
+ United Arab Emirates, Central African Republic,1
+ Brazil, Gambia,1
+ Brazil, Togo,1
+ Brazil, Seychelles,1
+ Brazil, Burkina Faso,4
+ Brazil, Central African Republic,2
+ Morocco, Gambia,1
+ Morocco, Togo,1
+ Morocco, Seychelles,1
+ Morocco, Sudan,3
+ Morocco, Burkina Faso,2
+ Uganda, Morocco,3
+ Morocco, Malawi,3
+ Ivory Coast, Morocco,1
+ Morocco, Sierra Leone,1
+ Morocco, Burundi,1
+ Morocco, Republic of the Congo,1
+ Morocco, Central African Republic,1
+ United Kingdom, Seychelles,2
+ Saudi Arabia, Gambia,1
+ Gambia, Central African Republic,1
+ Kenya, Togo,2
+ Togo, Seychelles,1
+ Saudi Arabia, Togo,1
+ Botswana, Togo,3
+ Togo, Central African Republic,1
+ Saudi Arabia, Seychelles,1
+ Central African Republic, Seychelles,1
+ Burkina Faso, Vietnam,2
+ Botswana, Vietnam,3
+ Egypt, Vietnam,1
+ Ghana, Vietnam,3
+ Vietnam, Central African Republic,1
+ Botswana, Zambia,8
+ Zambia, Central African Republic,2
+ Botswana, Sudan,5
+ Sudan, Central African Republic,3
+ Burkina Faso, Republic of the Congo,2
+ Burkina Faso, Central African Republic,2
+ Egypt, Malawi,1
+ Ghana, Malawi,3
+ Kenya, Malawi,1
+ Japan, Malawi,1
+ Botswana, Malawi,2
+ Burkina Faso, Malawi,1
+ Republic of the Congo, Malawi,1
+ Malawi, Central African Republic,3
+ Ivory Coast, Botswana,2
+ Japan, Botswana,4
+ Japan, Republic of the Congo,1
+ Japan, Central African Republic,1
+ Botswana, Burundi,2
+ Burkina Faso, Burundi,1
+ Ghana, Burundi,1
+ Republic of the Congo, Burundi,1
+ Guinea, Burundi,1
+ Central African Republic, Burundi,1
+ Malawi, Madagascar,2
+ Madagascar, Guinea,1
+Kenya, Seychelles,1
+ Uganda,Kenya,5
+ Russia,Switzerland,2
+ Morocco, Vietnam,1
+Canada, Kenya,3
+Germany, Ecuador,4
+ Germany, Costa Rica,5
+ Costa Rica, Ecuador,4
+Switzerland, Greece,4
+ Denmark,Belgium,1
+Belgium, Cameroon,1
+ Denmark, Cameroon,1
+ Mexico,Argentina,1
+Canada, Colombia,2
+Canada, Nepal,1
+Canada, Turkey,1
+ Malaysia,Canada,2
+Canada, Pakistan,1
+Canada, Philippines,1
+ Colombia, Romania,1
+ Romania, Nepal,1
+ Switzerland, Romania,1
+ Turkey, Romania,1
+ Australia, Nepal,2
+ Netherlands, Nepal,1
+ South Africa, Nepal,2
+ Canada, Nepal,2
+ United Kingdom, Nepal,4
+ Italy, Nepal,1
+ Switzerland, Nepal,1
+ Turkey, Nepal,1
+ Spain, Nepal,1
+ Pakistan, Nepal,1
+ Philippines, Nepal,1
+ Brazil, Nepal,1
+ South Africa, Turkey,3
+ Malaysia, South Africa,4
+ Philippines, Saudi Arabia,1
+Egypt, Israel,1
+Egypt, Guinea,1
+ France,Egypt,2
+Egypt, Gabon,1
+Egypt, Democratic Republic of the Congo,2
+Egypt, Cameroon,1
+Egypt, Ethiopia,1
+Egypt, Tunisia,5
+Egypt, Zimbabwe,1
+ Brazil,Egypt,2
+Egypt, Zambia,1
+Egypt, Mali,1
+Egypt, Switzerland,1
+Egypt, Botswana,3
+Egypt, Kenya,1
+Egypt, Burkina Faso,1
+ Senegal,Egypt,1
+Egypt, Madagascar,1
+Egypt, Rwanda,1
+Egypt, Ghana,2
+Egypt, Uganda,1
+Egypt, Morocco,1
+Egypt, Eswatini,1
+ Israel, Democratic Republic of the Congo,2
+ Israel, Zimbabwe,1
+ Israel, Burkina Faso,1
+ Mali, Guinea,1
+ Saudi Arabia, Gabon,1
+ South Africa, Mali,2
+ Mali, Cameroon,1
+ Ethiopia, Mali,1
+ Saudi Arabia, Mali,1
+ Zambia, Eswatini,1
+ Burkina Faso, Mali,1
+ Mali, Democratic Republic of the Congo,1
+ Rwanda, Madagascar,1
+ Democratic Republic of the Congo, Madagascar,1
+Australia, Slovenia,1
+ Germany, Slovenia,1
+Norway, Sweden,2
+ Australia,Norway,4
+ Chile, Russia,1
+ Germany,Ivory Coast,1
+Turkey, Bosnia and Herzegovina,1
+ Bosnia and Herzegovina, Turkey,12
+ Bosnia and Herzegovina, Turkey,1
+Austria, Luxembourg,1
+Austria, Greece,2
+ Greece, Luxembourg,2
+ Italy, Luxembourg,1
+ United Kingdom, Luxembourg,1
+Lebanon, Peru,1
+Saudi Arabia, Greece,1
+Belgium, Argentina,2
+ Slovenia,Bulgaria,3
+ Bulgaria, Slovenia,4
+Spain, Burkina Faso,1
+ Spain, Burkina Faso,1
+Australia, Republic of the Congo,1
+Uruguay, Germany,1
+Uruguay, China,1
+ Spain,Uruguay,3
+Uruguay, New Zealand,2
+Uruguay, Netherlands,1
+ Uruguay, Germany,1
+ Uruguay, China,1
+ Uruguay, New Zealand,2
+ Spain,Ghana,1
+ Australia,Egypt,1
+ Thailand,Egypt,1
+ Mexico,Egypt,1
+Egypt, Finland,2
+ Bangladesh, Mexico,1
+ Thailand, Mexico,1
+ Egypt, Belgium,2
+Sweden, Cyprus,1
+ Russia,Sweden,2
+Sweden, Turkey,1
+ Norway, Cyprus,1
+ Australia, Cyprus,2
+ Israel, Cyprus,2
+ Spain, Cyprus,1
+ Turkey, Cyprus,1
+ Poland, Cyprus,1
+ Netherlands, Cyprus,1
+ Norway, Israel,2
+ Norway, Russia,2
+ Spain, Norway,1
+ Norway, Turkey,1
+ Norway, Poland,1
+ Australia, Poland,1
+ Poland, Turkey,1
+ Israel, Turkey,1
+ Canada, Poland,1
+ Poland, Israel,1
+ United Kingdom,Iran,7
+Colombia, Bolivia,1
+ China, Gambia,2
+Austria, Slovakia,2
+France, Indonesia,2
+Greece, Romania,1
+Pakistan, Finland,1
+ Spain,Mexico,2
+ India,Mexico,3
+Mexico, Saudi Arabia,1
+ Singapore,Philippines,1
+Belgium, Slovenia,2
+India, Hungary,1
+Spain, Lebanon,2
+ Norway,Estonia,2
+United States, Georgia,1
+ Russia, Tunisia,1
+ Bangladesh, Russia,3
+ Russia, Georgia,1
+ Bangladesh, Tunisia,3
+ Tunisia, Georgia,1
+ India, Tunisia,2
+ Bangladesh, Georgia,1
+ India, Georgia,2
+ Bangladesh, Georgia,2
+Australia, Saint Kitts and Nevis,1
+ Chile, Saint Kitts and Nevis,3
+ Spain, Saint Kitts and Nevis,1
+Saudi Arabia, Yemen,1
+ Italy,Argentina,1
+ Germany,Argentina,1
+ South Africa,Malawi,2
+ India,Malawi,1
+ India, Malawi,1
+Canada, Qatar,1
+Singapore, Monaco,1
+ South Africa, Monaco,1
+ Singapore, Monaco,1
+ Singapore, Monaco,4
+Italy, Rwanda,1
+ Spain, Rwanda,2
+ Canada, Rwanda,1
+ China, Rwanda,1
+ Canada, Rwanda,1
+Malaysia, Hungary,1
+Malaysia, Pakistan,1
+ Pakistan, Hungary,1
+ Denmark, Reunion,1
+ Belgium, Reunion,1
+Spain, Honduras,1
+ United States,Republic of the Congo,1
+Germany, Cyprus,1
+ Costa Rica,Chile,1
+ Australia, Costa Rica,1
+ Canada,Russia,1
+ Taiwan,Thailand,6
+ India,Thailand,2
+Thailand, Vietnam,4
+ Malaysia,Thailand,2
+ Thailand, Philippines,2
+ Thailand, Vietnam,2
+ Malaysia, Thailand,1
+ Taiwan, Indonesia,2
+ Taiwan, Philippines,4
+ Malaysia, Taiwan,5
+ Philippines, Indonesia,2
+ India, Vietnam,2
+ Philippines, Vietnam,4
+ Taiwan, Philippines,8
+ Malaysia, Vietnam,3
+ Malaysia, Taiwan,1
+ Malaysia, Vietnam,1
+ Philippines, Vietnam,4
+ Thailand, Vietnam,2
+ Philippines, Indonesia,2
+ Thailand, Indonesia,1
+Brazil, Argentina,5
+Brazil, Turkey,1
+ Argentina, Turkey,2
+ Brazil, Turkey,1
+Taiwan, Paraguay,1
+ Belgium,New Zealand,1
+Italy, South Korea,4
+France, Lebanon,1
+ Senegal, Lebanon,1
+ Cambodia, Ireland,2
+India, Pakistan,2
+India, Sudan,1
+India, Nigeria,1
+ India, Sudan,3
+ Pakistan, Sudan,2
+ Nigeria, Pakistan,2
+ Kenya, Pakistan,2
+ India, Sudan,1
+South Korea, Pakistan,1
+ Denmark,Hungary,1
+ Denmark, Hungary,1
+Australia, Poland,1
+United Kingdom, Angola,1
+United Kingdom, Ethiopia,1
+Switzerland, Czechia,1
+ China, Czechia,1
+ Singapore,Spain,1
+ France, Thailand,1
+ France,Poland,1
+ Russia,Poland,1
+ France,Hungary,1
+United States, Dominican Republic,1
+ Denmark,Austria,1
+ Austria, Denmark,1
+Egypt, Turkey,1
+Hungary, Czechia,3
+ Spain,Russia,1
+Russia, Netherlands,3
+Zimbabwe, Malawi,1
+ United Kingdom, Cambodia,1
+Turkey, South Africa,1
+China, New Zealand,1
+ Malaysia, New Zealand,1
+ Malaysia, Netherlands,1
+ United States,Zimbabwe,1
+ Nigeria,Tanzania,1
+ Peru,Tanzania,1
+ Colombia,Tanzania,1
+ Nigeria, Colombia,1
+France, Armenia,1
+ French Guiana, Armenia,1
+ Switzerland,Poland,2
+ India,Finland,1
