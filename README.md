@@ -2,12 +2,13 @@
 
 ## Authors: 
 
-[Nathanael Sheehan](link to author 1's website), [Sabina Leonelli](link to author 2's website), [Federico Botta](link to author 2's website)
+Nathanael Sheehan, Sabina Leonelli and Federico Botta
 
 ## Abstract: 
 
-We analyse ongoing efforts to share genomic data about SARS-COV-2 through a comparison of the characteristics of the Global Initiative on Sharing All Influenza Data and European Nucleotide Archive infrastructures with respect to the representativeness and governance of the research data therein. We focus on data and metadata on genetic sequences posted on the two infrastructures in the period between March 2020 and October 2022, thus capturing a period of acute response to the COVID-19 pandemic. Through a variety of data science methods, we compare the extent to which the two portals succeeded in attracting data submissions from different countries around the globe and look at the ways in which submission rates varied over time. We go on to analyse the structure and underlying architecture of the infrastructures, reviewing how they organise data access and use, the types of metadata and version tracking they provide. Finally, we explore usage patterns of each infrastructure based on publications that mention the data to understand how data reuse can facilitate forms of diversity between institutions, cities, countries, and funding groups. Our findings reveal disparities in representation between the two infrastructures and differing practices in data governance and architecture. We conclude that both infrastructures offer useful lessons, with GISAID demonstrating the importance of expanding data submissions and representation, while the COVID-19 data portal offers insights into how to enhance data usability.
-About
+Two distinct modes of data governance have emerged in accessing and reusing viral data pertaining to COVID-19: an unrestricted model, espoused by data repositories part of the International Nucleotide Sequence Database Collaboration and a regulated model promoted by the Global Initiative on Sharing All Influenza data. In this paper, we focus on publications mentioning either infrastructure in the period between January 2020 and January 2023, thus capturing a period of acute response to the COVID-19 pandemic. Through a variety of bibliometric and network science methods, we compare the extent to which either data infrastructure facilitated collaboration from different countries around the globe to understand how data reuse can enhance forms of diversity between institutions, countries, and funding groups. Our findings reveal disparities in representation and usage between the two data infrastructures. We conclude that both approaches offer useful lessons, with the unrestricted model providing insights into complex data linkage and the regulated model demonstrating the importance of global representation. 
+
+## About
 This repository contains the code and data used to produce the results presented in the paper "Title of Paper" by [Author 1](link to author 1's website) and [Author 2](link to author 2's website), published in [Journal/Conference/Workshop](link to publication) in [Year of Publication].
 
 ## Usage
@@ -44,10 +45,7 @@ cd C2a
 
 ## Code
 
-All code can be found in the `code/` folder. The folder contains eight `R` files and one `bash` file. The most techincal part of code is in the `code/utils.r` file, which contains documented functions used throughout the analysis. `code/packages.r` loads all the necessary packages for the project. The remaining files are as follows:
-- two files are concerned with fetching/cleaning data (`code/data-wrangle.r`,`code/owid-data.r`) and 
-- the rest (`code/regression.r`,`code/submission-plots.r`,`code/summary-stats.r`,`code/usage-network.r`,`code/architecture.sh`)
-
+All code can be found in the `code/` folder.
 ## Reproducing the results
 
 The analysis of this work is full reproducible. However, before reproducing the results the reviewer must do two things after installing the repository:
