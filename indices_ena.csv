@@ -1,0 +1,79 @@
+"DataName","ColumnName","name","degree","betweenness","closeness","eigen_centrality"
+"ena","Research.Organizations...standardized","ETH Zurich",7,8,0.009,0.036
+"ena","Research.Organizations...standardized","Harvard University",11,1.5,0.008,0.313
+"ena","Research.Organizations...standardized","Imperial College London",9,0,0.007,0.424
+"ena","Research.Organizations...standardized","University College London",9,1,0.007,0.403
+"ena","Research.Organizations...standardized","University of Bern",10,18,0.01,0.096
+"ena","Research.Organizations...standardized","University of Cambridge",10,0,0.005,0.962
+"ena","Research.Organizations...standardized","University of Copenhagen",12,0,0.008,0.309
+"ena","Research.Organizations...standardized","University of Edinburgh",10,0,0.006,0.319
+"ena","Research.Organizations...standardized","University of Helsinki",10,8.5,0.01,0.161
+"ena","Research.Organizations...standardized","University of Oxford",10,0,0.007,0.692
+"ena","Research.Organizations...standardized","Uppsala University",10,5,0.009,0.146
+"ena","Research.Organizations...standardized","Wageningen University & Research",6,8,0.009,0.025
+"ena","Research.Organizations...standardized","Wellcome Sanger Institute",10,0,0.007,1
+"ena","Country.of.standardized.research.organization","Australia",12,0,0,0.321
+"ena","Country.of.standardized.research.organization","Canada",12,0,0,0.294
+"ena","Country.of.standardized.research.organization","China",12,35,0,0.229
+"ena","Country.of.standardized.research.organization","Denmark",12,0,0,0.236
+"ena","Country.of.standardized.research.organization","France",12,0,0,0.364
+"ena","Country.of.standardized.research.organization","Germany",12,0,0,0.77
+"ena","Country.of.standardized.research.organization","Italy",12,0,0,0.333
+"ena","Country.of.standardized.research.organization","Netherlands",12,0,0,0.296
+"ena","Country.of.standardized.research.organization","Spain",12,0,0,0.49
+"ena","Country.of.standardized.research.organization","Sweden",12,0,0,0.287
+"ena","Country.of.standardized.research.organization","Switzerland",12,12,0,0.239
+"ena","Country.of.standardized.research.organization","United Kingdom",12,0,0,0.858
+"ena","Country.of.standardized.research.organization","United States",12,0,0,1
+"ena","City.of.standardized.research.organization","Barcelona",12,0,0.002,0.411
+"ena","City.of.standardized.research.organization","Beijing",11,36.5,0.003,0.11
+"ena","City.of.standardized.research.organization","Berlin",12,0,0.003,0.261
+"ena","City.of.standardized.research.organization","Cambridge",12,0,0.001,1
+"ena","City.of.standardized.research.organization","Copenhagen",12,0,0.002,0.37
+"ena","City.of.standardized.research.organization","London",12,0,0.001,0.987
+"ena","City.of.standardized.research.organization","Madrid",12,0,0.003,0.318
+"ena","City.of.standardized.research.organization","Melbourne",12,16,0.003,0.298
+"ena","City.of.standardized.research.organization","Munich",12,0,0.002,0.272
+"ena","City.of.standardized.research.organization","Oxford",12,0,0.002,0.571
+"ena","City.of.standardized.research.organization","Paris",12,0,0.002,0.303
+"ena","City.of.standardized.research.organization","Stockholm",12,0,0.002,0.334
+"ena","City.of.standardized.research.organization","Zurich",11,6,0.003,0.152
+"ena","Authors","collective, Darwin Tree of Life Barcoding",5,0,0.003,0.904
+"ena","Authors","collective, Tree of Life Core Informatics",5,0,0.003,1
+"ena","Authors","collective, Wellcome Sanger Institute Scientific Operations: DNA Pipelines",5,0,0.003,1
+"ena","Authors","Consortium, Darwin Tree of Life",5,0,0.003,1
+"ena","Authors","Dougan, Gordon",0,0,NA,0
+"ena","Authors","Jagannathan, Vidhya",1,0,0.023,0
+"ena","Authors","Krause, Johannes",1,0,0.111,0
+"ena","Authors","Lab, University of Oxford and Wytham Woods Genome Acquisition",5,0,0.004,0.616
+"ena","Authors","Leeb, Tosso",1,0,0.023,0
+"ena","Authors","Parkhill, Julian",0,0,NA,0
+"ena","Authors","programme, Wellcome Sanger Institute Tree of Life",5,0,0.003,1
+"ena","Authors","Reich, David",1,0,0.111,0
+"ena","Authors","Wincker, Patrick",0,0,NA,0
+"ena","Funder.Group","AMRC - Association of Medical Research Charities",12,0,0.002,0.571
+"ena","Funder.Group","CDC - Centers for Disease Control and Prevention",11,38,0.003,0.041
+"ena","Funder.Group","cOAlition S",12,0,0.001,1
+"ena","Funder.Group","DoE - United States Department of Energy",10,14,0.002,0.04
+"ena","Funder.Group","EC & ERC - European Union",12,0,0.002,0.61
+"ena","Funder.Group","HRA - Health Research Alliance",12,6,0.003,0.122
+"ena","Funder.Group","ICRP - International Cancer Research Partnership",12,0,0.001,0.967
+"ena","Funder.Group","NIH - National Institutes of Health",12,0,0.001,0.466
+"ena","Funder.Group","NIHR - National Institute for Health Research",10,1,0.002,0.183
+"ena","Funder.Group","NSF - National Science Foundation",12,0,0.002,0.149
+"ena","Funder.Group","UKRI - UK Research and Innovation",12,0,0.002,0.63
+"ena","Funder.Group","US Federal Funders",12,0,0.001,0.538
+"ena","Funder.Group","USDA - United States Department of Agriculture",11,5,0.003,0.056
+"ena","Funder.Country","Australia",12,19,0.001,0.105
+"ena","Funder.Country","Belgium",12,0,0.001,0.82
+"ena","Funder.Country","Brazil",11,27,0.002,0.091
+"ena","Funder.Country","Canada",12,0,0.001,0.152
+"ena","Funder.Country","China",12,17,0.001,0.123
+"ena","Funder.Country","Denmark",11,4,0.001,0.14
+"ena","Funder.Country","France",12,0,0.001,0.258
+"ena","Funder.Country","Germany",12,0,0.001,0.484
+"ena","Funder.Country","Spain",12,0,0.001,0.338
+"ena","Funder.Country","Sweden",12,0,0.001,0.179
+"ena","Funder.Country","Switzerland",12,0,0.001,0.168
+"ena","Funder.Country","United Kingdom",12,0,0.001,0.98
+"ena","Funder.Country","United States",12,0,0,1
