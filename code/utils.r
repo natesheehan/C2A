@@ -337,7 +337,7 @@ plot_publisher = function(name1, name2, name3, name4) {
     theme(legend.position = "bottom") + custom_theme_oss() +
     scale_fill_viridis_c()
 }
-plot_keyword_graph = function(data) {
+plot_keyword_graph = function(data, name) {
   ## Capture the name of the data
   data_name = deparse(substitute(data))
 
@@ -347,16 +347,13 @@ plot_keyword_graph = function(data) {
     mutate(MeSH.terms = str_trim(MeSH.terms)) |>
     filter(MeSH.terms != "") |>
     mutate(MeSH.terms = stringr::str_to_lower(MeSH.terms)) |>
-    filter(MeSH.terms != "covid-19") |>
-    filter(MeSH.terms != "sars-cov-2") |>
-    filter(MeSH.terms != "coronavirus") |>
-    filter(MeSH.terms != "") |>
-    filter(MeSH.terms != " ")
-
+    filter(!MeSH.terms %in% c("covid-19", "sars-cov-2", "coronavirus")) |>
+    filter(MeSH.terms != " ") |>
+    filter(!is.na(MeSH.terms))
 
   keyword_freq = table(keywords_split$MeSH.terms)
 
-  # Filter to get top 40 keywords
+  # Filter to get top 15 keywords
   top_keywords = names(sort(keyword_freq, decreasing = TRUE)[1:15])
   keywords_filtered = keywords_split |> filter(MeSH.terms %in% top_keywords)
 
@@ -376,37 +373,62 @@ plot_keyword_graph = function(data) {
   graph = simplify(graph)  # Removes self-loops
 
   # Compute weighted degree centrality
-  # Compute weighted degree centrality using strength function
   weighted_degree = strength(graph)
 
-  # Graph plotting
   set.seed(123)
-  ggraph(graph, layout = 'circle') +
+  ggraph(graph, layout = 'fr') +
     geom_edge_arc0(
-      aes(color = weight, width = weight),
-      alpha = 0.4,
-      strength = 0.2,
-      show.legend = FALSE
+      aes(color = weight),
+      alpha = 0.8
     ) +
-    scale_edge_width_continuous(range = c(0.1, 2)) +
-    scale_edge_colour_identity() +
-    geom_node_point(aes(size = degree(graph), color = weighted_degree)) +  # Using weighted degree centrality for color
+    scale_edge_color_continuous(name = "Co-occurrence", low = "floralwhite", high = "darkorchid1") +
+    geom_node_point(aes(size = weighted_degree), color = "darkolivegreen1") +
     geom_node_text(
       aes(label = name),
       vjust = 0,
       hjust = 0.3,
       check_overlap = TRUE,
-      size = 7,
-      color = "red",
+      size = 9,
+      color = "black",
       fontface = "bold",
-      family = "Times New Roman"
+      family = "Arial"
     ) +
-    scale_color_gradient() +
-    scale_size_continuous(range = c(1, 16), name = "degree") +
+    scale_size_continuous(range = c(1, 16), name = "Weighted Degree") +
     custom_theme_oss_no_axis() +
     labs(title = paste(stringr::str_to_upper(data_name))) +
-    theme(legend.position = "right")
+    theme(
+      legend.position = "bottom",
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),  # Removing axis titles
+      axis.text = element_blank(),   # Removing axis text
+      axis.ticks = element_blank(),  # Removing axis ticks
+      panel.grid = element_blank(),  # Removing panel grid
+      panel.border = element_blank() # Removing panel border
+    ) +     guides(
+      color = guide_legend(
+        title = "Co-occurrence",
+        title.theme = element_text(face = "bold", color = "black"),
+        label.theme = element_text(face = "bold", color = "black") # Ensure labels are also bold and black
+      ),
+      size = guide_legend(
+        title = "Weighted Degree",
+        title.theme = element_text(face = "bold", color = "black"),
+        label.theme = element_text(face = "bold", color = "black") # Consistency in label appearance
+      )
+    ) +
+    theme(
+      legend.position = "bottom",
+      legend.title = element_text(color = "black", face = "bold"),
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),
+      axis.text = element_blank(),
+      axis.ticks = element_blank(),
+      panel.grid = element_blank(),
+      panel.border = element_blank()
+    )
+
 }
+
 plot_variants = function(data) {
   # Define the WHO labels and Pango Lineages
   who_labels =
@@ -711,11 +733,27 @@ stats_author_collab_network = function(data, type) {
   # Add a source column to each data frame and bind them together
   d = split_collab_matrix(data, type)
   d = as.data.frame(d)
-  d = d %>% filter(weight > 5)
 
   g = graph_from_data_frame(d, directed = FALSE)
-  netstat = bibliometrix::networkStat(g)
-  summary(netstat, k = 10)
+
+
+  # Calculate the metrics
+  size_val <- gsize(g)
+  density_val <- edge_density(g)
+  transitivity_val <- transitivity(g, type="global")
+  diameter_val <- diameter(g)
+  degree_centrality_val <- centr_degree(g)$centralization
+  avg_path_length_val <- mean_distance(g, directed = is.directed(g))
+
+  # Store the metrics into a dataframe
+  graph_metrics <- data.frame(
+    Size = size_val,
+    Density = density_val,
+    Transitivity = transitivity_val,
+    Diameter = diameter_val,
+    DegreeCentralization = degree_centrality_val,
+    AveragePathLength = avg_path_length_val
+  )
 
 }
 plot_collaboration_map = function(data) {
@@ -902,125 +940,207 @@ plot_collab_network = function(data, type) {
   V(subg)$label = ifelse(V(subg)$name %in% top_node_names, V(subg)$name, "")
 
 
-  gg = # Plot the graph using ggraph
-    ggraph(subg, layout = 'kk') +
-    geom_edge_link0(aes(width = interactions),
-                    color = "coral",
-                    alpha = 0.8) +
-    geom_node_point(aes(size = weighted_mean, color = betweeness)) +
+
+
+  set.seed(123)
+  gg = ggraph(subg, layout = 'kk') +
+    geom_edge_link0(
+      aes(color = interactions),
+      alpha = 1
+    ) +
+    scale_edge_color_continuous(name = "Collaboration", low = "floralwhite", high = "darkorchid1") +
+    geom_node_point(aes(size = weighted_degree), color = "darkolivegreen1") +
     geom_node_text(
       aes(label = name),
       vjust = 0,
       hjust = 0.3,
       check_overlap = TRUE,
-      size = 9,
+      size = 4,
+      color = "black",
       fontface = "bold",
-      color = "red",
-      family = "Times New Roman"
+      family = "Arial"
     ) +
-    scale_edge_width_continuous(range = c(0.5, 2), name = "Interactions") +
-    scale_color_gradient(name = "Betweeness Centrality") +
-    scale_size_continuous(
-      range = c(2, 15),
-      breaks = c(
-        min(V(g)$weighted_mean),
-        median(V(g)$weighted_mean),
-        max(V(g)$weighted_mean)
-      ),
-      name = "Weighted Mean"
-    ) +
-    theme_classic(base_family = "Times New Roman") +
+    scale_size_continuous(range = c(1, 16), name = "Weighted Degree") +
     custom_theme_oss_no_axis() +
     labs(title = paste(stringr::str_to_upper(data_name))) +
-    theme(legend.position = "bottom")
+    theme(
+      plot.background = element_rect(fill = "white"),
+      legend.position = "bottom",
+      axis.title = element_blank(),  # Removing axis titles
+      axis.text = element_blank(),   # Removing axis text
+      axis.ticks = element_blank(),  # Removing axis ticks
+      panel.grid = element_blank(),  # Removing panel grid
+      panel.border = element_blank() # Removing panel border
+    ) +
+    theme(
+      legend.position = "bottom",
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),  # Removing axis titles
+      axis.text = element_blank(),   # Removing axis text
+      axis.ticks = element_blank(),  # Removing axis ticks
+      panel.grid = element_blank(),  # Removing panel grid
+      panel.border = element_blank() # Removing panel border
+    ) +     guides(
+      color = guide_legend(
+        title = "Collaboration",
+        title.theme = element_text(face = "bold", color = "black"),
+        label.theme = element_text(face = "bold", color = "black") # Ensure labels are also bold and black
+      ),
+      size = guide_legend(
+        title = "Weighted Degree",
+        title.theme = element_text(face = "bold", color = "black"),
+        label.theme = element_text(face = "bold", color = "black") # Consistency in label appearance
+      )
+    ) +
+    theme(
+      legend.position = "bottom",
+      legend.title = element_text(color = "black", face = "bold"),
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),
+      axis.text = element_blank(),
+      axis.ticks = element_blank(),
+      panel.grid = element_blank(),
+      panel.border = element_blank()
+    )
+
 
   return(list(graph = gg, graph_stats = vop,top=top_collab))
 
 }
-plot_big_collab_network = function(data, type) {
-  data_name = deparse(substitute(data))
-  d = split_collab_matrix(data, type)
-  d = as.data.frame(d)
 
-  df_top = d |>
+
+plot_big_collab_network <- function(data, type) {
+  d <- split_collab_matrix(data, type)
+  d <- as.data.frame(d)
+
+  df_top <- d |>
     arrange(desc(weight)) %>%
     mutate(
       country1 = str_replace(country1, "-.*", ""),
       country2 = str_replace(country2, "-.*", "")
     )
 
+  top_collab <- head(df_top, 20)
 
-  top_collab = head(df_top,20)
+  g <- graph_from_data_frame(df_top, directed = FALSE)
 
-  g = graph_from_data_frame(df_top, directed = FALSE)
-  degree_values <- degree(g)
-  hist(degree_values, main="Degree Distribution", xlab="Degree", ylab="Frequency", col="skyblue", border="black")
+  V(g)$betweenness <- igraph::betweenness(g)
 
+  subg <- induced_subgraph(g, which(V(g)$name %in% top_collab$country1 | V(g)$name %in% top_collab$country2))
 
+  E(subg)$collaboration <- E(subg)$weight
 
+  V(subg)$weighted_mean <- strength(subg, mode = "all", weights = E(subg)$weight)
 
-  vop=indicies(g) %>% arrange(desc(Degree))
-  # Now, let's filter the graph for leading collaborations (e.g., top 10% edge weights)
-  threshold_weight = quantile(E(g)$weight, 0.95)
-  subg = subgraph.edges(g, E(g)[weight > threshold_weight], delete.vertices = TRUE)
-
-
-  # Calculate Bonacich power centrality
-  V(subg)$betweeness = igraph::betweenness(subg)
-
-  # Compute edge width based on the number of interactions (weight)
-  E(subg)$interactions = E(subg)$weight
-
-  # Extract names of top nodes for labels
-  top_node_names = V(subg)[order(-V(subg)$betweeness)]$name
-
-  # Calculate weighted mean for node size
-  V(subg)$weighted_mean = strength(subg, mode = "all", weights = E(subg)$weight)
-
-  # Compute weighted degree centrality using strength function
-  weighted_degree = strength(subg)
-  top_node_names = V(subg)[order(-V(subg)$betweeness)]$name
-
-  # Conditional labels for the top 10 nodes based on weighted mean
-  V(subg)$label = ifelse(V(subg)$name %in% top_node_names, V(subg)$name, "")
-
-
-  gg = # Plot the graph using ggraph
-    ggraph(subg, layout = 'lgl') +
-    geom_edge_link0(aes(width = interactions),
-                    color = "coral",
-                    alpha = 0.8) +
-    geom_node_point(aes(size = weighted_mean, color = betweeness)) +
+  gg <- ggraph(subg, layout = 'fr') +
+    geom_edge_link0(aes(width = collaboration), color = "coral", alpha = 0.8) +
+    geom_node_point(aes(size = weighted_mean, color = betweenness)) +
     geom_node_text(
-      aes(label = name),
-      vjust = 0,
-      hjust = 0.3,
-      check_overlap = TRUE,
-      size = 3.5,
-      fontface = "bold",
-      color = "purple",
-      fontface = "bold",
-      family = "Times New Roman"
+      aes(label = ifelse(name %in% top_collab$country1 | name %in% top_collab$country2, name, "")),
+      vjust = 0, hjust = 0.3, check_overlap = TRUE,
+      size = 5.5, fontface = "bold", color = "black", family = "Times New Roman"
     ) +
-    scale_edge_width_continuous(range = c(0.5, 2), name = "Interactions") +
-    scale_color_viridis_c(name = "Betweeness Centrality") +
+    scale_edge_width_continuous(range = c(0.5, 2), name = "Collaboration") +
+    scale_color_viridis_c(
+      name = "Betweenness Centrality",
+      guide = guide_colourbar(barwidth = 20, barheight = 0.5, nrow = 1, label.position = "bottom")
+    ) +
     scale_size_continuous(
-      range = c(2, 15),
-      breaks = c(
-        min(V(g)$weighted_mean),
-        median(V(g)$weighted_mean),
-        max(V(g)$weighted_mean)
-      ),
+      range = c(0.2, 5),
+      breaks = c(min(V(subg)$weighted_mean), median(V(subg)$weighted_mean), max(V(subg)$weighted_mean)),
       name = "Weighted Mean"
     ) +
-    theme_classic(base_family = "Times New Roman") +
+    theme_classic(base_family = "Times New Roman",
+                  ) +
+    labs(title = paste(stringr::str_to_upper(deparse(substitute(data))))) +
     custom_theme_oss_no_axis() +
-    labs(title = paste(stringr::str_to_upper(data_name))) +
-    theme(legend.position = "bottom")
+    theme(legend.position = "bottom",
+          legend.title = element_text(size = 18, face = "bold"),
+          legend.text = element_text(size = 18)) +
+    theme(
+      plot.background = element_rect(fill = "white"),
+      legend.position = "bottom",
+      axis.title = element_blank(),  # Removing axis titles
+      axis.text = element_blank(),   # Removing axis text
+      axis.ticks = element_blank(),  # Removing axis ticks
+      panel.grid = element_blank(),  # Removing panel grid
+      panel.border = element_blank() # Removing panel border
+    ) +
+    theme(
+      legend.position = "bottom",
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),  # Removing axis titles
+      axis.text = element_blank(),   # Removing axis text
+      axis.ticks = element_blank(),  # Removing axis ticks
+      panel.grid = element_blank(),  # Removing panel grid
+      panel.border = element_blank() # Removing panel border
+    ) +
+    theme(
+      legend.position = "bottom",
+      legend.title = element_text(color = "black", face = "bold"),
+      legend.text = element_text(color = "black", face = "bold"),
+      axis.title = element_blank(),
+      axis.text = element_blank(),
+      axis.ticks = element_blank(),
+      panel.grid = element_blank(),
+      panel.border = element_blank()
+    )+ theme(legend.background = element_rect(color = NA))
 
-  return(list(graph = gg, graph_stats = vop, top = top_collab))
+  return(list(graph = gg, top = top_collab))
+
 
 }
+
+
+compute_graph_metrics <- function(data, type) {
+
+  collab_count = split_collab_matrix(data, type)
+  g = graph_from_data_frame(collab_count, directed = FALSE)
+
+  # Basic metrics
+  n_nodes <- vcount(g)
+  n_edges <- ecount(g)
+  density_val <- edge_density(g)
+  clustering_coeff <- transitivity(g, type="global")
+
+  # Degree metrics
+  degrees <- degree(g, mode="all")
+  mean_degree <- mean(degrees)
+
+  # Assuming edge weights are available
+  mean_weighted_degree <- mean(strength(g))
+
+  # Strength of a node is the sum of the weights of its edges
+  strengths <- strength(g)
+  mean_strength_degree <- mean(strengths)
+
+  # Community metrics using label propagation
+  communities <- cluster_label_prop(g)
+
+  total_communities = length(unique(membership(communities)))
+  community_sizes = table(membership(communities))
+
+  mean_community_size = mean(community_sizes)
+  median_community_size = median(community_sizes)
+  max_community_size = max(community_sizes)
+  min_community_size = min(community_sizes)
+  std_dev_community_size = sd(community_sizes)
+
+  # Create a data frame with the results
+  metrics_df <- data.frame(
+    Metric = c("Number of nodes", "Number of edges", "Density", "Clustering coefficient",
+               "Mean degree", "Mean weighted degree", "Total communities",
+               "Mean community size", "Median community size", "Max community size","Min community size", "Standard Deviation of community size"),
+    Value = c(n_nodes, n_edges, density_val, clustering_coeff, mean_degree, mean_weighted_degree,
+              total_communities, mean_community_size, median_community_size, max_community_size, min_community_size, std_dev_community_size)
+  )
+
+  return(metrics_df)
+}
+
+
+
+
 
 custom_theme_oss_no_axis = function() {
   theme_minimal(base_family = "Times") +
@@ -1337,15 +1457,12 @@ plot_country_collab = function(data){
   # Map
   # Map
   map_plot <- ggplot() +
-    # Base map with country fill based on collaboration count
     geom_sf(
-      data = spatial_data, # Change from world_data to spatial_data
+      data = spatial_data,
       aes(fill = total_weight),
       color = "gray90",
       size = 0.2
     ) +
-
-    # Flow lines
     geom_segment(
       data = df_with_coords,
       aes(
@@ -1358,20 +1475,17 @@ plot_country_collab = function(data){
       lineend = "round",
       alpha = 0.1
     ) +
-    # Color and other scales
-    scale_fill_viridis_c(name = "Total Collaborations", trans = "log10") +
-    scale_color_gradient(high = "red", low = "coral", name = "Flow Weight", trans = "log10") +
-    scale_size_continuous(range = c(0.5, 3), name = "Flow Weight") +
-
-    # Theme and labels
+    scale_fill_viridis_c(name = "Total Publications", trans = "log10") +
+    scale_color_gradient(high = "red", low = "coral", name = "Total Collaboration", trans = "log10") +
+    scale_size_continuous(range = c(0.5, 3), name = "Total Collaboration") +
     theme_void() +
-    labs(title = paste0(stringr::str_to_upper(data_name)))+
-
+    labs(title = paste0(stringr::str_to_upper(data_name))) +
     theme(
+      plot.background = element_rect(fill = "white"),
       plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
       plot.subtitle = element_text(size = 15, hjust = 0.5),
       plot.caption = element_text(size = 10, hjust = 1),
-      legend.position = "right",
+      legend.position = "bottom",
       legend.title = element_text(size = 12, face = "bold"),
       legend.text = element_text(size = 10)
     )
@@ -1380,15 +1494,6 @@ plot_country_collab = function(data){
   print(map_plot)
 
 
-  ggsave(
-    paste0("imgs/" ,data_name,"country-plot.png"),
-    dpi = 320,
-    width = 14,
-    height = 14,
-    limitsize = FALSE
-  )
-
-  return(top_collab)
 
 }
 remove_duplicate = function(data) {

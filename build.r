@@ -19,7 +19,8 @@
 reproducible = FALSE
 
 if(reproducible == FALSE) {
+
+  source("code/packages.r")
   source("code/utils.r")
   source("code/data.r")
-  source("code/packages.r")
 }

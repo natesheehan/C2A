@@ -27,7 +27,8 @@ ggsave(
   dpi = 320,
   width = 12,
   height = 12,
-  limitsize = FALSE
+  limitsize = FALSE,
+  bg = "white"
 )
 rm(p1,p2,p3,p4)
 gc()
@@ -43,7 +44,7 @@ ggsave(
   limitsize = FALSE
 )
 ## ACCESS - Figure 2
-plot_access("GISAID","ENA","ddbj","NCBI")
+plot_access("GISAID","ENA","DDBJ","NCBI")
 ggsave(
   paste0("imgs/access-plot.png"),
   dpi = 320,
@@ -53,7 +54,7 @@ ggsave(
 )
 gc()
 ## PUBLISHERS - Figure 3
-plot_publisher("GISAID", "ENA", "ddbj", "NCBI")
+plot_publisher("GISAID", "ENA", "DDBJ", "NCBI")
 ggsave(
   paste0("imgs/publishers-plot.png"),
   dpi = 320,
@@ -82,13 +83,15 @@ a = plot_keyword_graph(gisaid)
 b = plot_keyword_graph(ncbi)
 c = plot_keyword_graph(ena)
 d = plot_keyword_graph(ddbj)
-ggarrange(a,b,c,d)
+ggarrange(a,b,c,d,common.legend = TRUE,legend = "bottom")
+
 ggsave(
   paste0("imgs/keywords-plot.png"),
   dpi = 320,
-  width = 20,
+  width = 12,
   height = 14,
-  limitsize = FALSE
+  limitsize = FALSE,
+  bg = "white"
 )
 rm(a,b,c,d)
 gc()
@@ -97,16 +100,62 @@ j = plot_scp_mcp(gisaid)
 k = plot_scp_mcp(ncbi)
 l = plot_scp_mcp(ddbj)
 m = plot_scp_mcp(ena)
-ggarrange(j,k,m,l,common.legend = TRUE)
+ggarrange(j,k,m,l,common.legend = TRUE,legend="bottom")
 ggsave(
   paste0("imgs/region-colab-plot.png"),
   dpi = 320,
   width = 12,
   height = 12,
-  limitsize = FALSE
+  limitsize = FALSE,
+  bg = "white"
 )
 ### INCOME COLLABORATOIN MATRIX - table 2
-calculate_percentage_collaboration(j)
+incomecollab_table = function(data){
+  # Assuming your dataframe is structured with the columns: Country, Collaboration, Articles
+  # and is named df
+  # Calculate collaboration based on Income.group
+  data_processed = data %>%
+    mutate(Country = str_split(Country.of.standardized.research.organization, ";")) %>%
+    unnest(Country) %>%
+    mutate(Country = str_trim(Country)) %>%
+    filter(Country != "", !is.na(Country)) %>%  # Remove empty or NA countries
+    inner_join(class, by = c("Country" = "Economy")) %>%
+    group_by(Country.of.standardized.research.organization) %>%
+    filter(length(unique(Country)) > 1) %>%  # Filter out internal collaborations
+    mutate(collaboration = case_when(
+      all(Income.group %in% c("High income")) ~ "HI",
+      all(Income.group %in% c("High income", "Upper middle income")) ~ "HI-UMI",
+      all(Income.group %in% c("High income", "Lower middle income")) ~ "HI-LMI",
+      all(Income.group %in% c("High income", "Low income")) ~ "HI-LI",
+      "High income" %in% Income.group ~ "HI-MIX",
+      all(Income.group %in% c("Upper middle income", "Lower middle income")) ~ "UMI-LMI",
+      all(Income.group %in% c("Upper middle income", "Low income")) ~ "UMI-LI",
+      "Upper middle income" %in% Income.group ~ "UMI-MIX",
+      all(Income.group %in% c("Lower middle income", "Low income")) ~ "LMI-LI",
+      TRUE ~ "OTHER"
+    )) %>%
+    ungroup() %>%
+    group_by(Country, collaboration) %>%
+    summarize(Articles = n(), .groups = "drop")
+
+
+  # Step 1: Sum Articles for each Collaboration type
+  articles_sum <- data_processed %>%
+    group_by(collaboration) %>%
+    summarise(Total_Articles = sum(Articles))
+
+  # Step 2: Calculate the total number of articles across all types
+  total_articles <- sum(articles_sum$Total_Articles)
+
+  # Step 3: Calculate the percentage for each collaboration type
+  articles_sum <- articles_sum %>%
+    mutate(Percent = (Total_Articles / total_articles) * 100) %>% mutate(Percent = round(Percent,2))
+  sum(articles_sum$Percent)
+  # View the resulting dataframe
+  print(articles_sum)
+
+}
+calculate_percentage_collaboration(j$data)
 gc()
 ### INCOME COLAB - Figure 7
 
@@ -131,7 +180,16 @@ ddbjcountry = plot_country_collab(ddbj)
 gisaidcountry = plot_country_collab(gisaid)
 enacountry = plot_country_collab(ena)
 ncbicountry = plot_country_collab(ncbi)
-ggarrange(ddbjcountry,gisaidcountry,enacountry,ncbicountry)
+ggarrange(gisaidcountry,ncbicountry,enacountry,ddbjcountry,ncol=1,common.legend = TRUE,legend = "bottom")
+ggsave(
+  paste0("imgs/country-colab-plot.png"),
+  dpi = 320,
+  width = 14,
+  height = 14,
+  limitsize = FALSE,
+  bg = "white"
+)
+
 gc()
 ddbjcm=centrality_measures(ddbj,"Country.of.standardized.research.organization")
 ddbjcm$rep = "ddbj"
@@ -148,15 +206,18 @@ gc()
 stats_collab_network(gisaid,"Country.of.standardized.research.organization")
 stats_collab_network(gisaid,"Research.Organizations...standardized")
 stats_collab_network(gisaid,"Funder.Group")
-stats_author_collab_network(gisaid,"Authors")
+stats_collab_network(gisaid,"Authors")
+gc()
 stats_collab_network(ncbi,"Country.of.standardized.research.organization")
 stats_collab_network(ncbi,"Research.Organizations...standardized")
 stats_collab_network(ncbi,"Funder.Group")
-stats_author_collab_network(ncbi,"Authors")
+stats_collab_network(ncbi,"Authors")
+gc()
 stats_collab_network(ena,"Country.of.standardized.research.organization")
 stats_collab_network(ena,"Research.Organizations...standardized")
 stats_collab_network(ena,"Funder.Group")
-stats_author_collab_network(ena,"Authors")
+stats_collab_network(ena,"Authors")
+gc()
 stats_collab_network(ddbj,"Country.of.standardized.research.organization")
 stats_collab_network(ddbj,"Research.Organizations...standardized")
 stats_collab_network(ddbj,"Funder.Group")
@@ -167,13 +228,14 @@ i1=plot_collab_network(gisaid,"Funder.Group")
 i2=plot_collab_network(ncbi,"Funder.Group")
 i3=plot_collab_network(ena,"Funder.Group")
 i4=plot_collab_network(ddbj,"Funder.Group")
-ggarrange(i1[[1]],i2[[1]],i3[[1]],i4[[1]])
+ggarrange(i1[[1]],i2[[1]],i3[[1]],i4[[1]],ncol=1,common.legend = TRUE,legend = "bottom")
 ggsave(
   paste0("imgs/funder-colab-plot.png"),
   dpi = 320,
-  width = 22,
+  width = 10,
   height = 14,
-  limitsize = FALSE
+  limitsize = FALSE,
+  bg = "white"
 )
 rm(i1,i2,i3,i4)
 ddbjcm=centrality_measures(ddbj,"Funder.Group")
@@ -190,13 +252,14 @@ o1=plot_big_collab_network(gisaid,"Research.Organizations...standardized")
 o2=plot_big_collab_network(ncbi,"Research.Organizations...standardized")
 o3=plot_big_collab_network(ena,"Research.Organizations...standardized")
 o4=plot_big_collab_network(ddbj,"Research.Organizations...standardized")
-ggarrange(o1[[1]],o2[[1]],o3[[1]],o4[[1]])
+ggarrange(o1[[1]],o2[[1]],o3[[1]],o4[[1]],ncol=2,nrow=2,common.legend = TRUE,legend = "bottom")
 ggsave(
-  paste0("imgs/institutions-colab-plot.png"),
+  paste0("imgs/insti-colab-plot.png"),
   dpi = 320,
-  width = 22,
-  height = 22,
-  limitsize = FALSE
+  width = 16,
+  height = 14,
+  limitsize = FALSE,
+  bg = "white"
 )
 gc()
 # COUNT PER PAPER - Table 4

@@ -1,16 +1,14 @@
-# Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases 
+# From collection to analysis: A comparison of GISAID and the Covid-19 Data Portal
 
 ## Authors: 
 
-Nathanael Sheehan, Sabina Leonelli, Federico Botta
+[Nathanael Sheehan](link to author 1's website), [Sabina Leonelli](link to author 2's website), [Federico Botta](link to author 2's website)
 
 ## Abstract: 
 
-Two distinct modes of data governance have emerged in accessing and reusing viral data pertaining to COVID-19: an unrestricted model, espoused by data repositories part of the International Nucleotide Sequence Database Collaboration and a regulated model promoted by the Global Initiative on Sharing All Influenza data. In this paper, we focus on publications mentioning either infrastructure in the period between January 2020 and January 2023, thus capturing a period of acute response to the COVID-19 pandemic. Through a variety of bibliometric and network science methods, we compare the extent to which either data governance strategy facilitated collaboration from different countries around the globe to understand how data reuse can enhance forms of diversity between institutions, cities, countries, and funding groups. Our findings reveal disparities in representation and usage between the two data infrastructures. We conclude that both approaches offers useful lessons, with the fully open model offering insights into complex data linkage and the partially open model demonstrating the importance of global representation.  
-
-## About
-This repository contains the code and data used to produce the results presented in the paper " Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases".
- 
+We analyse ongoing efforts to share genomic data about SARS-COV-2 through a comparison of the characteristics of the Global Initiative on Sharing All Influenza Data and European Nucleotide Archive infrastructures with respect to the representativeness and governance of the research data therein. We focus on data and metadata on genetic sequences posted on the two infrastructures in the period between March 2020 and October 2022, thus capturing a period of acute response to the COVID-19 pandemic. Through a variety of data science methods, we compare the extent to which the two portals succeeded in attracting data submissions from different countries around the globe and look at the ways in which submission rates varied over time. We go on to analyse the structure and underlying architecture of the infrastructures, reviewing how they organise data access and use, the types of metadata and version tracking they provide. Finally, we explore usage patterns of each infrastructure based on publications that mention the data to understand how data reuse can facilitate forms of diversity between institutions, cities, countries, and funding groups. Our findings reveal disparities in representation between the two infrastructures and differing practices in data governance and architecture. We conclude that both infrastructures offer useful lessons, with GISAID demonstrating the importance of expanding data submissions and representation, while the COVID-19 data portal offers insights into how to enhance data usability.
+About
+This repository contains the code and data used to produce the results presented in the paper "Title of Paper" by [Author 1](link to author 1's website) and [Author 2](link to author 2's website), published in [Journal/Conference/Workshop](link to publication) in [Year of Publication].
 
 ## Usage
 
@@ -33,7 +31,16 @@ cd C2a
 
 ## Data
 
-All data used in the analysis can be found in the `data-raw` folder.
+
+| Data              | URL                                                               | Description                                                                                       |
+| -----------------| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| GISAID            | https://www.gisaid.org/                                            | A global science initiative providing open access to genomic data of influenza viruses and SARS-CoV-2|
+| COVID-19 Data Portal | https://covid19dataportal.org/                                    | A global database of COVID-19 cases, deaths, hospitalizations, and other related genomic data              |
+| Dimensions API    | https://docs.dimensions.ai/dsl/api.html                           | A database with various datasets, including COVID-19 research publications, patents, and grants   |
+| Our World in Data COVID-19 Cases | https://ourworldindata.org/covid-cases                            | A dataset with daily COVID-19 cases for countries and regions                   |
+| Our World in Data Income Groups | https://ourworldindata.org/global-economic-inequality              | A dataset with income group classifications for various countries and regions based on World Bank classifications                       |
+
+
 
 ## Code
 
@@ -45,9 +52,10 @@ All code can be found in the `code/` folder. The folder contains eight `R` files
 
 The analysis of this work is full reproducible. However, before reproducing the results the reviewer must do two things after installing the repository:
 
-(1) Navigate to `build.r.`
-(2) change `reproducible = FALSE` to `TRUE`
-(3) sit and watch the `imgs` folder populate with images from the paper
+(1) first you must unzip the `/data-raw/submissions` folder
+(2) change `reproducible = FALSE` to `TRUE` in `build.r`
+(3) sign up to GISAID and download the Clade/Lineage Variants (tsv) file from EPICov.
+(4) sit and watch, a full run should take around 10 minutes
 
 ## Citation
 
